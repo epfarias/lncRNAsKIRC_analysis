@@ -265,7 +265,7 @@ kirc.clinic %>%
   knitr::kable()
 
 kirc.clinic %>% 
-  ggplot(aes(x = tissue_or_organ_of_origin, fill = tissue_or_organ_of_origin)) + 
+  ggplot(aes(x = tissue_or_organ_of_origin)) + 
   geom_bar() +
   theme_bw(15) +
   labs(title = 'Age frequency by Tissue Site', x = "tissue site", y = "age") + 
