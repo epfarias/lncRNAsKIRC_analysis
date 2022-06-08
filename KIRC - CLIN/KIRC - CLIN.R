@@ -34,28 +34,7 @@ rm(pkg.cran, pkg.bioconductor, pkg.check)
 # indexed clinical data (XML subset) includes diagnoses, treatments, demographic and exposures information
 # biospecimen data (get sample types code for normal tissue)
 
-# uvm.biosp <- GDCquery_clinic(project = "TCGA-UVM", type = "Biospecimen", save.csv = FALSE)
-# Fetch clinical data directly from the clinical XML files, using clinical.info parameter
-# uvm.clinic <- GDCquery(
-#   project = "TCGA-UVM",
-#   file.type = "xml",
-#   data.category = "Clinical",
-# ) 
-# GDCdownload(uvm.clinic)
-
 kirc.clinic <- GDCquery_clinic(project = "TCGA-KIRC", type = "Clinical", save.csv = FALSE)
-
-# uvm.patient <- GDCprepare_clinic(uvm.clinic, clinical.info = "patient")
-# datatable(clinic.patient, options = list(scrollX = TRUE, keys = TRUE), rownames = FALSE)
-
-# uvm.drug <- GDCprepare_clinic(uvm.clinic, clinical.info = "drug")
-# datatable(clinic.drug, options = list(scrollX = TRUE, keys = TRUE), rownames = FALSE)
-
-# uvm.radiation <- GDCprepare_clinic(uvm.clinic, clinical.info = "radiation")
-# datatable(clinic.radiation, options = list(scrollX = TRUE,  keys = TRUE), rownames = FALSE)
-
-# uvm.admin <- GDCprepare_clinic(uvm.clinic, clinical.info = "admin")
-# datatable(clinic.admin, options = list(scrollX = TRUE, keys = TRUE), rownames = FALSE)
 
 glimpse(kirc.clinic)
 view(kirc.clinic)
@@ -63,14 +42,11 @@ view(kirc.clinic)
 
 ## 2. Cleaning data ---------------------------
 
-# Cleaning names 
-# uvm.clinic<- janitor::clean_names(uvm.clinic)
 names(kirc.clinic)
 
 kirc.names <- names(kirc.clinic) %>%
   str_remove("treatments_")
-# str_replace_all("_", ".")
-# rm_accent()
+
 names(kirc.clinic) <- kirc.names
 
 
@@ -82,17 +58,6 @@ logical.vars <- names(kirc.clinic %>% select_if(is.logical))
 kirc.clinic <- kirc.clinic %>% 
   select(-all_of(logical.vars))
 
-# Select variables based on NA count (> 50% complete is a good choice!).
-# 
-# NA_fifty <- dim(uvm.clinic)[1]/2
-# NA_sum <- colSums(is.na(uvm.clinic))
-# NA_sum <- as.data.frame(NA_sum)
-# NA_sum <- tibble::rownames_to_column(NA_sum, "variables")
-# NA_sum <- NA_sum %>%
-#   filter(NA_sum < NA_fifty)
-# 
-# uvm_clinic <- uvm.clinic %>%
-#   select(one_of(NA_sum$variables))
 
 ## Remove duplicate observations (patient_id or other id variable)
 kirc.clinic <- kirc.clinic %>%
@@ -108,7 +73,6 @@ kirc.clinic <- kirc.clinic  %>%
   select(!c('days_to_diagnosis', 'days_to_birth', 'days_to_death', 'year_of_death'))
 
 ## Remove character variables with unique observations 
-# unique(uvm.clinic$variable.name)
 kirc.clinic %>%
   select_if(is.character) %>%
   skim()
@@ -138,11 +102,6 @@ kirc.clinic <- kirc.clinic %>%
 
 
 ## 3. Changing variables names ---------------------------
-# Use a significative name, with snake_style or other. 
-# names.clean <- names(uvm.clinic) %>% 
-#    str_remove(".of") %>% 
-#    str_remove(".or.therapy")
-# names(uvm.clinic) <- names.clean
 
 kirc.clinic <- kirc.clinic %>%
   rename(patient_id = 'submitter_id', age= "age_at_index")
@@ -173,9 +132,6 @@ kirc.clinic %>%
   select_if(is.numeric) %>%
   summary()
 
-# uvm.clinic.num <- uvm.clinic %>% 
-#    select_if(is.numeric)
-
 # Histograms or density plots
 ggplot(kirc.clinic, aes(age)) +
   geom_histogram(bins = 20, alpha = 0.5, color = "red")
@@ -189,15 +145,6 @@ ggplot(kirc.clinic, aes(year_of_diagnosis)) +
 ggplot(kirc.clinic, aes(days_to_last_follow_up)) +
   geom_density( alpha = 0.5, color = "purple")
 
-# hist <- lapply(names(uvm.clinic.num), function(i) {hist(uvm.clinic.num[,i],100,
-#                                                         col="light blue",
-#                                                         main=paste0("Histogran of ",i),
-#                                                         xlab=i)})
-
-# Boxplots 
-# Inter quartil range (IQR) = Q3 — Q1
-# Outliers = Q1 − 1.5 ∗ IQR < valor < Q3 + 1.5 ∗ IQR
-
 ggplot(kirc.clinic, aes(x ='', y=age)) +
   geom_boxplot(width = .5) +
   geom_jitter(width = 0.05, alpha = 0.2, color = "orange")
@@ -207,11 +154,6 @@ ggplot(kirc.clinic, aes(x ='', y=days_to_last_follow_up)) +
   geom_boxplot(width = .5) +
   geom_jitter(width = 0.05, alpha = 0.2, color = "orange")
 boxplot.stats(kirc.clinic$days_to_last_follow_up)
-
-# boxplot <- lapply(names(uvm.clinic.num), function(i) {boxplot(uvm.clinic.num[,i],
-#                                                               main=paste0("Boxplot of ",i),
-#                                                               xlab=i)})
-
 
 ## 7. Checking categorical variables --------------------------
 # Check frequency, lables and levels 
@@ -241,21 +183,6 @@ kirc.clinic <- kirc.clinic %>%
 
 kirc.clinic <- kirc.clinic %>%
   mutate(ajcc_pathologic_m)
-
-
-# recode levels
-# uvm.clinic <- uvm.clinic %>%
-#    mutate(ajcc.clinical.t = fct_recode(ajcc.clinical.t, T2 = T2a))
-
-# drop levels
-#kirc.clinic <- kirc.clinic %>%
-  #mutate(primary_diagnosis = fct_recode(primary_diagnosis, NULL="Malignant melanoma, NOS"))
-
-# uvm.clinic <- uvm.clinic %>%
-#      mutate(gender = if_else(gender %in% c('male', 'female'), 1, 0))
-
-kirc.clinic <- kirc.clinic  %>%
-  select(!c(morphology, icd_10_code))
 
 ## Graphics
 
@@ -307,9 +234,6 @@ print(kirc_tab, nonnormal=biomarkers, showAllLevels=TRUE, formatOptions=list(big
 
 ## 10. Survival analysis ------------------------------------
 kirc.clinic3 <- kirc.clinic
-
-# TCGABiolinks pkg (do not run)
-# TCGAanalyze_survival(uvm.clinic, "gender")
 
 # Survival pkg
 # Dichotomize and change data labels
