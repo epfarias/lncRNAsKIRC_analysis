@@ -1,538 +1,538 @@
-patient_id,synchronous_malignancy,ajcc_pathologic_stage,tissue_or_organ_of_origin,days_to_last_follow_up,primary_diagnosis,updated_datetime,prior_malignancy,year_of_diagnosis,ajcc_pathologic_t,ajcc_pathologic_n,ajcc_pathologic_m,ajcc_clinical_m,cigarettes_per_day,years_smoked,pack_years_smoked,race,gender,ethnicity,vital_status,age,year_of_birth,pharmaceutical_treatment_or_therapy,radiation_treatment_or_therapy
-TCGA-CW-5584,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,N1,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,74,1929,no,no
-TCGA-B0-5108,No,Stage III,"Kidney, NOS",1782,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,54,1955,no,no
-TCGA-CZ-5984,No,Stage I,"Kidney, NOS",2067,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,51,1954,not reported,not reported
-TCGA-CJ-4871,No,Stage IV,"Kidney, NOS",2423,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,63,1941,yes,yes
-TCGA-CJ-4643,No,Stage II,"Kidney, NOS",1793,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T2b,N0,M0,NA,NA,NA,NA,white,female,hispanic or latino,Alive,67,1938,not reported,not reported
-TCGA-A3-3382,No,Stage I,"Kidney, NOS",574,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,69,1938,not reported,not reported
-TCGA-DV-5574,Not Reported,Stage I,"Kidney, NOS",2016,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,37,1971,no,no
-TCGA-B0-4690,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T4,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,65,1943,not reported,not reported
-TCGA-CJ-5683,No,Stage I,"Kidney, NOS",1889,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,78,1926,no,no
-TCGA-DV-5566,Not Reported,Stage I,"Kidney, NOS",1398,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,67,1940,not reported,not reported
-TCGA-B4-5834,No,Stage I,"Kidney, NOS",38,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,59,1951,no,no
-TCGA-BP-5195,No,Stage I,"Kidney, NOS",749,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,75,1933,not reported,not reported
-TCGA-B8-5165,No,Stage I,"Kidney, NOS",737,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,43,1967,no,no
-TCGA-B0-4841,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,63,1941,yes,yes
-TCGA-BP-4174,No,Stage II,"Kidney, NOS",1879,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,49,1955,not reported,not reported
-TCGA-CJ-4905,No,Stage I,"Kidney, NOS",1496,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,62,1944,no,no
-TCGA-A3-3376,No,Stage I,"Kidney, NOS",1070,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,N0,M0,NA,NA,NA,NA,black or african american,male,not hispanic or latino,Dead,51,1955,no,no
-TCGA-B8-A8YJ,No,Stage I,"Kidney, NOS",431,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2013,T1,NX,NA,M0,0.547945205479452,NA,10,black or african american,female,not reported,Alive,60,1953,no,no
-TCGA-AK-3455,Not Reported,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T3,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,71,1936,not reported,not reported
-TCGA-BP-4347,No,Stage III,"Kidney, NOS",1367,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,74,1932,not reported,not reported
-TCGA-B0-5703,No,Stage I,"Kidney, NOS",2246,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,73,1936,no,no
-TCGA-AK-3434,No,Stage I,"Kidney, NOS",2087,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,72,1932,not reported,not reported
-TCGA-AK-3436,No,Stage IV,"Kidney, NOS",3331,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T2,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,40,1965,yes,no
-TCGA-B0-4700,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T4,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,60,1944,not reported,not reported
-TCGA-BP-4973,No,Stage III,"Kidney, NOS",1384,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,47,1959,not reported,not reported
-TCGA-DV-A4VZ,No,Stage I,"Kidney, NOS",365,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,MX,MX,NA,NA,NA,black or african american,male,not hispanic or latino,Alive,53,1954,no,no
-TCGA-B4-5836,No,Stage I,"Kidney, NOS",141,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,61,1949,no,no
-TCGA-CJ-4888,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,59,1946,yes,no
-TCGA-B0-5695,Not Reported,Stage I,"Kidney, NOS",2150,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,61,1946,no,no
-TCGA-BP-4989,No,Stage III,"Kidney, NOS",118,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,58,1949,not reported,not reported
-TCGA-A3-A8OW,No,Stage III,"Kidney, NOS",323,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2011,T3,NX,MX,M0,0.547945205479452,NA,10,black or african american,male,not hispanic or latino,Alive,37,1974,no,no
-TCGA-CJ-4893,No,Stage I,"Kidney, NOS",750,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,76,1929,no,no
-TCGA-CJ-4900,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T4,N1,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,69,1937,yes,no
-TCGA-CZ-5985,No,Stage II,"Kidney, NOS",1997,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T2,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,58,1948,not reported,not reported
-TCGA-CZ-5451,No,Stage II,"Kidney, NOS",1929,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T2,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,74,1932,not reported,not reported
-TCGA-BP-4972,No,Stage III,"Kidney, NOS",1502,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,43,1963,not reported,not reported
-TCGA-CZ-5469,No,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T2,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,41,1966,yes,yes
-TCGA-A3-3387,No,Stage I,"Kidney, NOS",617,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,49,1957,not reported,not reported
-TCGA-BP-4758,No,Stage I,"Kidney, NOS",2208,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,40,1964,not reported,not reported
-TCGA-CJ-5684,No,Stage III,"Kidney, NOS",2231,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,61,1944,no,no
-TCGA-CW-5590,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,51,1953,yes,no
-TCGA-BP-4177,No,Stage I,"Kidney, NOS",1670,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,65,1940,not reported,not reported
-TCGA-CZ-5982,No,Stage I,"Kidney, NOS",2439,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,59,1946,not reported,not reported
-TCGA-BP-4774,No,Stage I,"Kidney, NOS",1885,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,57,1948,not reported,not reported
-TCGA-A3-3331,No,Stage I,"Kidney, NOS",1257,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,86,1919,not reported,not reported
-TCGA-CZ-5989,No,Stage II,"Kidney, NOS",1905,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T2,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,60,1946,not reported,not reported
-TCGA-BP-4798,No,NA,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,N0,M1,NA,NA,NA,NA,white,male,not reported,Dead,74,1933,no,no
-TCGA-B2-5641,No,Stage I,"Kidney, NOS",656,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,79,1931,no,no
-TCGA-B0-5109,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,T3,N1,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,69,1940,no,no
-TCGA-BP-4801,No,Stage I,"Kidney, NOS",1124,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,57,1950,not reported,not reported
-TCGA-B8-5552,No,Stage I,"Kidney, NOS",1046,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,41,1969,no,no
-TCGA-CZ-4861,No,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T2,NX,M0,NA,NA,NA,NA,white,male,not reported,Dead,63,1942,no,no
-TCGA-CJ-4912,No,Stage II,"Kidney, NOS",1657,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T2,NX,M0,NA,NA,NA,NA,white,male,hispanic or latino,Alive,61,1945,no,no
-TCGA-B0-4821,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T3,N0,M0,NA,NA,NA,NA,asian,female,not hispanic or latino,Dead,68,1934,not reported,not reported
-TCGA-CZ-4866,No,Stage I,"Kidney, NOS",3267,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,79,1927,not reported,not reported
-TCGA-B8-5159,No,Stage I,"Kidney, NOS",722,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,61,1949,no,no
-TCGA-DV-5567,Not Reported,Stage I,"Kidney, NOS",2004,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,T1,NX,M0,NA,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,40,1968,no,no
-TCGA-B0-4834,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,49,1954,not reported,not reported
-TCGA-CZ-4858,No,Stage II,"Kidney, NOS",1943,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T2,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,39,1966,yes,no
-TCGA-BP-4987,No,Stage I,"Kidney, NOS",1124,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,asian,female,not reported,Alive,41,1965,not reported,not reported
-TCGA-B2-4102,No,Stage I,"Kidney, NOS",952,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,61,1949,no,no
-TCGA-B0-5690,No,Stage I,"Kidney, NOS",3392,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,53,1951,no,no
-TCGA-BP-5181,Not Reported,Stage I,"Kidney, NOS",1495,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,58,1948,not reported,not reported
-TCGA-AK-3429,No,Stage II,"Kidney, NOS",3328,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,54,1950,no,no
-TCGA-CZ-5465,No,Stage III,"Kidney, NOS",1446,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,NX,M0,NA,NA,NA,NA,not reported,female,not reported,Dead,76,1931,not reported,not reported
-TCGA-A3-3328,Not Reported,Stage I,"Kidney, NOS",1385,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,79,1928,no,no
-TCGA-BP-5006,Not Reported,Stage I,"Kidney, NOS",840,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,61,1946,not reported,not reported
-TCGA-CZ-5467,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,86,1921,no,no
-TCGA-BP-4995,Not Reported,Stage I,"Kidney, NOS",1371,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,68,1939,not reported,not reported
-TCGA-BP-4164,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T3,NX,M0,NA,NA,NA,NA,white,female,not reported,Dead,51,1951,not reported,not reported
-TCGA-B0-5710,No,Stage I,"Kidney, NOS",2430,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,57,1951,no,no
-TCGA-CZ-5454,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T2,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,63,1943,yes,no
-TCGA-B0-5116,No,Stage III,"Kidney, NOS",1274,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,52,1958,no,yes
-TCGA-AK-3445,No,Stage III,"Kidney, NOS",2392,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M0,NA,2.191780821917808,20,40,white,male,not hispanic or latino,Alive,69,1937,no,no
-TCGA-CZ-5463,No,Stage II,"Kidney, NOS",662,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T2,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,76,1931,not reported,not reported
-TCGA-BP-4963,No,Stage I,"Kidney, NOS",1834,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,63,1942,not reported,not reported
-TCGA-BP-4770,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T4,N0,M0,NA,NA,NA,NA,white,female,not reported,Dead,73,1932,yes,yes
-TCGA-BP-5173,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Dead,75,1929,not reported,not reported
-TCGA-CJ-4887,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,48,1957,yes,no
-TCGA-AK-3426,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,N1,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,37,1967,yes,yes
-TCGA-CW-6088,No,Stage I,"Kidney, NOS",3222,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,60,1943,no,no
-TCGA-CZ-5470,No,Stage II,"Kidney, NOS",386,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T2,N0,M0,NA,NA,NA,NA,not reported,female,not reported,Alive,72,1936,not reported,not reported
-TCGA-BP-4759,No,Stage I,"Kidney, NOS",2372,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,50,1954,not reported,not reported
-TCGA-B0-5713,No,Stage III,"Kidney, NOS",2782,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,75,1931,no,no
-TCGA-B8-4146,No,Stage I,"Kidney, NOS",511,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,T1,NX,M0,NA,1.095890410958904,NA,20,white,female,not hispanic or latino,Alive,41,1968,no,no
-TCGA-BP-5007,No,Stage II,"Kidney, NOS",1140,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T2,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,45,1962,not reported,not reported
-TCGA-B0-5699,No,Stage I,"Kidney, NOS",3841,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,53,1950,no,no
-TCGA-BP-4340,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,N0,M0,NA,NA,NA,NA,white,female,not reported,Dead,70,1933,not reported,not reported
-TCGA-BP-4986,Not Reported,Stage I,"Kidney, NOS",785,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,T1,N0,M0,NA,NA,NA,NA,white,male,hispanic or latino,Alive,75,1931,not reported,not reported
-TCGA-A3-3316,No,Stage II,"Kidney, NOS",1493,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T2,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,57,1948,not reported,not reported
-TCGA-B8-A54I,No,Stage I,"Kidney, NOS",150,"Renal cell carcinoma, NOS",2019-08-08,no,2012,T1,NX,MX,M0,NA,NA,NA,black or african american,male,not hispanic or latino,Alive,48,1964,no,no
-TCGA-BP-4960,No,Stage II,"Kidney, NOS",2172,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,46,1958,not reported,not reported
-TCGA-B4-5377,No,Stage IV,"Kidney, NOS",365,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,N0,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,68,1942,no,no
-TCGA-CJ-4641,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,NX,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,55,1950,yes,no
-TCGA-CJ-4891,Not Reported,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,T3c,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,57,1948,no,no
-TCGA-CJ-5677,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,54,1950,yes,no
-TCGA-A3-3359,Not Reported,Stage I,"Kidney, NOS",2504,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,82,1923,no,no
-TCGA-BP-5199,Not Reported,Stage II,"Kidney, NOS",1355,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,T2,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,58,1948,not reported,not reported
-TCGA-B8-5163,No,Stage III,"Kidney, NOS",822,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,63,1947,no,no
-TCGA-BP-5004,No,Stage I,"Kidney, NOS",1126,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,53,1954,not reported,not reported
-TCGA-BP-4351,No,Stage III,"Kidney, NOS",970,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,N0,M0,NA,NA,NA,NA,white,female,not reported,Alive,51,1955,no,no
-TCGA-CJ-4640,No,Stage III,"Kidney, NOS",3480,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,N0,M0,NA,NA,NA,NA,white,male,hispanic or latino,Alive,49,1955,no,no
-TCGA-B0-4813,No,Stage III,"Kidney, NOS",18,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2001,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,68,1933,not reported,not reported
-TCGA-B8-5162,Not Reported,Stage II,"Kidney, NOS",36,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2010,T2a,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,62,1948,not reported,not reported
-TCGA-BP-4974,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,N0,M1,NA,NA,NA,NA,white,male,not reported,Dead,58,1948,yes,no
-TCGA-BP-5001,No,Stage I,"Kidney, NOS",1177,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,43,1964,not reported,not reported
-TCGA-AK-3460,No,Stage I,"Kidney, NOS",2508,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,58,1949,no,no
-TCGA-BP-4354,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T4,N1,M1,NA,NA,NA,NA,white,male,not reported,Dead,40,1966,yes,yes
-TCGA-CZ-5460,No,Stage IV,"Kidney, NOS",2873,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,55,1951,not reported,not reported
-TCGA-BP-4964,No,Stage I,"Kidney, NOS",1862,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,N0,M0,NA,NA,NA,NA,white,female,not reported,Alive,54,1951,not reported,not reported
-TCGA-BP-4769,No,Stage I,"Kidney, NOS",1876,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,63,1942,not reported,not reported
-TCGA-BP-4797,No,Stage III,"Kidney, NOS",1107,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,34,1973,no,no
-TCGA-T7-A92I,No,Stage I,"Kidney, NOS",356,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2013,T1,NX,MX,MX,1.4246575342465753,NA,26,black or african american,female,not hispanic or latino,Alive,47,1966,no,no
-TCGA-B0-5697,No,Stage I,"Kidney, NOS",2630,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,50,1957,no,no
-TCGA-CJ-4876,No,Stage II,"Kidney, NOS",1955,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2b,N0,M0,NA,NA,NA,NA,white,male,hispanic or latino,Alive,57,1947,no,no
-TCGA-BP-4807,Not Reported,Stage I,"Kidney, NOS",211,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,42,1966,not reported,not reported
-TCGA-A3-3378,No,Stage I,"Kidney, NOS",630,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,60,1946,not reported,not reported
-TCGA-AS-3777,No,Stage I,"Kidney, NOS",1238,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,63,1946,not reported,not reported
-TCGA-B8-4620,No,Stage III,"Kidney, NOS",777,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,70,1940,no,no
-TCGA-A3-3323,No,Stage I,"Kidney, NOS",1106,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,53,1953,not reported,not reported
-TCGA-B0-4698,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T4,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,75,1928,not reported,not reported
-TCGA-BP-4325,No,Stage I,"Kidney, NOS",2964,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2001,T1,N0,M0,NA,NA,NA,NA,white,female,not reported,Alive,64,1937,not reported,not reported
-TCGA-BP-4167,No,Stage III,"Kidney, NOS",2718,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,59,1944,not reported,not reported
-TCGA-BP-4163,No,Stage III,"Kidney, NOS",2839,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T3,N0,M0,NA,NA,NA,NA,white,female,not reported,Alive,60,1942,not reported,not reported
-TCGA-AK-3447,No,Stage II,"Kidney, NOS",1217,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T2,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,83,1923,not reported,not reported
-TCGA-B0-5106,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,64,1940,not reported,not reported
-TCGA-CJ-5689,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,T1,NX,M0,NA,NA,NA,NA,white,male,hispanic or latino,Dead,90,1915,no,no
-TCGA-B0-5102,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,1999,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,74,1925,no,no
-TCGA-B0-5084,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,N1,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,33,1973,yes,not reported
-TCGA-CZ-5452,No,Stage II,"Kidney, NOS",1789,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T2,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,69,1937,not reported,not reported
-TCGA-A3-A6NI,No,Stage I,"Kidney, NOS",1018,"Renal cell carcinoma, NOS",2019-08-08,no,2011,T1,NX,MX,M0,NA,NA,NA,black or african american,male,not hispanic or latino,Alive,47,1964,no,no
-TCGA-CJ-4904,Not Reported,Stage IV,"Kidney, NOS",3302,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,T3,N0,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,60,1946,yes,no
-TCGA-B2-5636,No,Stage I,"Kidney, NOS",919,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,79,1931,no,no
-TCGA-A3-3343,Not Reported,Stage II,"Kidney, NOS",945,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,T2,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,79,1926,not reported,not reported
-TCGA-3Z-A93Z,No,Stage I,"Kidney, NOS",385,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2013,T1,N0,M0,M0,NA,NA,NA,black or african american,male,not hispanic or latino,Alive,69,1944,no,no
-TCGA-CZ-5457,No,Stage III,"Kidney, NOS",2754,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,62,1944,no,no
-TCGA-DV-A4VX,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T3,N0,MX,M1,2.191780821917808,NA,40,black or african american,male,not hispanic or latino,Dead,59,1949,yes,no
-TCGA-BP-5200,No,Stage II,"Kidney, NOS",1063,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T2,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,44,1964,not reported,not reported
-TCGA-BP-5187,No,Stage I,"Kidney, NOS",406,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,54,1953,not reported,not reported
-TCGA-CZ-5988,No,Stage I,"Kidney, NOS",693,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,38,1968,no,no
-TCGA-CJ-6031,No,Stage I,"Kidney, NOS",1906,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,54,1949,not reported,not reported
-TCGA-A3-A8OU,No,Stage I,"Kidney, NOS",0,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2011,T1,NX,MX,M0,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,74,1937,not reported,not reported
-TCGA-CJ-4635,No,Stage I,"Kidney, NOS",1416,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,male,hispanic or latino,Alive,48,1956,not reported,not reported
-TCGA-BP-4975,No,Stage I,"Kidney, NOS",1433,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,40,1966,not reported,not reported
-TCGA-CZ-4862,Not Reported,Stage I,"Kidney, NOS",3271,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,46,1960,not reported,not reported
-TCGA-BP-4765,No,Stage I,"Kidney, NOS",2184,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,43,1961,not reported,not reported
-TCGA-CJ-4913,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,45,1961,yes,yes
-TCGA-CZ-5987,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,60,1946,no,yes
-TCGA-CW-6096,No,Stage I,"Kidney, NOS",2701,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,44,1960,no,no
-TCGA-A3-3306,No,Stage I,"Kidney, NOS",1120,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,67,1938,not reported,not reported
-TCGA-B0-4818,No,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T2,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,68,1934,not reported,not reported
-TCGA-BP-4349,No,Stage I,"Kidney, NOS",372,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,68,1938,not reported,not reported
-TCGA-CW-6093,Not Reported,Stage I,"Kidney, NOS",3146,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2004,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,73,1931,no,no
-TCGA-CJ-4889,No,Stage I,"Kidney, NOS",1946,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,female,hispanic or latino,Alive,63,1942,no,no
-TCGA-B0-4844,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,60,1944,not reported,yes
-TCGA-AK-3451,No,Stage II,"Kidney, NOS",2868,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T2,N0,M0,NA,0.821917808219178,15,15,white,male,not hispanic or latino,Alive,48,1958,no,no
-TCGA-B0-5120,No,Stage I,"Kidney, NOS",1169,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,72,1938,no,no
-TCGA-BP-4766,No,Stage I,"Kidney, NOS",1462,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,43,1961,not reported,not reported
-TCGA-BP-4962,No,Stage II,"Kidney, NOS",1785,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T2,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,58,1947,not reported,not reported
-TCGA-B2-A4SR,No,Stage II,"Kidney, NOS",507,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2012,T2a,NX,M0,M0,2.5205479452054793,46,46,black or african american,male,not hispanic or latino,Alive,61,1951,no,yes
-TCGA-BP-5000,No,Stage I,"Kidney, NOS",563,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,40,1967,not reported,not reported
-TCGA-CZ-4856,Not Reported,Stage I,"Kidney, NOS",18,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,62,1943,not reported,not reported
-TCGA-MM-A84U,Yes,Stage I,"Kidney, NOS",700,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2013,T1,NX,MX,MX,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,58,1955,no,no
-TCGA-AK-3453,No,Stage II,"Kidney, NOS",2531,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T2,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,58,1948,yes,no
-TCGA-B8-A54K,No,Stage I,"Kidney, NOS",469,"Renal cell carcinoma, NOS",2019-08-08,yes,2012,T1,NX,MX,M0,NA,NA,NA,black or african american,male,not hispanic or latino,Alive,61,1951,no,no
-TCGA-CJ-4872,No,Stage I,"Kidney, NOS",1435,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,51,1953,no,no
-TCGA-B0-4816,No,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T2,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,49,1953,not reported,not reported
-TCGA-DV-5576,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,T1,NX,M0,NA,NA,NA,NA,black or african american,female,not hispanic or latino,Dead,55,1953,not reported,not reported
-TCGA-B0-5119,No,Stage I,"Kidney, NOS",1552,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,61,1949,no,no
-TCGA-MM-A564,No,Stage II,"Kidney, NOS",607,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2012,T2a,NX,MX,MX,NA,NA,NA,black or african american,male,not hispanic or latino,Alive,68,1944,no,no
-TCGA-BP-4176,No,Stage I,"Kidney, NOS",1955,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,64,1941,not reported,not reported
-TCGA-BP-4790,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Dead,76,1931,no,no
-TCGA-CJ-4901,No,Stage III,"Kidney, NOS",1450,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,47,1959,no,no
-TCGA-AK-3430,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,N1,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,61,1943,not reported,not reported
-TCGA-BP-5192,No,Stage I,"Kidney, NOS",714,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,59,1948,not reported,not reported
-TCGA-B0-5080,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,63,1942,yes,yes
-TCGA-G6-A8L8,No,Stage I,"Kidney, NOS",474,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T1,NX,MX,MX,NA,NA,NA,black or african american,female,not hispanic or latino,Dead,62,1946,no,no
-TCGA-AK-3433,No,Stage II,"Kidney, NOS",3409,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,48,1956,no,no
-TCGA-BP-4965,Not Reported,Stage I,"Kidney, NOS",1871,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,46,1959,not reported,not reported
-TCGA-CJ-4897,No,Stage III,"Kidney, NOS",3341,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,NX,M0,NA,NA,NA,NA,white,female,hispanic or latino,Alive,79,1926,no,no
-TCGA-B8-5164,No,Stage III,"Kidney, NOS",26,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,N0,M0,NA,2.191780821917808,NA,40,white,male,not hispanic or latino,Alive,65,1945,not reported,not reported
-TCGA-CZ-5459,No,Stage III,"Kidney, NOS",1683,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,63,1943,no,no
-TCGA-B0-5099,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T3,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,88,1914,not reported,not reported
-TCGA-BP-4334,No,Stage III,"Kidney, NOS",645,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,N0,M0,NA,NA,NA,NA,white,male,not reported,Dead,56,1947,yes,yes
-TCGA-BP-4343,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,N0,M0,NA,NA,NA,NA,white,male,not reported,Dead,64,1939,yes,yes
-TCGA-A3-A8OX,Yes,Stage I,"Kidney, NOS",0,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2012,T1,NX,MX,M0,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,65,1947,not reported,not reported
-TCGA-B0-4822,No,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T2,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,78,1924,not reported,not reported
-TCGA-BP-4985,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,N0,M0,NA,NA,NA,NA,white,male,not reported,Dead,72,1934,yes,yes
-TCGA-A3-3324,No,Stage I,"Kidney, NOS",1186,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,51,1955,not reported,not reported
-TCGA-BP-4795,Not Reported,Stage I,"Kidney, NOS",620,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,N0,M0,NA,NA,NA,NA,white,female,not reported,Alive,74,1933,no,no
-TCGA-B8-5545,No,Stage I,"Kidney, NOS",1525,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,black or african american,male,not hispanic or latino,Alive,42,1968,no,no
-TCGA-GK-A6C7,No,Stage I,"Kidney, NOS",61,"Renal cell carcinoma, NOS",2019-08-08,no,2012,T1,NX,MX,NA,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,76,1936,no,no
-TCGA-CJ-4885,No,Stage IV,"Kidney, NOS",3451,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,64,1941,no,no
-TCGA-B0-4688,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T4,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,46,1962,not reported,not reported
-TCGA-B0-5088,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,53,1953,not reported,not reported
-TCGA-BP-4162,No,Stage I,"Kidney, NOS",3074,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T1,N0,M0,NA,NA,NA,NA,white,female,not reported,Alive,65,1937,not reported,not reported
-TCGA-BP-5174,No,Stage I,"Kidney, NOS",2257,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,45,1959,not reported,not reported
-TCGA-BP-4352,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,N0,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,74,1933,yes,yes
-TCGA-B0-5097,No,Stage III,"Kidney, NOS",665,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,59,1951,no,yes
-TCGA-B0-5077,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,77,1928,not reported,not reported
-TCGA-B0-4843,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,57,1947,not reported,not reported
-TCGA-CW-5585,No,Stage IV,"Kidney, NOS",2609,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,51,1952,yes,no
-TCGA-A3-A6NN,No,Stage I,"Kidney, NOS",3,"Renal cell carcinoma, NOS",2019-08-08,no,2012,T1,NX,MX,M0,NA,NA,NA,black or african american,male,not hispanic or latino,Alive,78,1934,no,no
-TCGA-CJ-4638,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,N1,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,46,1958,yes,yes
-TCGA-CJ-5686,No,Stage I,"Kidney, NOS",2038,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,59,1946,no,no
-TCGA-CJ-4869,No,Stage III,"Kidney, NOS",2554,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2,N1,M0,NA,NA,NA,NA,white,male,hispanic or latino,Alive,49,1955,yes,no
-TCGA-AK-3450,Not Reported,Stage I,"Kidney, NOS",1508,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,85,1921,not reported,not reported
-TCGA-B8-5551,No,Stage I,"Kidney, NOS",16,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,65,1945,not reported,not reported
-TCGA-B2-3923,No,Stage II,"Kidney, NOS",992,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T2,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,59,1951,no,no
-TCGA-AK-3461,No,Stage I,"Kidney, NOS",2217,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,72,1935,no,no
-TCGA-B8-A54J,No,Stage II,"Kidney, NOS",528,"Renal cell carcinoma, NOS",2019-08-08,no,2012,T2a,NX,MX,M0,NA,NA,NA,black or african american,male,not hispanic or latino,Alive,60,1952,no,no
-TCGA-B0-5707,No,Stage I,"Kidney, NOS",3744,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,39,1965,no,no
-TCGA-A3-3374,No,Stage I,"Kidney, NOS",1314,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,N0,M0,NA,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,51,1954,not reported,not reported
-TCGA-A3-3349,No,Stage I,"Kidney, NOS",1385,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,34,1972,not reported,not reported
-TCGA-B0-4848,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,54,1950,not reported,not reported
-TCGA-A3-3311,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,not reported,male,not reported,Dead,57,1948,not reported,not reported
-TCGA-DV-5575,No,Stage I,"Kidney, NOS",1729,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,52,1955,not reported,not reported
-TCGA-A3-3313,No,Stage I,"Kidney, NOS",735,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,N0,M0,NA,NA,NA,NA,black or african american,male,not reported,Dead,59,1946,not reported,not reported
-TCGA-B0-5694,Not Reported,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,71,1937,yes,yes
-TCGA-A3-3372,No,Stage III,"Kidney, NOS",735,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,64,1943,not reported,not reported
-TCGA-B0-4694,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,72,1937,not reported,not reported
-TCGA-B0-4696,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2001,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,58,1943,yes,no
-TCGA-A3-3365,No,Stage I,"Kidney, NOS",873,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,46,1960,not reported,not reported
-TCGA-DV-5568,Not Reported,Stage I,"Kidney, NOS",370,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2009,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,26,1983,not reported,not reported
-TCGA-B8-4148,No,Stage I,"Kidney, NOS",1520,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,63,1946,no,no
-TCGA-B0-4697,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,NX,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,46,1957,not reported,not reported
-TCGA-BP-4967,No,Stage III,"Kidney, NOS",205,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,76,1929,not reported,not reported
-TCGA-B2-4099,No,Stage I,"Kidney, NOS",972,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,83,1927,no,no
-TCGA-B0-4842,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,73,1931,yes,no
-TCGA-AK-3425,Not Reported,Stage I,"Kidney, NOS",3343,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2000,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,68,1932,not reported,not reported
-TCGA-B4-5835,No,Stage I,"Kidney, NOS",16,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,64,1946,no,no
-TCGA-BP-4158,Not Reported,Stage I,"Kidney, NOS",3377,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2001,T1,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,69,1932,not reported,not reported
-TCGA-B0-5696,No,Stage III,"Kidney, NOS",2609,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,N0,M0,NA,NA,NA,NA,white,male,hispanic or latino,Alive,69,1938,no,no
-TCGA-BP-4968,No,Stage I,"Kidney, NOS",1746,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,40,1966,not reported,not reported
-TCGA-A3-3319,No,Stage I,"Kidney, NOS",1130,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,70,1936,not reported,not reported
-TCGA-A3-3352,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,74,1931,no,no
-TCGA-CJ-4868,No,Stage IV,"Kidney, NOS",646,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,42,1963,yes,yes
-TCGA-BP-5189,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,60,1947,yes,no
-TCGA-AK-3444,No,Stage I,"Kidney, NOS",1471,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,80,1926,not reported,not reported
-TCGA-CJ-4923,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,63,1941,yes,no
-TCGA-BP-5175,No,Stage I,"Kidney, NOS",932,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,60,1944,not reported,not reported
-TCGA-CJ-4918,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,64,1941,yes,no
-TCGA-B0-4706,No,Stage III,"Kidney, NOS",26,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,61,1946,not reported,not reported
-TCGA-BP-4761,No,Stage III,"Kidney, NOS",182,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,N1,M0,NA,NA,NA,NA,white,male,not reported,Alive,57,1947,not reported,not reported
-TCGA-G6-A8L6,No,Stage IV,"Kidney, NOS",305,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2013,T2a,NX,MX,M1,NA,NA,NA,black or african american,male,not hispanic or latino,Dead,55,1958,yes,no
-TCGA-EU-5907,No,Stage III,"Kidney, NOS",127,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,81,1929,not reported,not reported
-TCGA-AK-3454,Not Reported,Stage I,"Kidney, NOS",874,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,84,1922,not reported,not reported
-TCGA-CJ-5681,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,NX,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,44,1959,yes,yes
-TCGA-A3-3373,No,Stage I,"Kidney, NOS",1621,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,54,1953,no,no
-TCGA-CW-5581,No,Stage I,"Kidney, NOS",2799,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,44,1959,not reported,not reported
-TCGA-CJ-4636,Not Reported,Stage III,"Kidney, NOS",1924,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2004,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,51,1953,not reported,not reported
-TCGA-BP-4762,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2004,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Dead,42,1962,not reported,not reported
-TCGA-A3-3326,No,Stage I,"Kidney, NOS",1137,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,47,1959,not reported,not reported
-TCGA-CZ-4854,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,68,1937,not reported,not reported
-TCGA-BP-5186,No,Stage I,"Kidney, NOS",693,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,N0,M0,NA,NA,NA,NA,white,female,not reported,Alive,50,1957,not reported,not reported
-TCGA-BP-5170,No,Stage I,"Kidney, NOS",2412,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,55,1949,not reported,not reported
-TCGA-CZ-4865,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,70,1936,no,no
-TCGA-CJ-5676,No,Stage III,"Kidney, NOS",4067,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M0,NA,NA,NA,NA,white,male,hispanic or latino,Alive,47,1957,yes,yes
-TCGA-BP-4771,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,N0,M1,NA,NA,NA,NA,white,male,not reported,Dead,62,1943,no,yes
-TCGA-BP-5182,No,Stage I,"Kidney, NOS",1165,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,56,1951,not reported,not reported
-TCGA-B0-5691,Not Reported,Stage I,"Kidney, NOS",3431,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2002,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,66,1936,yes,yes
-TCGA-B0-4837,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,63,1940,yes,not reported
-TCGA-B0-5812,Not Reported,Stage I,"Kidney, NOS",3834,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2003,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,53,1950,no,no
-TCGA-B8-A54H,Yes,Stage II,"Kidney, NOS",256,"Renal cell carcinoma, NOS",2019-08-08,no,2012,T2a,N0,MX,M0,NA,NA,NA,black or african american,female,not reported,Alive,69,1943,no,no
-TCGA-A3-3347,No,Stage III,"Kidney, NOS",1610,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,N1,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,76,1929,no,no
-TCGA-AK-3431,No,Stage II,"Kidney, NOS",1853,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,62,1942,no,no
-TCGA-BP-4803,No,Stage III,"Kidney, NOS",204,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T3,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,79,1929,not reported,not reported
-TCGA-CZ-5461,No,Stage IV,"Kidney, NOS",330,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,52,1954,yes,yes
-TCGA-CJ-4907,No,Stage III,"Kidney, NOS",1499,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,58,1948,no,no
-TCGA-BP-4331,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2002,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,52,1950,not reported,not reported
-TCGA-BP-4969,No,Stage I,"Kidney, NOS",1794,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,63,1943,not reported,not reported
-TCGA-B0-5706,No,Stage II,"Kidney, NOS",3205,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,45,1959,no,no
-TCGA-B0-5098,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,1998,T1,NX,M0,NA,NA,NA,NA,black or african american,female,not hispanic or latino,Dead,53,1945,not reported,not reported
-TCGA-BP-4165,No,Stage I,"Kidney, NOS",3037,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T1,N0,M0,NA,NA,NA,NA,white,female,not reported,Alive,64,1938,yes,yes
-TCGA-BP-4166,No,Stage III,"Kidney, NOS",13,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,69,1934,not reported,not reported
-TCGA-B0-4810,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2001,T3,N1,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,47,1954,no,yes
-TCGA-CJ-4639,No,Stage II,"Kidney, NOS",3229,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2,N0,M0,NA,NA,NA,NA,white,female,hispanic or latino,Alive,49,1955,no,no
-TCGA-BP-4169,No,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T2,N0,M0,NA,NA,NA,NA,white,female,not reported,Dead,76,1927,yes,no
-TCGA-G6-A5PC,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2012,T1,N0,M1,M1,1.643835616438356,NA,30,black or african american,female,not hispanic or latino,Dead,54,1958,yes,no
-TCGA-CJ-5679,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,73,1930,yes,yes
-TCGA-B0-4839,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,80,1923,not reported,not reported
-TCGA-B0-4814,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2001,T4,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,58,1943,not reported,not reported
-TCGA-B2-3924,No,Stage I,"Kidney, NOS",1092,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,73,1937,no,no
-TCGA-B0-4710,No,Stage III,"Kidney, NOS",1755,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,75,1935,no,no
-TCGA-B0-5113,No,Stage III,"Kidney, NOS",1175,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,69,1941,no,no
-TCGA-CJ-6027,Not Reported,Stage I,"Kidney, NOS",1855,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2003,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,77,1926,no,no
-TCGA-EU-5905,No,Stage I,"Kidney, NOS",119,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,67,1943,not reported,not reported
-TCGA-CJ-4916,No,Stage III,"Kidney, NOS",1373,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,69,1938,no,no
-TCGA-BP-4173,No,Stage II,"Kidney, NOS",1893,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,47,1957,not reported,not reported
-TCGA-B0-5075,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,77,1928,not reported,not reported
-TCGA-B0-5115,No,Stage IV,"Kidney, NOS",1604,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,T2,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,43,1966,yes,no
-TCGA-A3-3383,No,Stage I,"Kidney, NOS",861,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,52,1954,not reported,not reported
-TCGA-CJ-4890,No,Stage IV,"Kidney, NOS",3519,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,72,1933,yes,no
-TCGA-B0-5081,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,79,1926,not reported,yes
-TCGA-BP-4338,No,Stage I,"Kidney, NOS",2859,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,43,1960,yes,no
-TCGA-CJ-5682,No,Stage IV,"Kidney, NOS",3736,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,60,1944,no,yes
-TCGA-A3-3385,No,Stage I,"Kidney, NOS",1993,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,46,1961,no,no
-TCGA-BP-4760,Not Reported,Stage I,"Kidney, NOS",2361,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2004,T1,NX,M0,NA,NA,NA,NA,black or african american,male,not hispanic or latino,Alive,69,1935,no,no
-TCGA-B0-4707,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,63,1945,not reported,not reported
-TCGA-A3-3357,No,Stage II,"Kidney, NOS",2688,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T2,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,62,1943,no,no
-TCGA-CW-6090,No,Stage I,"Kidney, NOS",2552,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,68,1935,not reported,not reported
-TCGA-B0-5700,No,Stage I,"Kidney, NOS",1790,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,77,1932,no,no
-TCGA-CJ-6033,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,N0,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,54,1950,yes,no
-TCGA-CJ-4884,No,Stage III,"Kidney, NOS",1759,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,72,1933,no,no
-TCGA-BP-4959,No,Stage I,"Kidney, NOS",2660,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,49,1954,not reported,not reported
-TCGA-BP-4787,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,N0,M1,NA,NA,NA,NA,white,female,not reported,Dead,59,1948,yes,no
-TCGA-A3-3320,No,Stage I,"Kidney, NOS",1508,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,52,1953,not reported,not reported
-TCGA-BP-4344,Not Reported,Stage I,"Kidney, NOS",1666,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,75,1931,not reported,not reported
-TCGA-B2-4098,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,NX,M0,NA,NA,NA,NA,black or african american,female,not hispanic or latino,Dead,72,1938,not reported,not reported
-TCGA-A3-A6NL,No,Stage I,"Kidney, NOS",689,"Renal cell carcinoma, NOS",2019-08-08,no,2012,T1,NX,MX,M0,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,49,1963,no,no
-TCGA-CJ-4873,No,Stage III,"Kidney, NOS",1776,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,85,1919,no,no
-TCGA-B8-A54F,No,Stage I,"Kidney, NOS",519,"Renal cell carcinoma, NOS",2019-08-08,no,2012,T1,NX,MX,M0,1.643835616438356,NA,30,black or african american,female,not hispanic or latino,Alive,49,1963,no,no
-TCGA-BP-5201,Not Reported,Stage IV,"Kidney, NOS",951,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,T3,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,63,1945,yes,no
-TCGA-B4-5378,No,Stage I,"Kidney, NOS",175,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,62,1948,no,no
-TCGA-CZ-5466,No,Stage III,"Kidney, NOS",685,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,NX,M0,NA,NA,NA,NA,not reported,male,not reported,Alive,67,1940,not reported,not reported
-TCGA-B0-4811,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2001,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,48,1953,yes,yes
-TCGA-CZ-5453,No,Stage II,"Kidney, NOS",25,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T2,NX,M0,NA,NA,NA,NA,white,male,not reported,Dead,67,1939,not reported,not reported
-TCGA-BP-4346,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,N0,M0,NA,NA,NA,NA,white,male,not reported,Dead,57,1949,not reported,not reported
-TCGA-CW-5589,No,Stage I,"Kidney, NOS",2378,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,52,1952,not reported,not reported
-TCGA-B8-5550,No,Stage III,"Kidney, NOS",1476,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,N0,M0,NA,1.095890410958904,NA,20,white,male,not hispanic or latino,Alive,71,1939,yes,no
-TCGA-B2-5635,Not Reported,Stage I,"Kidney, NOS",755,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2010,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,74,1936,no,no
-TCGA-B8-A54E,No,Stage I,"Kidney, NOS",909,"Renal cell carcinoma, NOS",2019-08-08,no,2011,T1,NX,MX,M0,2.73972602739726,NA,50,black or african american,female,hispanic or latino,Alive,62,1949,no,no
-TCGA-BP-4998,No,Stage I,"Kidney, NOS",932,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,asian,male,not reported,Alive,49,1958,not reported,not reported
-TCGA-BP-5194,No,Stage I,"Kidney, NOS",408,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,39,1969,not reported,not reported
-TCGA-CJ-5680,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,NX,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,65,1938,yes,yes
-TCGA-BP-4983,No,Stage III,"Kidney, NOS",1413,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M0,NA,NA,NA,NA,asian,female,not reported,Alive,67,1939,not reported,not reported
-TCGA-B0-5085,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,76,1929,not reported,not reported
-TCGA-B0-5400,No,Stage III,"Kidney, NOS",1733,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,59,1949,no,no
-TCGA-BP-4784,No,Stage I,"Kidney, NOS",1854,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,67,1938,no,no
-TCGA-A3-3363,No,Stage II,"Kidney, NOS",319,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T2,N0,M0,NA,NA,NA,NA,asian,male,not reported,Alive,50,1956,not reported,not reported
-TCGA-B8-4621,Not Reported,Stage I,"Kidney, NOS",788,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2010,T1,N0,M0,NA,2.191780821917808,NA,40,black or african american,male,not hispanic or latino,Alive,63,1947,no,no
-TCGA-EU-5906,No,Stage I,"Kidney, NOS",206,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,55,1955,not reported,not reported
-TCGA-A3-3367,No,Stage I,"Kidney, NOS",2270,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,72,1934,no,no
-TCGA-B0-4701,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,N0,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,66,1939,not reported,not reported
-TCGA-CJ-6030,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2003,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,65,1938,not reported,not reported
-TCGA-B0-5107,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T2,N0,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,65,1942,yes,yes
-TCGA-CZ-5464,No,Stage IV,"Kidney, NOS",2128,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,NX,M1,NA,NA,NA,NA,white,male,not reported,Alive,69,1938,not reported,not reported
-TCGA-BP-4329,No,Stage III,"Kidney, NOS",845,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T3,N0,M0,NA,NA,NA,NA,white,male,not reported,Dead,75,1927,yes,yes
-TCGA-BP-4993,Not Reported,Stage I,"Kidney, NOS",177,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,58,1949,not reported,not reported
-TCGA-BP-5178,Not Reported,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2004,T3,NX,M1,NA,NA,NA,NA,white,male,not reported,Dead,71,1933,yes,no
-TCGA-CW-5583,No,Stage I,"Kidney, NOS",2489,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,51,1952,not reported,not reported
-TCGA-B4-5838,No,NA,"Kidney, NOS",166,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,N1,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,52,1958,no,no
-TCGA-B0-5121,No,Stage I,"Kidney, NOS",1485,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,56,1954,no,no
-TCGA-CJ-4920,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,64,1940,no,no
-TCGA-B2-5639,No,Stage IV,"Kidney, NOS",417,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,46,1964,yes,yes
-TCGA-CW-5587,No,Stage III,"Kidney, NOS",2226,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,62,1941,no,no
-TCGA-CZ-5455,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,63,1943,not reported,not reported
-TCGA-B0-5702,No,Stage I,"Kidney, NOS",2172,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,71,1936,no,no
-TCGA-B0-5083,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,63,1942,not reported,not reported
-TCGA-B0-4718,No,Stage III,"Kidney, NOS",1778,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,57,1953,yes,no
-TCGA-B0-4852,No,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,78,1926,not reported,not reported
-TCGA-B4-5832,No,Stage III,"Kidney, NOS",155,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,65,1945,no,no
-TCGA-BP-4326,No,Stage I,"Kidney, NOS",1625,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T1,N0,M0,NA,NA,NA,NA,white,female,not reported,Dead,53,1949,no,yes
-TCGA-CJ-4637,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2b,NX,M1,NA,NA,NA,NA,white,female,hispanic or latino,Dead,52,1952,yes,yes
-TCGA-CJ-4870,No,Stage III,"Kidney, NOS",1498,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M0,NA,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,58,1946,not reported,not reported
-TCGA-B8-4619,No,Stage I,"Kidney, NOS",523,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,58,1952,no,no
-TCGA-CW-5588,No,Stage I,"Kidney, NOS",2017,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,78,1926,no,no
-TCGA-CJ-4878,No,Stage III,"Kidney, NOS",2186,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M0,NA,NA,NA,NA,white,female,hispanic or latino,Alive,71,1933,no,no
-TCGA-CZ-4864,No,Stage II,"Kidney, NOS",1315,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T2,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,86,1916,no,no
-TCGA-BP-4781,No,Stage I,"Kidney, NOS",2080,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,78,1927,no,no
-TCGA-CJ-4875,No,Stage IV,"Kidney, NOS",2353,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,67,1937,yes,yes
-TCGA-CJ-5678,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T2b,N0,M1,NA,NA,NA,NA,black or african american,male,not hispanic or latino,Dead,62,1941,yes,no
-TCGA-B8-5553,No,Stage I,"Kidney, NOS",435,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,67,1943,not reported,not reported
-TCGA-BP-4994,No,Stage I,"Kidney, NOS",1308,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,54,1953,not reported,not reported
-TCGA-CJ-4892,No,Stage I,"Kidney, NOS",1521,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,65,1940,no,no
-TCGA-BP-4170,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,N0,M0,NA,NA,NA,NA,white,female,hispanic or latino,Dead,72,1931,not reported,not reported
-TCGA-BP-4160,Not Reported,Stage III,"Kidney, NOS",2881,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2002,T3,N0,M0,NA,NA,NA,NA,white,male,hispanic or latino,Alive,67,1935,not reported,not reported
-TCGA-B0-4847,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,60,1944,not reported,not reported
-TCGA-CJ-4634,No,Stage I,"Kidney, NOS",3498,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,60,1944,no,no
-TCGA-AS-3778,No,Stage I,"Kidney, NOS",43,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,35,1975,not reported,not reported
-TCGA-CZ-4853,No,Stage I,"Kidney, NOS",774,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,82,1923,not reported,not reported
-TCGA-CZ-5468,No,Stage IV,"Kidney, NOS",59,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,84,1923,no,no
-TCGA-CZ-5986,No,Stage I,"Kidney, NOS",373,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,61,1945,no,no
-TCGA-B0-5711,No,Stage III,"Kidney, NOS",3989,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,50,1954,no,no
-TCGA-CZ-4863,No,Stage III,"Kidney, NOS",1928,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,51,1955,no,no
-TCGA-CW-5580,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,NX,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,73,1930,yes,yes
-TCGA-BP-4345,No,Stage III,"Kidney, NOS",1516,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,62,1944,not reported,not reported
-TCGA-A3-3346,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Dead,68,1937,no,yes
-TCGA-A3-3358,Not Reported,Stage I,"Kidney, NOS",1307,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,57,1948,not reported,not reported
-TCGA-B0-5094,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T3,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,62,1946,yes,yes
-TCGA-BP-4341,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,NX,M0,NA,NA,NA,NA,white,male,not reported,Dead,67,1936,not reported,not reported
-TCGA-B8-4154,No,Stage I,"Kidney, NOS",1380,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,73,1937,no,no
-TCGA-B0-4713,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,76,1934,not reported,not reported
-TCGA-BP-4768,No,Stage I,"Kidney, NOS",400,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,N0,M0,NA,NA,NA,NA,white,female,not reported,Alive,72,1933,not reported,not reported
-TCGA-A3-3380,No,Stage I,"Kidney, NOS",567,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,N0,M0,NA,NA,NA,NA,not reported,male,hispanic or latino,Alive,54,1953,not reported,not reported
-TCGA-A3-3317,No,Stage II,"Kidney, NOS",1491,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T2,N0,M0,NA,NA,NA,NA,not reported,male,not reported,Alive,67,1938,yes,no
-TCGA-BP-5177,No,Stage I,"Kidney, NOS",293,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,46,1958,not reported,not reported
-TCGA-B0-5701,No,Stage III,"Kidney, NOS",2461,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,65,1942,yes,no
-TCGA-BP-5198,No,Stage III,"Kidney, NOS",603,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T3,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,72,1936,not reported,not reported
-TCGA-CJ-4644,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,N0,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,48,1956,yes,yes
-TCGA-CJ-4899,No,Stage I,"Kidney, NOS",1528,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,asian,male,not hispanic or latino,Alive,42,1964,no,no
-TCGA-B8-A54D,No,Stage III,"Kidney, NOS",830,"Renal cell carcinoma, NOS",2019-08-08,no,2011,T3,NX,MX,M0,NA,NA,NA,black or african american,male,not hispanic or latino,Alive,69,1942,no,no
-TCGA-CJ-4642,No,Stage II,"Kidney, NOS",3205,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T2,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,47,1958,no,no
-TCGA-BP-5176,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Dead,78,1926,not reported,not reported
-TCGA-B0-4691,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,T2,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,55,1954,not reported,not reported
-TCGA-CJ-5671,No,Stage I,"Kidney, NOS",3987,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,51,1953,no,no
-TCGA-A3-A6NJ,No,Stage I,"Kidney, NOS",468,"Renal cell carcinoma, NOS",2019-08-08,no,2012,T1,NX,MX,M0,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,57,1955,no,no
-TCGA-BP-4789,No,Stage I,"Kidney, NOS",1489,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,48,1959,no,no
-TCGA-A3-3325,Not Reported,Stage I,"Kidney, NOS",751,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,52,1954,no,no
-TCGA-B8-5549,No,Stage I,"Kidney, NOS",194,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,53,1957,no,no
-TCGA-BP-4782,No,Stage I,"Kidney, NOS",354,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,55,1950,no,no
-TCGA-BP-4999,Not Reported,Stage I,"Kidney, NOS",1266,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,56,1951,not reported,not reported
-TCGA-BP-4991,No,Stage I,"Kidney, NOS",1413,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,54,1953,not reported,not reported
-TCGA-BP-4988,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,N0,M0,NA,NA,NA,NA,white,male,not reported,Dead,72,1935,not reported,not reported
-TCGA-CJ-4908,No,Stage I,"Kidney, NOS",1531,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,38,1968,no,no
-TCGA-B0-4714,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,81,1929,not reported,not reported
-TCGA-B0-5100,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,1998,T3,NX,M0,NA,NA,NA,NA,black or african american,male,not hispanic or latino,Dead,72,1926,no,no
-TCGA-B0-4849,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,51,1953,not reported,not reported
-TCGA-AK-3428,No,Stage III,"Kidney, NOS",3728,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,62,1942,no,no
-TCGA-A3-A8OV,No,Stage I,"Kidney, NOS",340,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2011,T1,NX,MX,M0,3.5616438356164384,65,65,black or african american,male,not hispanic or latino,Alive,75,1936,no,no
-TCGA-BP-4756,No,Stage I,"Kidney, NOS",374,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,N0,M0,NA,NA,NA,NA,asian,female,not reported,Alive,62,1941,not reported,not reported
-TCGA-B8-4153,No,Stage III,"Kidney, NOS",762,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,74,1936,yes,no
-TCGA-BP-5184,No,Stage I,"Kidney, NOS",1133,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,54,1953,not reported,not reported
-TCGA-AK-3456,No,Stage II,"Kidney, NOS",1143,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T2,N0,M0,NA,NA,NA,NA,black or african american,male,not hispanic or latino,Alive,48,1959,not reported,not reported
-TCGA-BP-4992,No,Stage I,"Kidney, NOS",501,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,66,1941,not reported,not reported
-TCGA-A3-3335,No,Stage II,"Kidney, NOS",1886,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T2a,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,41,1965,no,no
-TCGA-B0-5402,No,Stage IV,"Kidney, NOS",1290,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T4,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,64,1946,no,yes
-TCGA-B4-5844,No,Stage II,"Kidney, NOS",7,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T2,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,61,1949,not reported,no
-TCGA-CJ-4882,No,Stage III,"Kidney, NOS",1883,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,NX,M0,NA,NA,NA,NA,black or african american,male,not hispanic or latino,Alive,57,1948,no,no
-TCGA-AK-3440,No,Stage I,"Kidney, NOS",2865,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,58,1947,no,no
-TCGA-B0-5117,No,Stage I,"Kidney, NOS",1608,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,40,1970,no,no
-TCGA-BP-5191,Not Reported,Stage III,"Kidney, NOS",967,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,79,1928,not reported,not reported
-TCGA-MW-A4EC,No,Stage I,"Kidney, NOS",498,"Renal cell carcinoma, NOS",2019-08-08,no,2012,T1,NX,MX,NA,NA,NA,NA,black or african american,female,hispanic or latino,Alive,72,1940,no,no
-TCGA-B8-4622,No,Stage IV,"Kidney, NOS",1525,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,57,1953,no,yes
-TCGA-BP-4776,No,Stage I,"Kidney, NOS",411,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,52,1953,not reported,not reported
-TCGA-A3-A8CQ,No,Stage I,"Kidney, NOS",3,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2011,T1,NX,MX,M0,0.4931506849315068,NA,9,black or african american,female,not hispanic or latino,Alive,59,1952,not reported,not reported
-TCGA-B8-4151,No,Stage III,"Kidney, NOS",1299,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,T3,N0,M0,NA,NA,NA,NA,white,female,hispanic or latino,Alive,51,1958,no,no
-TCGA-BP-4337,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,N0,M0,NA,NA,NA,NA,white,female,not reported,Dead,76,1927,not reported,not reported
-TCGA-CJ-4886,No,Stage I,"Kidney, NOS",1952,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,42,1963,no,no
-TCGA-BP-5008,No,Stage I,"Kidney, NOS",1071,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,46,1961,not reported,not reported
-TCGA-B0-5712,No,Stage IV,"Kidney, NOS",2722,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2,N0,M1,NA,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,68,1936,yes,yes
-TCGA-B2-5633,No,Stage I,"Kidney, NOS",963,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,56,1954,no,no
-TCGA-BP-5202,No,Stage III,"Kidney, NOS",29,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T3,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,75,1933,not reported,not reported
-TCGA-B0-4817,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T3c,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,81,1921,not reported,not reported
-TCGA-CJ-4895,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,62,1943,yes,no
-TCGA-BP-5169,No,Stage I,"Kidney, NOS",193,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,70,1934,not reported,not reported
-TCGA-CW-6087,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,N1,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,61,1942,not reported,not reported
-TCGA-B0-4699,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T4,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,74,1930,not reported,not reported
-TCGA-CJ-6032,No,Stage II,"Kidney, NOS",3639,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2,NX,M0,NA,NA,NA,NA,white,female,hispanic or latino,Alive,63,1941,no,no
-TCGA-B0-5709,No,Stage III,"Kidney, NOS",3974,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,62,1941,no,no
-TCGA-BP-4970,No,Stage III,"Kidney, NOS",433,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,N1,M0,NA,NA,NA,NA,asian,male,not reported,Alive,44,1962,not reported,not reported
-TCGA-BP-4342,Not Reported,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2003,T2,N0,M0,NA,NA,NA,NA,white,male,not reported,Dead,79,1924,yes,no
-TCGA-BP-5185,No,Stage I,"Kidney, NOS",1132,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,56,1951,no,no
-TCGA-BP-4327,Not Reported,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2002,T2,N0,M0,NA,NA,NA,NA,white,female,not reported,Dead,75,1927,not reported,not reported
-TCGA-BP-4775,Not Reported,Stage I,"Kidney, NOS",1843,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,55,1950,not reported,not reported
-TCGA-DV-A4W0,Yes,Stage I,"Kidney, NOS",2470,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T1,NX,MX,M0,1.8082191780821917,NA,33,black or african american,male,not hispanic or latino,Alive,55,1953,no,no
-TCGA-B0-5705,No,Stage I,"Kidney, NOS",4537,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,65,1937,no,yes
-TCGA-B8-A7U6,No,Stage I,"Kidney, NOS",495,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2013,T1,NX,NA,M0,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,54,1959,no,no
-TCGA-B8-5546,No,Stage I,"Kidney, NOS",505,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,38,1972,not reported,not reported
-TCGA-BP-5180,No,Stage I,"Kidney, NOS",2263,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,53,1951,not reported,not reported
-TCGA-DV-5573,Not Reported,Stage I,"Kidney, NOS",1130,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,41,1967,not reported,not reported
-TCGA-A3-3362,No,Stage I,"Kidney, NOS",1559,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,60,1945,not reported,not reported
-TCGA-BP-5196,No,Stage I,"Kidney, NOS",1018,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,53,1955,not reported,not reported
-TCGA-B0-4712,Not Reported,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,76,1930,not reported,not reported
-TCGA-BP-4977,No,Stage I,"Kidney, NOS",454,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,57,1949,not reported,not reported
-TCGA-B4-5843,No,Stage I,"Kidney, NOS",11,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,45,1965,no,no
-TCGA-A3-3336,Not Reported,Stage I,"Kidney, NOS",1043,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,75,1932,not reported,not reported
-TCGA-BP-4981,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M0,NA,NA,NA,NA,white,female,not reported,Dead,75,1931,not reported,not reported
-TCGA-CJ-5675,No,Stage II,"Kidney, NOS",3936,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T2a,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,70,1934,yes,no
-TCGA-B0-4845,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,70,1933,yes,yes
-TCGA-B2-4101,No,Stage II,"Kidney, NOS",648,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T2a,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,52,1958,no,no
-TCGA-CW-6097,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M0,NA,NA,NA,NA,white,male,not reported,Dead,32,1972,not reported,not reported
-TCGA-CJ-4894,Not Reported,Stage III,"Kidney, NOS",841,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,58,1947,yes,no
-TCGA-MM-A563,No,NA,"Kidney, NOS",591,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2012,T3,NX,MX,MX,0.7671232876712328,NA,14,black or african american,male,not hispanic or latino,Alive,41,1971,no,no
-TCGA-CZ-4860,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T4,NX,M1,NA,NA,NA,NA,white,male,not reported,Dead,60,1945,yes,no
-TCGA-BP-4961,No,Stage I,"Kidney, NOS",1935,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,47,1958,not reported,not reported
-TCGA-AK-3427,No,Stage I,"Kidney, NOS",3583,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,65,1939,no,no
-TCGA-CZ-4859,No,Stage I,"Kidney, NOS",1787,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,N0,M0,NA,NA,NA,NA,white,female,not reported,Alive,59,1946,not reported,not reported
-TCGA-6D-AA2E,No,Stage I,"Kidney, NOS",362,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2013,T1,NX,MX,MX,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,68,1945,no,no
-TCGA-A3-3308,No,Stage III,"Kidney, NOS",16,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,N0,M0,NA,NA,NA,NA,white,female,not reported,Alive,77,1929,not reported,not reported
-TCGA-CZ-5456,No,Stage II,"Kidney, NOS",2422,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T2,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,57,1949,yes,no
-TCGA-A3-3307,Not Reported,Stage III,"Kidney, NOS",1436,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,T3,N0,M0,NA,NA,NA,NA,not reported,male,not reported,Alive,66,1939,not reported,not reported
-TCGA-B0-5092,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T1,N0,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,53,1955,not reported,not reported
-TCGA-CZ-4857,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,56,1949,yes,yes
-TCGA-B0-4703,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T3,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,51,1954,not reported,not reported
-TCGA-CJ-4881,No,Stage III,"Kidney, NOS",2014,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,41,1963,yes,yes
-TCGA-BP-4777,No,Stage I,"Kidney, NOS",1731,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,46,1959,not reported,not reported
-TCGA-B0-4945,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,75,1928,not reported,not reported
-TCGA-BP-5168,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2002,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Dead,75,1927,not reported,not reported
-TCGA-AK-3458,No,Stage I,"Kidney, NOS",1168,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,48,1959,not reported,not reported
-TCGA-B0-4828,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T2,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,79,1924,not reported,not reported
-TCGA-B0-4846,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,52,1952,not reported,yes
-TCGA-BP-4161,No,Stage I,"Kidney, NOS",2746,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,74,1928,yes,no
-TCGA-B0-5693,Not Reported,Stage I,"Kidney, NOS",4074,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2003,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,47,1956,no,no
-TCGA-CJ-4903,No,Stage I,"Kidney, NOS",1560,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,50,1956,no,no
-TCGA-B0-5096,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,1998,T3,N1,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,72,1926,not reported,not reported
-TCGA-B0-4693,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,72,1937,not reported,not reported
-TCGA-B8-4143,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T3,N0,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,66,1936,not reported,not reported
-TCGA-AK-3465,No,Stage I,"Kidney, NOS",369,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T1,NX,M0,NA,NA,NA,NA,black or african american,female,not hispanic or latino,Alive,71,1937,not reported,not reported
-TCGA-BP-4763,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Dead,79,1925,not reported,not reported
-TCGA-B0-4824,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,49,1953,not reported,not reported
-TCGA-BP-4971,No,Stage III,"Kidney, NOS",1487,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,40,1966,not reported,not reported
-TCGA-CJ-6028,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,58,1945,yes,yes
-TCGA-B0-4833,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,82,1921,not reported,not reported
-TCGA-BP-5010,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,63,1944,no,yes
-TCGA-BP-4799,Not Reported,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T3,N0,M0,NA,NA,NA,NA,white,male,not reported,Dead,70,1937,no,no
-TCGA-BP-4976,Not Reported,Stage I,"Kidney, NOS",1632,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,77,1929,not reported,not reported
-TCGA-B8-5158,No,Stage III,"Kidney, NOS",1218,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T3,N1,M0,NA,0.547945205479452,NA,10,white,male,not hispanic or latino,Alive,56,1954,no,no
-TCGA-CZ-5462,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M1,NA,NA,NA,NA,white,male,not reported,Dead,83,1924,not reported,not reported
-TCGA-B0-4836,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,NX,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,61,1942,not reported,not reported
-TCGA-B0-5692,No,Stage III,"Kidney, NOS",3944,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,66,1938,no,no
-TCGA-BP-4332,No,Stage III,"Kidney, NOS",1133,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T3,N0,M0,NA,NA,NA,NA,white,male,not reported,Alive,36,1966,not reported,not reported
-TCGA-B0-4823,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,88,1914,not reported,not reported
-TCGA-B8-A54G,No,Stage I,"Kidney, NOS",53,"Renal cell carcinoma, NOS",2019-08-08,no,2012,T1,NX,MX,M0,0.3835616438356164,NA,7,black or african american,male,not hispanic or latino,Alive,50,1962,no,no
-TCGA-BP-5009,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,52,1955,yes,yes
-TCGA-B0-5698,Not Reported,Stage I,"Kidney, NOS",3631,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,T1,N0,M0,NA,NA,NA,NA,black or african american,male,not hispanic or latino,Alive,77,1928,no,no
-TCGA-A3-3351,No,Stage II,"Kidney, NOS",910,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T2a,N0,M0,NA,NA,NA,NA,white,male,hispanic or latino,Alive,42,1965,not reported,not reported
-TCGA-BP-4355,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T3,NX,M0,NA,NA,NA,NA,white,female,not reported,Dead,59,1949,not reported,no
-TCGA-BP-4804,No,Stage I,"Kidney, NOS",1459,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,59,1949,yes,yes
-TCGA-CJ-5672,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,84,1920,not reported,not reported
-TCGA-B0-4838,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,69,1934,not reported,not reported
-TCGA-A3-3322,No,Stage I,"Kidney, NOS",1478,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,51,1955,not reported,not reported
-TCGA-CW-5591,No,Stage IV,"Kidney, NOS",2271,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T3,N0,M1,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,56,1948,yes,yes
-TCGA-BP-5183,No,Stage III,"Kidney, NOS",1291,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T3,NX,M0,NA,NA,NA,NA,white,male,hispanic or latino,Alive,57,1950,no,no
-TCGA-CJ-4902,No,Stage III,"Kidney, NOS",1520,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,61,1945,no,no
-TCGA-A3-3329,Not Reported,Stage I,"Kidney, NOS",1624,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,75,1932,no,no
-TCGA-CJ-4874,No,Stage I,"Kidney, NOS",2283,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,T1,N0,M0,NA,NA,NA,NA,white,female,hispanic or latino,Alive,73,1931,no,no
-TCGA-BP-5190,No,Stage I,"Kidney, NOS",1011,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,61,1946,not reported,not reported
-TCGA-DV-5565,Not Reported,Stage I,"Kidney, NOS",1329,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,59,1948,not reported,not reported
-TCGA-BP-4335,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,T3,N0,M1,NA,NA,NA,NA,white,female,not reported,Dead,65,1938,no,yes
-TCGA-BP-4982,No,Stage I,"Kidney, NOS",1014,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,42,1964,not reported,not reported
-TCGA-CZ-5458,No,Stage III,"Kidney, NOS",2789,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T3,NX,M0,NA,NA,NA,NA,white,male,not reported,Alive,43,1963,not reported,not reported
-TCGA-B0-5110,No,Stage I,"Kidney, NOS",2009,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,71,1938,no,no
-TCGA-AK-3443,No,Stage II,"Kidney, NOS",1423,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T2,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,45,1961,not reported,not reported
-TCGA-EU-5904,No,Stage I,"Kidney, NOS",551,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,T1,NX,M0,NA,NA,NA,NA,white,female,not reported,Alive,47,1962,not reported,not reported
-TCGA-B0-5399,No,Stage I,"Kidney, NOS",1411,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,T1,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Alive,46,1964,no,no
-TCGA-BP-4159,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T1,N0,M0,NA,NA,NA,NA,white,male,not reported,Dead,70,1932,not reported,not reported
-TCGA-B0-4819,No,Stage IV,"Kidney, NOS",183,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T3,NX,M1,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,60,1942,not reported,not reported
-TCGA-BP-4353,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,T1,N0,M0,NA,NA,NA,NA,white,male,not reported,Dead,61,1946,not reported,not reported
-TCGA-B0-5104,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,90,1912,not reported,not reported
-TCGA-DV-5569,Not Reported,Stage I,"Kidney, NOS",355,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2009,T1,NX,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,29,1980,not reported,not reported
-TCGA-B0-4827,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T3,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Dead,77,1925,not reported,yes
-TCGA-B0-5095,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,T3,N0,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,81,1927,not reported,not reported
-TCGA-BP-4330,No,Stage III,"Kidney, NOS",1888,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,T3,N0,M0,NA,NA,NA,NA,black or african american,female,hispanic or latino,Alive,60,1942,not reported,not reported
-TCGA-A3-3370,No,Stage I,"Kidney, NOS",2274,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,T1,N0,M0,NA,NA,NA,NA,white,female,not hispanic or latino,Alive,48,1958,no,no
-TCGA-B0-4815,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2001,T3,NX,M0,NA,NA,NA,NA,white,male,not hispanic or latino,Dead,65,1936,not reported,not reported
-TCGA-G6-A8L7,No,Stage I,"Kidney, NOS",2133,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,T1,N0,MX,MX,2.191780821917808,40,40,black or african american,female,not hispanic or latino,Alive,81,1927,no,no
+patient_id,synchronous_malignancy,ajcc_pathologic_stage,tissue_or_organ_of_origin,days_to_last_follow_up,primary_diagnosis,updated_datetime,prior_malignancy,year_of_diagnosis,prior_treatment,ajcc_pathologic_t,morphology,ajcc_pathologic_n,ajcc_pathologic_m,icd_10_code,ajcc_clinical_m,race,gender,ethnicity,vital_status,age,year_of_birth,pharmaceutical_treatment_or_therapy,radiation_treatment_or_therapy
+TCGA-CW-5584,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,N1,M0,C64.9,NA,white,male,not hispanic or latino,Dead,74,1929,no,no
+TCGA-B0-5108,No,Stage III,"Kidney, NOS",1782,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,54,1955,no,no
+TCGA-CZ-5984,No,Stage I,"Kidney, NOS",2067,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,51,1954,not reported,not reported
+TCGA-CJ-4871,No,Stage IV,"Kidney, NOS",2423,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Alive,63,1941,yes,yes
+TCGA-CJ-4643,No,Stage II,"Kidney, NOS",1793,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T2,8310/3,N0,M0,C64.9,NA,white,female,hispanic or latino,Alive,67,1938,not reported,not reported
+TCGA-A3-3382,No,Stage I,"Kidney, NOS",574,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,69,1938,not reported,not reported
+TCGA-DV-5574,Not Reported,Stage I,"Kidney, NOS",2016,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,37,1971,no,no
+TCGA-B0-4690,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T4,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Dead,65,1943,not reported,not reported
+TCGA-CJ-5683,No,Stage I,"Kidney, NOS",1889,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,78,1926,no,no
+TCGA-DV-5566,Not Reported,Stage I,"Kidney, NOS",1398,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,67,1940,not reported,not reported
+TCGA-B4-5834,No,Stage I,"Kidney, NOS",38,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,59,1951,no,no
+TCGA-BP-5195,No,Stage I,"Kidney, NOS",749,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,75,1933,not reported,not reported
+TCGA-B8-5165,No,Stage I,"Kidney, NOS",737,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,43,1967,no,no
+TCGA-B0-4841,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,63,1941,yes,yes
+TCGA-BP-4174,No,Stage II,"Kidney, NOS",1879,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,49,1955,not reported,not reported
+TCGA-CJ-4905,No,Stage I,"Kidney, NOS",1496,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,62,1944,no,no
+TCGA-A3-3376,No,Stage I,"Kidney, NOS",1070,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,N0,M0,C64.9,NA,black or african american,male,not hispanic or latino,Dead,51,1955,no,no
+TCGA-B8-A8YJ,No,Stage I,"Kidney, NOS",431,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2013,No,T1,8310/3,NX,NA,C64.9,M0,black or african american,female,not reported,Alive,60,1953,no,no
+TCGA-AK-3455,Not Reported,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T3,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Dead,71,1936,not reported,not reported
+TCGA-BP-4347,No,Stage III,"Kidney, NOS",1367,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,74,1932,not reported,not reported
+TCGA-B0-5703,No,Stage I,"Kidney, NOS",2246,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,73,1936,no,no
+TCGA-AK-3434,No,Stage I,"Kidney, NOS",2087,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,72,1932,not reported,not reported
+TCGA-AK-3436,No,Stage IV,"Kidney, NOS",3331,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T2,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Alive,40,1965,yes,no
+TCGA-B0-4700,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T4,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,60,1944,not reported,not reported
+TCGA-BP-4973,No,Stage III,"Kidney, NOS",1384,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,47,1959,not reported,not reported
+TCGA-DV-A4VZ,No,Stage I,"Kidney, NOS",365,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,MX,C64.9,MX,black or african american,male,not hispanic or latino,Alive,53,1954,no,no
+TCGA-B4-5836,No,Stage I,"Kidney, NOS",141,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,61,1949,no,no
+TCGA-CJ-4888,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,59,1946,yes,no
+TCGA-B0-5695,Not Reported,Stage I,"Kidney, NOS",2150,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,61,1946,no,no
+TCGA-BP-4989,No,Stage III,"Kidney, NOS",118,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,58,1949,not reported,not reported
+TCGA-A3-A8OW,No,Stage III,"Kidney, NOS",323,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2011,No,T3,8310/3,NX,MX,C64.9,M0,black or african american,male,not hispanic or latino,Alive,37,1974,no,no
+TCGA-CJ-4893,No,Stage I,"Kidney, NOS",750,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,76,1929,no,no
+TCGA-CJ-4900,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,Yes,T4,8310/3,N1,M1,C64.9,NA,white,female,not hispanic or latino,Dead,69,1937,yes,no
+TCGA-CZ-5985,No,Stage II,"Kidney, NOS",1997,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,58,1948,not reported,not reported
+TCGA-CZ-5451,No,Stage II,"Kidney, NOS",1929,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,74,1932,not reported,not reported
+TCGA-BP-4972,No,Stage III,"Kidney, NOS",1502,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,43,1963,not reported,not reported
+TCGA-CZ-5469,No,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,41,1966,yes,yes
+TCGA-A3-3387,No,Stage I,"Kidney, NOS",617,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,49,1957,not reported,not reported
+TCGA-BP-4758,No,Stage I,"Kidney, NOS",2208,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,40,1964,not reported,not reported
+TCGA-CJ-5684,No,Stage III,"Kidney, NOS",2231,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,61,1944,no,no
+TCGA-CW-5590,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,51,1953,yes,no
+TCGA-BP-4177,No,Stage I,"Kidney, NOS",1670,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,65,1940,not reported,not reported
+TCGA-CZ-5982,No,Stage I,"Kidney, NOS",2439,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,59,1946,not reported,not reported
+TCGA-BP-4774,No,Stage I,"Kidney, NOS",1885,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,57,1948,not reported,not reported
+TCGA-A3-3331,No,Stage I,"Kidney, NOS",1257,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,86,1919,not reported,not reported
+TCGA-CZ-5989,No,Stage II,"Kidney, NOS",1905,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,60,1946,not reported,not reported
+TCGA-BP-4798,No,NA,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,N0,M1,C64.9,NA,white,male,not reported,Dead,74,1933,no,no
+TCGA-B2-5641,No,Stage I,"Kidney, NOS",656,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,79,1931,no,no
+TCGA-B0-5109,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,No,T3,8310/3,N1,M0,C64.9,NA,white,male,not hispanic or latino,Dead,69,1940,no,no
+TCGA-BP-4801,No,Stage I,"Kidney, NOS",1124,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,57,1950,not reported,not reported
+TCGA-B8-5552,No,Stage I,"Kidney, NOS",1046,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,41,1969,no,no
+TCGA-CZ-4861,No,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,Yes,T2,8310/3,NX,M0,C64.9,NA,white,male,not reported,Dead,63,1942,no,no
+TCGA-CJ-4912,No,Stage II,"Kidney, NOS",1657,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T2,8310/3,NX,M0,C64.9,NA,white,male,hispanic or latino,Alive,61,1945,no,no
+TCGA-B0-4821,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T3,8310/3,N0,M0,C64.9,NA,asian,female,not hispanic or latino,Dead,68,1934,not reported,not reported
+TCGA-CZ-4866,No,Stage I,"Kidney, NOS",3267,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,79,1927,not reported,not reported
+TCGA-B8-5159,No,Stage I,"Kidney, NOS",722,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,61,1949,no,no
+TCGA-DV-5567,Not Reported,Stage I,"Kidney, NOS",2004,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,No,T1,8310/3,NX,M0,C64.9,NA,black or african american,female,not hispanic or latino,Alive,40,1968,no,no
+TCGA-B0-4834,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,49,1954,not reported,not reported
+TCGA-CZ-4858,No,Stage II,"Kidney, NOS",1943,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T2,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,39,1966,yes,no
+TCGA-BP-4987,No,Stage I,"Kidney, NOS",1124,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,asian,female,not reported,Alive,41,1965,not reported,not reported
+TCGA-B2-4102,No,Stage I,"Kidney, NOS",952,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,61,1949,no,no
+TCGA-B0-5690,No,Stage I,"Kidney, NOS",3392,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,53,1951,no,no
+TCGA-BP-5181,Not Reported,Stage I,"Kidney, NOS",1495,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,58,1948,not reported,not reported
+TCGA-AK-3429,No,Stage II,"Kidney, NOS",3328,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,54,1950,no,no
+TCGA-CZ-5465,No,Stage III,"Kidney, NOS",1446,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,NX,M0,C64.9,NA,not reported,female,not reported,Dead,76,1931,not reported,not reported
+TCGA-A3-3328,Not Reported,Stage I,"Kidney, NOS",1385,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,79,1928,no,no
+TCGA-BP-5006,Not Reported,Stage I,"Kidney, NOS",840,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,61,1946,not reported,not reported
+TCGA-CZ-5467,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,86,1921,no,no
+TCGA-BP-4995,Not Reported,Stage I,"Kidney, NOS",1371,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,68,1939,not reported,not reported
+TCGA-BP-4164,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T3,8310/3,NX,M0,C64.9,NA,white,female,not reported,Dead,51,1951,not reported,not reported
+TCGA-B0-5710,No,Stage I,"Kidney, NOS",2430,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,57,1951,no,no
+TCGA-CZ-5454,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T2,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Dead,63,1943,yes,no
+TCGA-B0-5116,No,Stage III,"Kidney, NOS",1274,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,52,1958,no,yes
+TCGA-AK-3445,No,Stage III,"Kidney, NOS",2392,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,69,1937,no,no
+TCGA-CZ-5463,No,Stage II,"Kidney, NOS",662,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T2,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,76,1931,not reported,not reported
+TCGA-BP-4963,No,Stage I,"Kidney, NOS",1834,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,63,1942,not reported,not reported
+TCGA-BP-4770,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T4,8310/3,N0,M0,C64.9,NA,white,female,not reported,Dead,73,1932,yes,yes
+TCGA-BP-5173,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Dead,75,1929,not reported,not reported
+TCGA-CJ-4887,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,48,1957,yes,no
+TCGA-AK-3426,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,N1,M0,C64.9,NA,white,male,not hispanic or latino,Dead,37,1967,yes,yes
+TCGA-CW-6088,No,Stage I,"Kidney, NOS",3222,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,60,1943,no,no
+TCGA-CZ-5470,No,Stage II,"Kidney, NOS",386,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T2,8310/3,N0,M0,C64.9,NA,not reported,female,not reported,Alive,72,1936,not reported,not reported
+TCGA-BP-4759,No,Stage I,"Kidney, NOS",2372,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,50,1954,not reported,not reported
+TCGA-B0-5713,No,Stage III,"Kidney, NOS",2782,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,75,1931,no,no
+TCGA-B8-4146,No,Stage I,"Kidney, NOS",511,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,41,1968,no,no
+TCGA-BP-5007,No,Stage II,"Kidney, NOS",1140,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,45,1962,not reported,not reported
+TCGA-B0-5699,No,Stage I,"Kidney, NOS",3841,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,53,1950,no,no
+TCGA-BP-4340,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not reported,Dead,70,1933,not reported,not reported
+TCGA-BP-4986,Not Reported,Stage I,"Kidney, NOS",785,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,Yes,T1,8310/3,N0,M0,C64.9,NA,white,male,hispanic or latino,Alive,75,1931,not reported,not reported
+TCGA-A3-3316,No,Stage II,"Kidney, NOS",1493,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T2,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,57,1948,not reported,not reported
+TCGA-B8-A54I,No,Stage I,"Kidney, NOS",150,"Renal cell carcinoma, NOS",2019-08-08,no,2012,No,T1,8312/3,NX,MX,C64.9,M0,black or african american,male,not hispanic or latino,Alive,48,1964,no,no
+TCGA-BP-4960,No,Stage II,"Kidney, NOS",2172,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,46,1958,not reported,not reported
+TCGA-B4-5377,No,Stage IV,"Kidney, NOS",365,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,N0,M1,C64.9,NA,white,female,not hispanic or latino,Alive,68,1942,no,no
+TCGA-CJ-4641,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,NX,M1,C64.9,NA,white,female,not hispanic or latino,Dead,55,1950,yes,no
+TCGA-CJ-4891,Not Reported,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,57,1948,no,no
+TCGA-CJ-5677,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M1,C64.9,NA,white,female,not hispanic or latino,Dead,54,1950,yes,no
+TCGA-A3-3359,Not Reported,Stage I,"Kidney, NOS",2504,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,82,1923,no,no
+TCGA-BP-5199,Not Reported,Stage II,"Kidney, NOS",1355,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,58,1948,not reported,not reported
+TCGA-B8-5163,No,Stage III,"Kidney, NOS",822,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,63,1947,no,no
+TCGA-BP-5004,No,Stage I,"Kidney, NOS",1126,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,53,1954,not reported,not reported
+TCGA-BP-4351,No,Stage III,"Kidney, NOS",970,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not reported,Alive,51,1955,no,no
+TCGA-CJ-4640,No,Stage III,"Kidney, NOS",3480,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,N0,M0,C64.9,NA,white,male,hispanic or latino,Alive,49,1955,no,no
+TCGA-B0-4813,No,Stage III,"Kidney, NOS",18,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2001,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,68,1933,not reported,not reported
+TCGA-B8-5162,Not Reported,Stage II,"Kidney, NOS",36,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2010,Yes,T2,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,62,1948,not reported,not reported
+TCGA-BP-4974,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,N0,M1,C64.9,NA,white,male,not reported,Dead,58,1948,yes,no
+TCGA-BP-5001,No,Stage I,"Kidney, NOS",1177,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,43,1964,not reported,not reported
+TCGA-AK-3460,No,Stage I,"Kidney, NOS",2508,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,58,1949,no,no
+TCGA-BP-4354,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,Yes,T4,8310/3,N1,M1,C64.9,NA,white,male,not reported,Dead,40,1966,yes,yes
+TCGA-CZ-5460,No,Stage IV,"Kidney, NOS",2873,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Alive,55,1951,not reported,not reported
+TCGA-BP-4964,No,Stage I,"Kidney, NOS",1862,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not reported,Alive,54,1951,not reported,not reported
+TCGA-BP-4769,No,Stage I,"Kidney, NOS",1876,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,63,1942,not reported,not reported
+TCGA-BP-4797,No,Stage III,"Kidney, NOS",1107,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,34,1973,no,no
+TCGA-T7-A92I,No,Stage I,"Kidney, NOS",356,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2013,No,T1,8310/3,NX,MX,C64.9,MX,black or african american,female,not hispanic or latino,Alive,47,1966,no,no
+TCGA-B0-5697,No,Stage I,"Kidney, NOS",2630,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,50,1957,no,no
+TCGA-CJ-4876,No,Stage II,"Kidney, NOS",1955,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,N0,M0,C64.9,NA,white,male,hispanic or latino,Alive,57,1947,no,no
+TCGA-BP-4807,Not Reported,Stage I,"Kidney, NOS",211,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,42,1966,not reported,not reported
+TCGA-A3-3378,No,Stage I,"Kidney, NOS",630,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,60,1946,not reported,not reported
+TCGA-AS-3777,No,Stage I,"Kidney, NOS",1238,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,63,1946,not reported,not reported
+TCGA-B8-4620,No,Stage III,"Kidney, NOS",777,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,70,1940,no,no
+TCGA-A3-3323,No,Stage I,"Kidney, NOS",1106,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,53,1953,not reported,not reported
+TCGA-B0-4698,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T4,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,75,1928,not reported,not reported
+TCGA-BP-4325,No,Stage I,"Kidney, NOS",2964,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2001,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not reported,Alive,64,1937,not reported,not reported
+TCGA-BP-4167,No,Stage III,"Kidney, NOS",2718,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,59,1944,not reported,not reported
+TCGA-BP-4163,No,Stage III,"Kidney, NOS",2839,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not reported,Alive,60,1942,not reported,not reported
+TCGA-AK-3447,No,Stage II,"Kidney, NOS",1217,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T2,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,83,1923,not reported,not reported
+TCGA-B0-5106,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,64,1940,not reported,not reported
+TCGA-CJ-5689,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,male,hispanic or latino,Dead,90,1915,no,no
+TCGA-B0-5102,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,1999,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Dead,74,1925,no,no
+TCGA-B0-5084,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,N1,M1,C64.9,NA,white,male,not hispanic or latino,Dead,33,1973,yes,not reported
+TCGA-CZ-5452,No,Stage II,"Kidney, NOS",1789,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,69,1937,not reported,not reported
+TCGA-A3-A6NI,No,Stage I,"Kidney, NOS",1018,"Renal cell carcinoma, NOS",2019-08-08,no,2011,No,T1,8312/3,NX,MX,C64.9,M0,black or african american,male,not hispanic or latino,Alive,47,1964,no,no
+TCGA-CJ-4904,Not Reported,Stage IV,"Kidney, NOS",3302,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,No,T3,8310/3,N0,M1,C64.9,NA,white,female,not hispanic or latino,Alive,60,1946,yes,no
+TCGA-B2-5636,No,Stage I,"Kidney, NOS",919,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,79,1931,no,no
+TCGA-A3-3343,Not Reported,Stage II,"Kidney, NOS",945,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,79,1926,not reported,not reported
+TCGA-3Z-A93Z,No,Stage I,"Kidney, NOS",385,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2013,No,T1,8310/3,N0,M0,C64.9,M0,black or african american,male,not hispanic or latino,Alive,69,1944,no,no
+TCGA-CZ-5457,No,Stage III,"Kidney, NOS",2754,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,62,1944,no,no
+TCGA-DV-A4VX,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T3,8310/3,N0,MX,C64.9,M1,black or african american,male,not hispanic or latino,Dead,59,1949,yes,no
+TCGA-BP-5200,No,Stage II,"Kidney, NOS",1063,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T2,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,44,1964,not reported,not reported
+TCGA-BP-5187,No,Stage I,"Kidney, NOS",406,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,54,1953,not reported,not reported
+TCGA-CZ-5988,No,Stage I,"Kidney, NOS",693,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,38,1968,no,no
+TCGA-CJ-6031,No,Stage I,"Kidney, NOS",1906,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,54,1949,not reported,not reported
+TCGA-A3-A8OU,No,Stage I,"Kidney, NOS",0,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2011,No,T1,8310/3,NX,MX,C64.9,M0,black or african american,female,not hispanic or latino,Alive,74,1937,not reported,not reported
+TCGA-CJ-4635,No,Stage I,"Kidney, NOS",1416,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,hispanic or latino,Alive,48,1956,not reported,not reported
+TCGA-BP-4975,No,Stage I,"Kidney, NOS",1433,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,40,1966,not reported,not reported
+TCGA-CZ-4862,Not Reported,Stage I,"Kidney, NOS",3271,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,46,1960,not reported,not reported
+TCGA-BP-4765,No,Stage I,"Kidney, NOS",2184,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,43,1961,not reported,not reported
+TCGA-CJ-4913,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Dead,45,1961,yes,yes
+TCGA-CZ-5987,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,60,1946,no,yes
+TCGA-CW-6096,No,Stage I,"Kidney, NOS",2701,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,44,1960,no,no
+TCGA-A3-3306,No,Stage I,"Kidney, NOS",1120,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,67,1938,not reported,not reported
+TCGA-B0-4818,No,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T2,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Dead,68,1934,not reported,not reported
+TCGA-BP-4349,No,Stage I,"Kidney, NOS",372,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,68,1938,not reported,not reported
+TCGA-CW-6093,Not Reported,Stage I,"Kidney, NOS",3146,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,73,1931,no,no
+TCGA-CJ-4889,No,Stage I,"Kidney, NOS",1946,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,female,hispanic or latino,Alive,63,1942,no,no
+TCGA-B0-4844,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,60,1944,not reported,yes
+TCGA-AK-3451,No,Stage II,"Kidney, NOS",2868,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,48,1958,no,no
+TCGA-B0-5120,No,Stage I,"Kidney, NOS",1169,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,72,1938,no,no
+TCGA-BP-4766,No,Stage I,"Kidney, NOS",1462,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,43,1961,not reported,not reported
+TCGA-BP-4962,No,Stage II,"Kidney, NOS",1785,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T2,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,58,1947,not reported,not reported
+TCGA-B2-A4SR,No,Stage II,"Kidney, NOS",507,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2012,No,T2,8310/3,NX,M0,C64.9,M0,black or african american,male,not hispanic or latino,Alive,61,1951,no,yes
+TCGA-BP-5000,No,Stage I,"Kidney, NOS",563,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,40,1967,not reported,not reported
+TCGA-CZ-4856,Not Reported,Stage I,"Kidney, NOS",18,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,62,1943,not reported,not reported
+TCGA-MM-A84U,Yes,Stage I,"Kidney, NOS",700,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2013,No,T1,8310/3,NX,MX,C64.9,MX,black or african american,female,not hispanic or latino,Alive,58,1955,no,no
+TCGA-AK-3453,No,Stage II,"Kidney, NOS",2531,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T2,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,58,1948,yes,no
+TCGA-B8-A54K,No,Stage I,"Kidney, NOS",469,"Renal cell carcinoma, NOS",2019-08-08,yes,2012,No,T1,8312/3,NX,MX,C64.9,M0,black or african american,male,not hispanic or latino,Alive,61,1951,no,no
+TCGA-CJ-4872,No,Stage I,"Kidney, NOS",1435,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,51,1953,no,no
+TCGA-B0-4816,No,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,49,1953,not reported,not reported
+TCGA-DV-5576,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,No,T1,8310/3,NX,M0,C64.9,NA,black or african american,female,not hispanic or latino,Dead,55,1953,not reported,not reported
+TCGA-B0-5119,No,Stage I,"Kidney, NOS",1552,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,61,1949,no,no
+TCGA-MM-A564,No,Stage II,"Kidney, NOS",607,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2012,No,T2,8310/3,NX,MX,C64.9,MX,black or african american,male,not hispanic or latino,Alive,68,1944,no,no
+TCGA-BP-4176,No,Stage I,"Kidney, NOS",1955,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,64,1941,not reported,not reported
+TCGA-BP-4790,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Dead,76,1931,no,no
+TCGA-CJ-4901,No,Stage III,"Kidney, NOS",1450,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,47,1959,no,no
+TCGA-AK-3430,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,N1,M0,C64.9,NA,white,male,not hispanic or latino,Dead,61,1943,not reported,not reported
+TCGA-BP-5192,No,Stage I,"Kidney, NOS",714,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,59,1948,not reported,not reported
+TCGA-B0-5080,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Dead,63,1942,yes,yes
+TCGA-G6-A8L8,No,Stage I,"Kidney, NOS",474,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T1,8310/3,NX,MX,C64.9,MX,black or african american,female,not hispanic or latino,Dead,62,1946,no,no
+TCGA-AK-3433,No,Stage II,"Kidney, NOS",3409,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,48,1956,no,no
+TCGA-BP-4965,Not Reported,Stage I,"Kidney, NOS",1871,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,Yes,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,46,1959,not reported,not reported
+TCGA-CJ-4897,No,Stage III,"Kidney, NOS",3341,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,NX,M0,C64.9,NA,white,female,hispanic or latino,Alive,79,1926,no,no
+TCGA-B8-5164,No,Stage III,"Kidney, NOS",26,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,65,1945,not reported,not reported
+TCGA-CZ-5459,No,Stage III,"Kidney, NOS",1683,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,63,1943,no,no
+TCGA-B0-5099,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T3,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Dead,88,1914,not reported,not reported
+TCGA-BP-4334,No,Stage III,"Kidney, NOS",645,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not reported,Dead,56,1947,yes,yes
+TCGA-BP-4343,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not reported,Dead,64,1939,yes,yes
+TCGA-A3-A8OX,Yes,Stage I,"Kidney, NOS",0,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2012,No,T1,8310/3,NX,MX,C64.9,M0,black or african american,female,not hispanic or latino,Alive,65,1947,not reported,not reported
+TCGA-B0-4822,No,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T2,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,78,1924,not reported,not reported
+TCGA-BP-4985,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not reported,Dead,72,1934,yes,yes
+TCGA-A3-3324,No,Stage I,"Kidney, NOS",1186,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,51,1955,not reported,not reported
+TCGA-BP-4795,Not Reported,Stage I,"Kidney, NOS",620,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not reported,Alive,74,1933,no,no
+TCGA-B8-5545,No,Stage I,"Kidney, NOS",1525,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,black or african american,male,not hispanic or latino,Alive,42,1968,no,no
+TCGA-GK-A6C7,No,Stage I,"Kidney, NOS",61,"Renal cell carcinoma, NOS",2019-08-08,no,2012,No,T1,8312/3,NX,MX,C64.9,NA,black or african american,female,not hispanic or latino,Alive,76,1936,no,no
+TCGA-CJ-4885,No,Stage IV,"Kidney, NOS",3451,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Alive,64,1941,no,no
+TCGA-B0-4688,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T4,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Dead,46,1962,not reported,not reported
+TCGA-B0-5088,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,53,1953,not reported,not reported
+TCGA-BP-4162,No,Stage I,"Kidney, NOS",3074,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not reported,Alive,65,1937,not reported,not reported
+TCGA-BP-5174,No,Stage I,"Kidney, NOS",2257,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,45,1959,not reported,not reported
+TCGA-BP-4352,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,N0,M1,C64.9,NA,white,female,not hispanic or latino,Dead,74,1933,yes,yes
+TCGA-B0-5097,No,Stage III,"Kidney, NOS",665,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,59,1951,no,yes
+TCGA-B0-5077,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,77,1928,not reported,not reported
+TCGA-B0-4843,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,57,1947,not reported,not reported
+TCGA-CW-5585,No,Stage IV,"Kidney, NOS",2609,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Alive,51,1952,yes,no
+TCGA-A3-A6NN,No,Stage I,"Kidney, NOS",3,"Renal cell carcinoma, NOS",2019-08-08,no,2012,No,T1,8312/3,NX,MX,C64.9,M0,black or african american,male,not hispanic or latino,Alive,78,1934,no,no
+TCGA-CJ-4638,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,N1,M1,C64.9,NA,white,female,not hispanic or latino,Dead,46,1958,yes,yes
+TCGA-CJ-5686,No,Stage I,"Kidney, NOS",2038,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,59,1946,no,no
+TCGA-CJ-4869,No,Stage III,"Kidney, NOS",2554,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,N1,M0,C64.9,NA,white,male,hispanic or latino,Alive,49,1955,yes,no
+TCGA-AK-3450,Not Reported,Stage I,"Kidney, NOS",1508,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,85,1921,not reported,not reported
+TCGA-B8-5551,No,Stage I,"Kidney, NOS",16,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,black or african american,female,not hispanic or latino,Alive,65,1945,not reported,not reported
+TCGA-B2-3923,No,Stage II,"Kidney, NOS",992,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T2,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,59,1951,no,no
+TCGA-AK-3461,No,Stage I,"Kidney, NOS",2217,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,72,1935,no,no
+TCGA-B8-A54J,No,Stage II,"Kidney, NOS",528,"Renal cell carcinoma, NOS",2019-08-08,no,2012,No,T2,8312/3,NX,MX,C64.9,M0,black or african american,male,not hispanic or latino,Alive,60,1952,no,no
+TCGA-B0-5707,No,Stage I,"Kidney, NOS",3744,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,39,1965,no,no
+TCGA-A3-3374,No,Stage I,"Kidney, NOS",1314,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,N0,M0,C64.9,NA,black or african american,female,not hispanic or latino,Alive,51,1954,not reported,not reported
+TCGA-A3-3349,No,Stage I,"Kidney, NOS",1385,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,34,1972,not reported,not reported
+TCGA-B0-4848,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,54,1950,not reported,not reported
+TCGA-A3-3311,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,not reported,male,not reported,Dead,57,1948,not reported,not reported
+TCGA-DV-5575,No,Stage I,"Kidney, NOS",1729,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,52,1955,not reported,not reported
+TCGA-A3-3313,No,Stage I,"Kidney, NOS",735,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,N0,M0,C64.9,NA,black or african american,male,not reported,Dead,59,1946,not reported,not reported
+TCGA-B0-5694,Not Reported,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,71,1937,yes,yes
+TCGA-A3-3372,No,Stage III,"Kidney, NOS",735,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,64,1943,not reported,not reported
+TCGA-B0-4694,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,72,1937,not reported,not reported
+TCGA-B0-4696,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2001,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,58,1943,yes,no
+TCGA-A3-3365,No,Stage I,"Kidney, NOS",873,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,46,1960,not reported,not reported
+TCGA-DV-5568,Not Reported,Stage I,"Kidney, NOS",370,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2009,Yes,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,26,1983,not reported,not reported
+TCGA-B8-4148,No,Stage I,"Kidney, NOS",1520,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,63,1946,no,no
+TCGA-B0-4697,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,NX,M1,C64.9,NA,white,female,not hispanic or latino,Dead,46,1957,not reported,not reported
+TCGA-BP-4967,No,Stage III,"Kidney, NOS",205,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,76,1929,not reported,not reported
+TCGA-B2-4099,No,Stage I,"Kidney, NOS",972,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,83,1927,no,no
+TCGA-B0-4842,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,73,1931,yes,no
+TCGA-AK-3425,Not Reported,Stage I,"Kidney, NOS",3343,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2000,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,68,1932,not reported,not reported
+TCGA-B4-5835,No,Stage I,"Kidney, NOS",16,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,64,1946,no,no
+TCGA-BP-4158,Not Reported,Stage I,"Kidney, NOS",3377,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2001,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,69,1932,not reported,not reported
+TCGA-B0-5696,No,Stage III,"Kidney, NOS",2609,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,N0,M0,C64.9,NA,white,male,hispanic or latino,Alive,69,1938,no,no
+TCGA-BP-4968,No,Stage I,"Kidney, NOS",1746,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,40,1966,not reported,not reported
+TCGA-A3-3319,No,Stage I,"Kidney, NOS",1130,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,70,1936,not reported,not reported
+TCGA-A3-3352,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,74,1931,no,no
+TCGA-CJ-4868,No,Stage IV,"Kidney, NOS",646,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Dead,42,1963,yes,yes
+TCGA-BP-5189,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,60,1947,yes,no
+TCGA-AK-3444,No,Stage I,"Kidney, NOS",1471,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,80,1926,not reported,not reported
+TCGA-CJ-4923,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M1,C64.9,NA,white,female,not hispanic or latino,Dead,63,1941,yes,no
+TCGA-BP-5175,No,Stage I,"Kidney, NOS",932,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,60,1944,not reported,not reported
+TCGA-CJ-4918,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Dead,64,1941,yes,no
+TCGA-B0-4706,No,Stage III,"Kidney, NOS",26,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,61,1946,not reported,not reported
+TCGA-BP-4761,No,Stage III,"Kidney, NOS",182,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,N1,M0,C64.9,NA,white,male,not reported,Alive,57,1947,not reported,not reported
+TCGA-G6-A8L6,No,Stage IV,"Kidney, NOS",305,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2013,No,T2,8310/3,NX,MX,C64.9,M1,black or african american,male,not hispanic or latino,Dead,55,1958,yes,no
+TCGA-EU-5907,No,Stage III,"Kidney, NOS",127,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,81,1929,not reported,not reported
+TCGA-AK-3454,Not Reported,Stage I,"Kidney, NOS",874,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,84,1922,not reported,not reported
+TCGA-CJ-5681,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,NX,M1,C64.9,NA,white,female,not hispanic or latino,Dead,44,1959,yes,yes
+TCGA-A3-3373,No,Stage I,"Kidney, NOS",1621,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,54,1953,no,no
+TCGA-CW-5581,No,Stage I,"Kidney, NOS",2799,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,44,1959,not reported,not reported
+TCGA-CJ-4636,Not Reported,Stage III,"Kidney, NOS",1924,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2004,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,51,1953,not reported,not reported
+TCGA-BP-4762,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Dead,42,1962,not reported,not reported
+TCGA-A3-3326,No,Stage I,"Kidney, NOS",1137,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,47,1959,not reported,not reported
+TCGA-CZ-4854,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,68,1937,not reported,not reported
+TCGA-BP-5186,No,Stage I,"Kidney, NOS",693,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not reported,Alive,50,1957,not reported,not reported
+TCGA-BP-5170,No,Stage I,"Kidney, NOS",2412,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,55,1949,not reported,not reported
+TCGA-CZ-4865,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,Yes,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Dead,70,1936,no,no
+TCGA-CJ-5676,No,Stage III,"Kidney, NOS",4067,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M0,C64.9,NA,white,male,hispanic or latino,Alive,47,1957,yes,yes
+TCGA-BP-4771,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,Yes,T3,8310/3,N0,M1,C64.9,NA,white,male,not reported,Dead,62,1943,no,yes
+TCGA-BP-5182,No,Stage I,"Kidney, NOS",1165,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,56,1951,not reported,not reported
+TCGA-B0-5691,Not Reported,Stage I,"Kidney, NOS",3431,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2002,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,66,1936,yes,yes
+TCGA-B0-4837,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,63,1940,yes,not reported
+TCGA-B0-5812,Not Reported,Stage I,"Kidney, NOS",3834,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2003,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,53,1950,no,no
+TCGA-B8-A54H,Yes,Stage II,"Kidney, NOS",256,"Renal cell carcinoma, NOS",2019-08-08,no,2012,No,T2,8312/3,N0,MX,C64.9,M0,black or african american,female,not reported,Alive,69,1943,no,no
+TCGA-A3-3347,No,Stage III,"Kidney, NOS",1610,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,N1,M0,C64.9,NA,white,female,not hispanic or latino,Dead,76,1929,no,no
+TCGA-AK-3431,No,Stage II,"Kidney, NOS",1853,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Dead,62,1942,no,no
+TCGA-BP-4803,No,Stage III,"Kidney, NOS",204,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,79,1929,not reported,not reported
+TCGA-CZ-5461,No,Stage IV,"Kidney, NOS",330,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,52,1954,yes,yes
+TCGA-CJ-4907,No,Stage III,"Kidney, NOS",1499,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,58,1948,no,no
+TCGA-BP-4331,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2002,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,52,1950,not reported,not reported
+TCGA-BP-4969,No,Stage I,"Kidney, NOS",1794,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,63,1943,not reported,not reported
+TCGA-B0-5706,No,Stage II,"Kidney, NOS",3205,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,45,1959,no,no
+TCGA-B0-5098,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,1998,No,T1,8310/3,NX,M0,C64.9,NA,black or african american,female,not hispanic or latino,Dead,53,1945,not reported,not reported
+TCGA-BP-4165,No,Stage I,"Kidney, NOS",3037,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not reported,Alive,64,1938,yes,yes
+TCGA-BP-4166,No,Stage III,"Kidney, NOS",13,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,69,1934,not reported,not reported
+TCGA-B0-4810,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2001,No,T3,8310/3,N1,M0,C64.9,NA,white,male,not hispanic or latino,Dead,47,1954,no,yes
+TCGA-CJ-4639,No,Stage II,"Kidney, NOS",3229,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,N0,M0,C64.9,NA,white,female,hispanic or latino,Alive,49,1955,no,no
+TCGA-BP-4169,No,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T2,8310/3,N0,M0,C64.9,NA,white,female,not reported,Dead,76,1927,yes,no
+TCGA-G6-A5PC,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2012,No,T1,8310/3,N0,M1,C64.9,M1,black or african american,female,not hispanic or latino,Dead,54,1958,yes,no
+TCGA-CJ-5679,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,73,1930,yes,yes
+TCGA-B0-4839,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,80,1923,not reported,not reported
+TCGA-B0-4814,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2001,No,T4,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Dead,58,1943,not reported,not reported
+TCGA-B2-3924,No,Stage I,"Kidney, NOS",1092,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,73,1937,no,no
+TCGA-B0-4710,No,Stage III,"Kidney, NOS",1755,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,75,1935,no,no
+TCGA-B0-5113,No,Stage III,"Kidney, NOS",1175,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,69,1941,no,no
+TCGA-CJ-6027,Not Reported,Stage I,"Kidney, NOS",1855,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2003,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,77,1926,no,no
+TCGA-EU-5905,No,Stage I,"Kidney, NOS",119,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,67,1943,not reported,not reported
+TCGA-CJ-4916,No,Stage III,"Kidney, NOS",1373,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,69,1938,no,no
+TCGA-BP-4173,No,Stage II,"Kidney, NOS",1893,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,47,1957,not reported,not reported
+TCGA-B0-5075,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,77,1928,not reported,not reported
+TCGA-B0-5115,No,Stage IV,"Kidney, NOS",1604,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,No,T2,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Alive,43,1966,yes,no
+TCGA-A3-3383,No,Stage I,"Kidney, NOS",861,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,52,1954,not reported,not reported
+TCGA-CJ-4890,No,Stage IV,"Kidney, NOS",3519,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Alive,72,1933,yes,no
+TCGA-B0-5081,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,79,1926,not reported,yes
+TCGA-BP-4338,No,Stage I,"Kidney, NOS",2859,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,43,1960,yes,no
+TCGA-CJ-5682,No,Stage IV,"Kidney, NOS",3736,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Alive,60,1944,no,yes
+TCGA-A3-3385,No,Stage I,"Kidney, NOS",1993,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,46,1961,no,no
+TCGA-BP-4760,Not Reported,Stage I,"Kidney, NOS",2361,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2004,No,T1,8310/3,NX,M0,C64.9,NA,black or african american,male,not hispanic or latino,Alive,69,1935,no,no
+TCGA-B0-4707,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,63,1945,not reported,not reported
+TCGA-A3-3357,No,Stage II,"Kidney, NOS",2688,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,62,1943,no,no
+TCGA-CW-6090,No,Stage I,"Kidney, NOS",2552,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,68,1935,not reported,not reported
+TCGA-B0-5700,No,Stage I,"Kidney, NOS",1790,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,77,1932,no,no
+TCGA-CJ-6033,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,N0,M1,C64.9,NA,white,female,not hispanic or latino,Dead,54,1950,yes,no
+TCGA-CJ-4884,No,Stage III,"Kidney, NOS",1759,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,72,1933,no,no
+TCGA-BP-4959,No,Stage I,"Kidney, NOS",2660,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,49,1954,not reported,not reported
+TCGA-BP-4787,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,N0,M1,C64.9,NA,white,female,not reported,Dead,59,1948,yes,no
+TCGA-A3-3320,No,Stage I,"Kidney, NOS",1508,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,52,1953,not reported,not reported
+TCGA-BP-4344,Not Reported,Stage I,"Kidney, NOS",1666,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,Yes,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,75,1931,not reported,not reported
+TCGA-B2-4098,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,NX,M0,C64.9,NA,black or african american,female,not hispanic or latino,Dead,72,1938,not reported,not reported
+TCGA-A3-A6NL,No,Stage I,"Kidney, NOS",689,"Renal cell carcinoma, NOS",2019-08-08,no,2012,No,T1,8312/3,NX,MX,C64.9,M0,black or african american,female,not hispanic or latino,Alive,49,1963,no,no
+TCGA-CJ-4873,No,Stage III,"Kidney, NOS",1776,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,85,1919,no,no
+TCGA-B8-A54F,No,Stage I,"Kidney, NOS",519,"Renal cell carcinoma, NOS",2019-08-08,no,2012,No,T1,8312/3,NX,MX,C64.9,M0,black or african american,female,not hispanic or latino,Alive,49,1963,no,no
+TCGA-BP-5201,Not Reported,Stage IV,"Kidney, NOS",951,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,No,T3,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Alive,63,1945,yes,no
+TCGA-B4-5378,No,Stage I,"Kidney, NOS",175,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,62,1948,no,no
+TCGA-CZ-5466,No,Stage III,"Kidney, NOS",685,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,NX,M0,C64.9,NA,not reported,male,not reported,Alive,67,1940,not reported,not reported
+TCGA-B0-4811,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2001,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,48,1953,yes,yes
+TCGA-CZ-5453,No,Stage II,"Kidney, NOS",25,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T2,8310/3,NX,M0,C64.9,NA,white,male,not reported,Dead,67,1939,not reported,not reported
+TCGA-BP-4346,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not reported,Dead,57,1949,not reported,not reported
+TCGA-CW-5589,No,Stage I,"Kidney, NOS",2378,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,52,1952,not reported,not reported
+TCGA-B8-5550,No,Stage III,"Kidney, NOS",1476,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,71,1939,yes,no
+TCGA-B2-5635,Not Reported,Stage I,"Kidney, NOS",755,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2010,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,74,1936,no,no
+TCGA-B8-A54E,No,Stage I,"Kidney, NOS",909,"Renal cell carcinoma, NOS",2019-08-08,no,2011,No,T1,8312/3,NX,MX,C64.9,M0,black or african american,female,hispanic or latino,Alive,62,1949,no,no
+TCGA-BP-4998,No,Stage I,"Kidney, NOS",932,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,asian,male,not reported,Alive,49,1958,not reported,not reported
+TCGA-BP-5194,No,Stage I,"Kidney, NOS",408,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,39,1969,not reported,not reported
+TCGA-CJ-5680,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,NX,M1,C64.9,NA,white,female,not hispanic or latino,Dead,65,1938,yes,yes
+TCGA-BP-4983,No,Stage III,"Kidney, NOS",1413,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M0,C64.9,NA,asian,female,not reported,Alive,67,1939,not reported,not reported
+TCGA-B0-5085,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,76,1929,not reported,not reported
+TCGA-B0-5400,No,Stage III,"Kidney, NOS",1733,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,59,1949,no,no
+TCGA-BP-4784,No,Stage I,"Kidney, NOS",1854,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,67,1938,no,no
+TCGA-A3-3363,No,Stage II,"Kidney, NOS",319,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T2,8310/3,N0,M0,C64.9,NA,asian,male,not reported,Alive,50,1956,not reported,not reported
+TCGA-B8-4621,Not Reported,Stage I,"Kidney, NOS",788,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2010,No,T1,8310/3,N0,M0,C64.9,NA,black or african american,male,not hispanic or latino,Alive,63,1947,no,no
+TCGA-EU-5906,No,Stage I,"Kidney, NOS",206,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,55,1955,not reported,not reported
+TCGA-A3-3367,No,Stage I,"Kidney, NOS",2270,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,72,1934,no,no
+TCGA-B0-4701,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,N0,M1,C64.9,NA,white,female,not hispanic or latino,Dead,66,1939,not reported,not reported
+TCGA-CJ-6030,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2003,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,65,1938,not reported,not reported
+TCGA-B0-5107,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T2,8310/3,N0,M1,C64.9,NA,white,female,not hispanic or latino,Dead,65,1942,yes,yes
+TCGA-CZ-5464,No,Stage IV,"Kidney, NOS",2128,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not reported,Alive,69,1938,not reported,not reported
+TCGA-BP-4329,No,Stage III,"Kidney, NOS",845,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not reported,Dead,75,1927,yes,yes
+TCGA-BP-4993,Not Reported,Stage I,"Kidney, NOS",177,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,58,1949,not reported,not reported
+TCGA-BP-5178,Not Reported,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2004,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not reported,Dead,71,1933,yes,no
+TCGA-CW-5583,No,Stage I,"Kidney, NOS",2489,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,51,1952,not reported,not reported
+TCGA-B4-5838,No,NA,"Kidney, NOS",166,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,N1,M0,C64.9,NA,white,male,not hispanic or latino,Alive,52,1958,no,no
+TCGA-B0-5121,No,Stage I,"Kidney, NOS",1485,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,56,1954,no,no
+TCGA-CJ-4920,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Dead,64,1940,no,no
+TCGA-B2-5639,No,Stage IV,"Kidney, NOS",417,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,Yes,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,46,1964,yes,yes
+TCGA-CW-5587,No,Stage III,"Kidney, NOS",2226,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,62,1941,no,no
+TCGA-CZ-5455,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,63,1943,not reported,not reported
+TCGA-B0-5702,No,Stage I,"Kidney, NOS",2172,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,71,1936,no,no
+TCGA-B0-5083,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,63,1942,not reported,not reported
+TCGA-B0-4718,No,Stage III,"Kidney, NOS",1778,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,57,1953,yes,no
+TCGA-B0-4852,No,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,78,1926,not reported,not reported
+TCGA-B4-5832,No,Stage III,"Kidney, NOS",155,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,65,1945,no,no
+TCGA-BP-4326,No,Stage I,"Kidney, NOS",1625,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not reported,Dead,53,1949,no,yes
+TCGA-CJ-4637,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,NX,M1,C64.9,NA,white,female,hispanic or latino,Dead,52,1952,yes,yes
+TCGA-CJ-4870,No,Stage III,"Kidney, NOS",1498,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M0,C64.9,NA,black or african american,female,not hispanic or latino,Alive,58,1946,not reported,not reported
+TCGA-B8-4619,No,Stage I,"Kidney, NOS",523,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,58,1952,no,no
+TCGA-CW-5588,No,Stage I,"Kidney, NOS",2017,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,78,1926,no,no
+TCGA-CJ-4878,No,Stage III,"Kidney, NOS",2186,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M0,C64.9,NA,white,female,hispanic or latino,Alive,71,1933,no,no
+TCGA-CZ-4864,No,Stage II,"Kidney, NOS",1315,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,86,1916,no,no
+TCGA-BP-4781,No,Stage I,"Kidney, NOS",2080,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,78,1927,no,no
+TCGA-CJ-4875,No,Stage IV,"Kidney, NOS",2353,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,67,1937,yes,yes
+TCGA-CJ-5678,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T2,8310/3,N0,M1,C64.9,NA,black or african american,male,not hispanic or latino,Dead,62,1941,yes,no
+TCGA-B8-5553,No,Stage I,"Kidney, NOS",435,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,67,1943,not reported,not reported
+TCGA-BP-4994,No,Stage I,"Kidney, NOS",1308,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,54,1953,not reported,not reported
+TCGA-CJ-4892,No,Stage I,"Kidney, NOS",1521,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,65,1940,no,no
+TCGA-BP-4170,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,N0,M0,C64.9,NA,white,female,hispanic or latino,Dead,72,1931,not reported,not reported
+TCGA-BP-4160,Not Reported,Stage III,"Kidney, NOS",2881,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2002,No,T3,8310/3,N0,M0,C64.9,NA,white,male,hispanic or latino,Alive,67,1935,not reported,not reported
+TCGA-B0-4847,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,60,1944,not reported,not reported
+TCGA-CJ-4634,No,Stage I,"Kidney, NOS",3498,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,60,1944,no,no
+TCGA-AS-3778,No,Stage I,"Kidney, NOS",43,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,35,1975,not reported,not reported
+TCGA-CZ-4853,No,Stage I,"Kidney, NOS",774,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,82,1923,not reported,not reported
+TCGA-CZ-5468,No,Stage IV,"Kidney, NOS",59,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,84,1923,no,no
+TCGA-CZ-5986,No,Stage I,"Kidney, NOS",373,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,61,1945,no,no
+TCGA-B0-5711,No,Stage III,"Kidney, NOS",3989,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,50,1954,no,no
+TCGA-CZ-4863,No,Stage III,"Kidney, NOS",1928,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,51,1955,no,no
+TCGA-CW-5580,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,NX,M1,C64.9,NA,white,female,not hispanic or latino,Dead,73,1930,yes,yes
+TCGA-BP-4345,No,Stage III,"Kidney, NOS",1516,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,62,1944,not reported,not reported
+TCGA-A3-3346,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Dead,68,1937,no,yes
+TCGA-A3-3358,Not Reported,Stage I,"Kidney, NOS",1307,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,57,1948,not reported,not reported
+TCGA-B0-5094,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T3,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Dead,62,1946,yes,yes
+TCGA-BP-4341,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not reported,Dead,67,1936,not reported,not reported
+TCGA-B8-4154,No,Stage I,"Kidney, NOS",1380,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,73,1937,no,no
+TCGA-B0-4713,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Dead,76,1934,not reported,not reported
+TCGA-BP-4768,No,Stage I,"Kidney, NOS",400,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not reported,Alive,72,1933,not reported,not reported
+TCGA-A3-3380,No,Stage I,"Kidney, NOS",567,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,N0,M0,C64.9,NA,not reported,male,hispanic or latino,Alive,54,1953,not reported,not reported
+TCGA-A3-3317,No,Stage II,"Kidney, NOS",1491,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T2,8310/3,N0,M0,C64.9,NA,not reported,male,not reported,Alive,67,1938,yes,no
+TCGA-BP-5177,No,Stage I,"Kidney, NOS",293,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,46,1958,not reported,not reported
+TCGA-B0-5701,No,Stage III,"Kidney, NOS",2461,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,65,1942,yes,no
+TCGA-BP-5198,No,Stage III,"Kidney, NOS",603,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,72,1936,not reported,not reported
+TCGA-CJ-4644,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,N0,M1,C64.9,NA,white,female,not hispanic or latino,Dead,48,1956,yes,yes
+TCGA-CJ-4899,No,Stage I,"Kidney, NOS",1528,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,asian,male,not hispanic or latino,Alive,42,1964,no,no
+TCGA-B8-A54D,No,Stage III,"Kidney, NOS",830,"Renal cell carcinoma, NOS",2019-08-08,no,2011,No,T3,8312/3,NX,MX,C64.9,M0,black or african american,male,not hispanic or latino,Alive,69,1942,no,no
+TCGA-CJ-4642,No,Stage II,"Kidney, NOS",3205,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,Yes,T2,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,47,1958,no,no
+TCGA-BP-5176,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Dead,78,1926,not reported,not reported
+TCGA-B0-4691,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,No,T2,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Dead,55,1954,not reported,not reported
+TCGA-CJ-5671,No,Stage I,"Kidney, NOS",3987,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,51,1953,no,no
+TCGA-A3-A6NJ,No,Stage I,"Kidney, NOS",468,"Renal cell carcinoma, NOS",2019-08-08,no,2012,No,T1,8312/3,NX,MX,C64.9,M0,black or african american,female,not hispanic or latino,Alive,57,1955,no,no
+TCGA-BP-4789,No,Stage I,"Kidney, NOS",1489,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,48,1959,no,no
+TCGA-A3-3325,Not Reported,Stage I,"Kidney, NOS",751,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,52,1954,no,no
+TCGA-B8-5549,No,Stage I,"Kidney, NOS",194,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,53,1957,no,no
+TCGA-BP-4782,No,Stage I,"Kidney, NOS",354,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,55,1950,no,no
+TCGA-BP-4999,Not Reported,Stage I,"Kidney, NOS",1266,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,56,1951,not reported,not reported
+TCGA-BP-4991,No,Stage I,"Kidney, NOS",1413,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,54,1953,not reported,not reported
+TCGA-BP-4988,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not reported,Dead,72,1935,not reported,not reported
+TCGA-CJ-4908,No,Stage I,"Kidney, NOS",1531,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,38,1968,no,no
+TCGA-B0-4714,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,81,1929,not reported,not reported
+TCGA-B0-5100,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,1998,No,T3,8310/3,NX,M0,C64.9,NA,black or african american,male,not hispanic or latino,Dead,72,1926,no,no
+TCGA-B0-4849,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,51,1953,not reported,not reported
+TCGA-AK-3428,No,Stage III,"Kidney, NOS",3728,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,62,1942,no,no
+TCGA-A3-A8OV,No,Stage I,"Kidney, NOS",340,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2011,No,T1,8310/3,NX,MX,C64.9,M0,black or african american,male,not hispanic or latino,Alive,75,1936,no,no
+TCGA-BP-4756,No,Stage I,"Kidney, NOS",374,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,N0,M0,C64.9,NA,asian,female,not reported,Alive,62,1941,not reported,not reported
+TCGA-B8-4153,No,Stage III,"Kidney, NOS",762,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,74,1936,yes,no
+TCGA-BP-5184,No,Stage I,"Kidney, NOS",1133,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,54,1953,not reported,not reported
+TCGA-AK-3456,No,Stage II,"Kidney, NOS",1143,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T2,8310/3,N0,M0,C64.9,NA,black or african american,male,not hispanic or latino,Alive,48,1959,not reported,not reported
+TCGA-BP-4992,No,Stage I,"Kidney, NOS",501,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,66,1941,not reported,not reported
+TCGA-A3-3335,No,Stage II,"Kidney, NOS",1886,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,41,1965,no,no
+TCGA-B0-5402,No,Stage IV,"Kidney, NOS",1290,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T4,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,64,1946,no,yes
+TCGA-B4-5844,No,Stage II,"Kidney, NOS",7,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T2,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,61,1949,not reported,no
+TCGA-CJ-4882,No,Stage III,"Kidney, NOS",1883,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,NX,M0,C64.9,NA,black or african american,male,not hispanic or latino,Alive,57,1948,no,no
+TCGA-AK-3440,No,Stage I,"Kidney, NOS",2865,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,58,1947,no,no
+TCGA-B0-5117,No,Stage I,"Kidney, NOS",1608,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,40,1970,no,no
+TCGA-BP-5191,Not Reported,Stage III,"Kidney, NOS",967,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,79,1928,not reported,not reported
+TCGA-MW-A4EC,No,Stage I,"Kidney, NOS",498,"Renal cell carcinoma, NOS",2019-08-08,no,2012,No,T1,8312/3,NX,MX,C64.9,NA,black or african american,female,hispanic or latino,Alive,72,1940,no,no
+TCGA-B8-4622,No,Stage IV,"Kidney, NOS",1525,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Alive,57,1953,no,yes
+TCGA-BP-4776,No,Stage I,"Kidney, NOS",411,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,52,1953,not reported,not reported
+TCGA-A3-A8CQ,No,Stage I,"Kidney, NOS",3,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2011,No,T1,8310/3,NX,MX,C64.9,M0,black or african american,female,not hispanic or latino,Alive,59,1952,not reported,not reported
+TCGA-B8-4151,No,Stage III,"Kidney, NOS",1299,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,No,T3,8310/3,N0,M0,C64.9,NA,white,female,hispanic or latino,Alive,51,1958,no,no
+TCGA-BP-4337,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not reported,Dead,76,1927,not reported,not reported
+TCGA-CJ-4886,No,Stage I,"Kidney, NOS",1952,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,42,1963,no,no
+TCGA-BP-5008,No,Stage I,"Kidney, NOS",1071,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,46,1961,not reported,not reported
+TCGA-B0-5712,No,Stage IV,"Kidney, NOS",2722,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,N0,M1,C64.9,NA,black or african american,female,not hispanic or latino,Alive,68,1936,yes,yes
+TCGA-B2-5633,No,Stage I,"Kidney, NOS",963,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,56,1954,no,no
+TCGA-BP-5202,No,Stage III,"Kidney, NOS",29,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,75,1933,not reported,not reported
+TCGA-B0-4817,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,81,1921,not reported,not reported
+TCGA-CJ-4895,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,62,1943,yes,no
+TCGA-BP-5169,No,Stage I,"Kidney, NOS",193,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,70,1934,not reported,not reported
+TCGA-CW-6087,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,N1,M1,C64.9,NA,white,male,not hispanic or latino,Dead,61,1942,not reported,not reported
+TCGA-B0-4699,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T4,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Dead,74,1930,not reported,not reported
+TCGA-CJ-6032,No,Stage II,"Kidney, NOS",3639,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,NX,M0,C64.9,NA,white,female,hispanic or latino,Alive,63,1941,no,no
+TCGA-B0-5709,No,Stage III,"Kidney, NOS",3974,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,62,1941,no,no
+TCGA-BP-4970,No,Stage III,"Kidney, NOS",433,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,N1,M0,C64.9,NA,asian,male,not reported,Alive,44,1962,not reported,not reported
+TCGA-BP-4342,Not Reported,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2003,Yes,T2,8310/3,N0,M0,C64.9,NA,white,male,not reported,Dead,79,1924,yes,no
+TCGA-BP-5185,No,Stage I,"Kidney, NOS",1132,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,56,1951,no,no
+TCGA-BP-4327,Not Reported,Stage II,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2002,No,T2,8310/3,N0,M0,C64.9,NA,white,female,not reported,Dead,75,1927,not reported,not reported
+TCGA-BP-4775,Not Reported,Stage I,"Kidney, NOS",1843,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,55,1950,not reported,not reported
+TCGA-DV-A4W0,Yes,Stage I,"Kidney, NOS",2470,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T1,8310/3,NX,MX,C64.9,M0,black or african american,male,not hispanic or latino,Alive,55,1953,no,no
+TCGA-B0-5705,No,Stage I,"Kidney, NOS",4537,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,65,1937,no,yes
+TCGA-B8-A7U6,No,Stage I,"Kidney, NOS",495,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2013,No,T1,8310/3,NX,NA,C64.9,M0,black or african american,female,not hispanic or latino,Alive,54,1959,no,no
+TCGA-B8-5546,No,Stage I,"Kidney, NOS",505,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,black or african american,female,not hispanic or latino,Alive,38,1972,not reported,not reported
+TCGA-BP-5180,No,Stage I,"Kidney, NOS",2263,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,53,1951,not reported,not reported
+TCGA-DV-5573,Not Reported,Stage I,"Kidney, NOS",1130,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,Yes,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,41,1967,not reported,not reported
+TCGA-A3-3362,No,Stage I,"Kidney, NOS",1559,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,60,1945,not reported,not reported
+TCGA-BP-5196,No,Stage I,"Kidney, NOS",1018,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,53,1955,not reported,not reported
+TCGA-B0-4712,Not Reported,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,76,1930,not reported,not reported
+TCGA-BP-4977,No,Stage I,"Kidney, NOS",454,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,57,1949,not reported,not reported
+TCGA-B4-5843,No,Stage I,"Kidney, NOS",11,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,45,1965,no,no
+TCGA-A3-3336,Not Reported,Stage I,"Kidney, NOS",1043,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,Yes,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,75,1932,not reported,not reported
+TCGA-BP-4981,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M0,C64.9,NA,white,female,not reported,Dead,75,1931,not reported,not reported
+TCGA-CJ-5675,No,Stage II,"Kidney, NOS",3936,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T2,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,70,1934,yes,no
+TCGA-B0-4845,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,Yes,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,70,1933,yes,yes
+TCGA-B2-4101,No,Stage II,"Kidney, NOS",648,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T2,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,52,1958,no,no
+TCGA-CW-6097,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not reported,Dead,32,1972,not reported,not reported
+TCGA-CJ-4894,Not Reported,Stage III,"Kidney, NOS",841,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,58,1947,yes,no
+TCGA-MM-A563,No,NA,"Kidney, NOS",591,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2012,No,T3,8310/3,NX,MX,C64.9,MX,black or african american,male,not hispanic or latino,Alive,41,1971,no,no
+TCGA-CZ-4860,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T4,8310/3,NX,M1,C64.9,NA,white,male,not reported,Dead,60,1945,yes,no
+TCGA-BP-4961,No,Stage I,"Kidney, NOS",1935,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,47,1958,not reported,not reported
+TCGA-AK-3427,No,Stage I,"Kidney, NOS",3583,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,65,1939,no,no
+TCGA-CZ-4859,No,Stage I,"Kidney, NOS",1787,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not reported,Alive,59,1946,not reported,not reported
+TCGA-6D-AA2E,No,Stage I,"Kidney, NOS",362,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2013,No,T1,8310/3,NX,MX,C64.9,MX,black or african american,female,not hispanic or latino,Alive,68,1945,no,no
+TCGA-A3-3308,No,Stage III,"Kidney, NOS",16,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not reported,Alive,77,1929,not reported,not reported
+TCGA-CZ-5456,No,Stage II,"Kidney, NOS",2422,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,57,1949,yes,no
+TCGA-A3-3307,Not Reported,Stage III,"Kidney, NOS",1436,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,No,T3,8310/3,N0,M0,C64.9,NA,not reported,male,not reported,Alive,66,1939,not reported,not reported
+TCGA-B0-5092,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T1,8310/3,N0,M1,C64.9,NA,white,female,not hispanic or latino,Dead,53,1955,not reported,not reported
+TCGA-CZ-4857,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Dead,56,1949,yes,yes
+TCGA-B0-4703,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T3,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Dead,51,1954,not reported,not reported
+TCGA-CJ-4881,No,Stage III,"Kidney, NOS",2014,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,41,1963,yes,yes
+TCGA-BP-4777,No,Stage I,"Kidney, NOS",1731,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2005,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,46,1959,not reported,not reported
+TCGA-B0-4945,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,75,1928,not reported,not reported
+TCGA-BP-5168,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2002,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Dead,75,1927,not reported,not reported
+TCGA-AK-3458,No,Stage I,"Kidney, NOS",1168,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,48,1959,not reported,not reported
+TCGA-B0-4828,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T2,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,79,1924,not reported,not reported
+TCGA-B0-4846,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,Yes,T3,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Dead,52,1952,not reported,yes
+TCGA-BP-4161,No,Stage I,"Kidney, NOS",2746,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,74,1928,yes,no
+TCGA-B0-5693,Not Reported,Stage I,"Kidney, NOS",4074,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2003,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,47,1956,no,no
+TCGA-CJ-4903,No,Stage I,"Kidney, NOS",1560,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,50,1956,no,no
+TCGA-B0-5096,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,1998,No,T3,8310/3,N1,M0,C64.9,NA,white,female,not hispanic or latino,Dead,72,1926,not reported,not reported
+TCGA-B0-4693,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,72,1937,not reported,not reported
+TCGA-B8-4143,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T3,8310/3,N0,M1,C64.9,NA,white,female,not hispanic or latino,Dead,66,1936,not reported,not reported
+TCGA-AK-3465,No,Stage I,"Kidney, NOS",369,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T1,8310/3,NX,M0,C64.9,NA,black or african american,female,not hispanic or latino,Alive,71,1937,not reported,not reported
+TCGA-BP-4763,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Dead,79,1925,not reported,not reported
+TCGA-B0-4824,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,49,1953,not reported,not reported
+TCGA-BP-4971,No,Stage III,"Kidney, NOS",1487,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,40,1966,not reported,not reported
+TCGA-CJ-6028,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,58,1945,yes,yes
+TCGA-B0-4833,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,82,1921,not reported,not reported
+TCGA-BP-5010,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,63,1944,no,yes
+TCGA-BP-4799,Not Reported,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not reported,Dead,70,1937,no,no
+TCGA-BP-4976,Not Reported,Stage I,"Kidney, NOS",1632,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,77,1929,not reported,not reported
+TCGA-B8-5158,No,Stage III,"Kidney, NOS",1218,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T3,8310/3,N1,M0,C64.9,NA,white,male,not hispanic or latino,Alive,56,1954,no,no
+TCGA-CZ-5462,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M1,C64.9,NA,white,male,not reported,Dead,83,1924,not reported,not reported
+TCGA-B0-4836,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,NX,M1,C64.9,NA,white,male,not hispanic or latino,Dead,61,1942,not reported,not reported
+TCGA-B0-5692,No,Stage III,"Kidney, NOS",3944,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,66,1938,no,no
+TCGA-BP-4332,No,Stage III,"Kidney, NOS",1133,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not reported,Alive,36,1966,not reported,not reported
+TCGA-B0-4823,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,88,1914,not reported,not reported
+TCGA-B8-A54G,No,Stage I,"Kidney, NOS",53,"Renal cell carcinoma, NOS",2019-08-08,no,2012,No,T1,8312/3,NX,MX,C64.9,M0,black or african american,male,not hispanic or latino,Alive,50,1962,no,no
+TCGA-BP-5009,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,52,1955,yes,yes
+TCGA-B0-5698,Not Reported,Stage I,"Kidney, NOS",3631,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2005,No,T1,8310/3,N0,M0,C64.9,NA,black or african american,male,not hispanic or latino,Alive,77,1928,no,no
+TCGA-A3-3351,No,Stage II,"Kidney, NOS",910,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T2,8310/3,N0,M0,C64.9,NA,white,male,hispanic or latino,Alive,42,1965,not reported,not reported
+TCGA-BP-4355,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T3,8310/3,NX,M0,C64.9,NA,white,female,not reported,Dead,59,1949,not reported,no
+TCGA-BP-4804,No,Stage I,"Kidney, NOS",1459,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,59,1949,yes,yes
+TCGA-CJ-5672,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,84,1920,not reported,not reported
+TCGA-B0-4838,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,69,1934,not reported,not reported
+TCGA-A3-3322,No,Stage I,"Kidney, NOS",1478,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,51,1955,not reported,not reported
+TCGA-CW-5591,No,Stage IV,"Kidney, NOS",2271,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T3,8310/3,N0,M1,C64.9,NA,white,male,not hispanic or latino,Alive,56,1948,yes,yes
+TCGA-BP-5183,No,Stage III,"Kidney, NOS",1291,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T3,8310/3,NX,M0,C64.9,NA,white,male,hispanic or latino,Alive,57,1950,no,no
+TCGA-CJ-4902,No,Stage III,"Kidney, NOS",1520,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,61,1945,no,no
+TCGA-A3-3329,Not Reported,Stage I,"Kidney, NOS",1624,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,75,1932,no,no
+TCGA-CJ-4874,No,Stage I,"Kidney, NOS",2283,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2004,No,T1,8310/3,N0,M0,C64.9,NA,white,female,hispanic or latino,Alive,73,1931,no,no
+TCGA-BP-5190,No,Stage I,"Kidney, NOS",1011,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,61,1946,not reported,not reported
+TCGA-DV-5565,Not Reported,Stage I,"Kidney, NOS",1329,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Alive,59,1948,not reported,not reported
+TCGA-BP-4335,No,Stage IV,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2003,No,T3,8310/3,N0,M1,C64.9,NA,white,female,not reported,Dead,65,1938,no,yes
+TCGA-BP-4982,No,Stage I,"Kidney, NOS",1014,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,42,1964,not reported,not reported
+TCGA-CZ-5458,No,Stage III,"Kidney, NOS",2789,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not reported,Alive,43,1963,not reported,not reported
+TCGA-B0-5110,No,Stage I,"Kidney, NOS",2009,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,71,1938,no,no
+TCGA-AK-3443,No,Stage II,"Kidney, NOS",1423,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T2,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,45,1961,not reported,not reported
+TCGA-EU-5904,No,Stage I,"Kidney, NOS",551,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2009,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not reported,Alive,47,1962,not reported,not reported
+TCGA-B0-5399,No,Stage I,"Kidney, NOS",1411,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2010,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Alive,46,1964,no,no
+TCGA-BP-4159,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T1,8310/3,N0,M0,C64.9,NA,white,male,not reported,Dead,70,1932,not reported,not reported
+TCGA-B0-4819,No,Stage IV,"Kidney, NOS",183,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T3,8310/3,NX,M1,C64.9,NA,white,female,not hispanic or latino,Dead,60,1942,not reported,not reported
+TCGA-BP-4353,Not Reported,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2007,Yes,T1,8310/3,N0,M0,C64.9,NA,white,male,not reported,Dead,61,1946,not reported,not reported
+TCGA-B0-5104,No,Stage I,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,90,1912,not reported,not reported
+TCGA-DV-5569,Not Reported,Stage I,"Kidney, NOS",355,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2009,No,T1,8310/3,NX,M0,C64.9,NA,white,female,not hispanic or latino,Alive,29,1980,not reported,not reported
+TCGA-B0-4827,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T3,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Dead,77,1925,not reported,yes
+TCGA-B0-5095,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2008,No,T3,8310/3,N0,M0,C64.9,NA,white,male,not hispanic or latino,Dead,81,1927,not reported,not reported
+TCGA-BP-4330,No,Stage III,"Kidney, NOS",1888,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2002,No,T3,8310/3,N0,M0,C64.9,NA,black or african american,female,hispanic or latino,Alive,60,1942,not reported,not reported
+TCGA-A3-3370,No,Stage I,"Kidney, NOS",2274,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2006,No,T1,8310/3,N0,M0,C64.9,NA,white,female,not hispanic or latino,Alive,48,1958,no,no
+TCGA-B0-4815,No,Stage III,"Kidney, NOS",NA,"Clear cell adenocarcinoma, NOS",2019-08-08,no,2001,No,T3,8310/3,NX,M0,C64.9,NA,white,male,not hispanic or latino,Dead,65,1936,not reported,not reported
+TCGA-G6-A8L7,No,Stage I,"Kidney, NOS",2133,"Clear cell adenocarcinoma, NOS",2019-08-08,yes,2008,No,T1,8310/3,N0,MX,C64.9,MX,black or african american,female,not hispanic or latino,Alive,81,1927,no,no

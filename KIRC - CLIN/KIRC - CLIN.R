@@ -70,7 +70,9 @@ kirc.clinic %>%
   skim()
 
 kirc.clinic <- kirc.clinic  %>%
-  select(!c('days_to_diagnosis', 'days_to_birth', 'days_to_death', 'year_of_death'))
+  select(!c('days_to_diagnosis', 'days_to_birth', 'days_to_death', 'year_of_death',
+            'cigarettes_per_day','years_smoked','pack_years_smoked','days_to_death',
+            'year_of_death'))
 
 ## Remove character variables with unique observations 
 kirc.clinic %>%
@@ -78,7 +80,7 @@ kirc.clinic %>%
   skim()
 
 kirc.clinic <- kirc.clinic  %>%
-  select(!c('last_known_disease_status', 'prior_treatment', 'state', 
+  select(!c('last_known_disease_status', 'state', 
             'ajcc_staging_system_edition', 
             'classification_of_tumor', 'tumor_grade', 
             'progression_or_recurrence', 'alcohol_history', 
@@ -165,7 +167,8 @@ kirc.clinic %>%
 # agregating levels
 
 kirc.clinic <- kirc.clinic %>%
-  mutate(ajcc_pathologic_t = fct_collapse(ajcc_pathologic_t, T1=c('T1', 'T1a', 'T1b'), T3=c('T3a', 'T3b')))
+  mutate(ajcc_pathologic_t = fct_collapse(ajcc_pathologic_t, T1=c('T1', 'T1a', 'T1b'), T2=c('T2a', 'T2b'), 
+                                          T3=c('T3a', 'T3b','T3c'), ))
 
 ## Graphics
 
