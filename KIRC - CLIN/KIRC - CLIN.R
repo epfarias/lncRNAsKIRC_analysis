@@ -1,5 +1,5 @@
 ### TCGA Clinical Data Analysis ####
-# Epitácio Farias - 0/2022
+# Epitácio Farias - 06/2022
 
 # Project: TCGA-KIRC (Kidney Renal Clear Cell Carcinoma)
 # Disease Type: Adenomas and Adenocarcinomas
@@ -163,26 +163,9 @@ kirc.clinic %>%
   summary() 
 
 # agregating levels
-kirc.clinic <- kirc.clinic %>%
-  mutate(ajcc_pathologic_stage)
-
-kirc.clinic <- kirc.clinic %>%
-  mutate(tissue_or_organ_of_origin)
-
-kirc.clinic <- kirc.clinic %>%
-  mutate(primary_diagnosis)
-
-kirc.clinic <- kirc.clinic %>%
-  mutate(ajcc_clinical_m )
 
 kirc.clinic <- kirc.clinic %>%
   mutate(ajcc_pathologic_t = fct_collapse(ajcc_pathologic_t, T1=c('T1', 'T1a', 'T1b'), T3=c('T3a', 'T3b')))
-
-kirc.clinic <- kirc.clinic %>%
-  mutate(ajcc_pathologic_n)
-
-kirc.clinic <- kirc.clinic %>%
-  mutate(ajcc_pathologic_m)
 
 ## Graphics
 
@@ -191,12 +174,6 @@ kirc.clinic %>%
   count(ajcc_pathologic_stage) %>% 
   knitr::kable()
 
-kirc.clinic %>% 
-  ggplot(aes(x = tissue_or_organ_of_origin)) + 
-  geom_bar() +
-  theme_bw(15) +
-  labs(title = 'Age frequency by Tissue Site', x = "tissue site", y = "age") + 
-  theme(plot.title = element_text(hjust = 0.5), legend.position = 'none')
 
 kirc.clinic %>% 
   ggplot(aes(x = tissue_or_organ_of_origin, y = age, fill = tissue_or_organ_of_origin)) + 
