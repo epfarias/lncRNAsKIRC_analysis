@@ -93,31 +93,21 @@ oncoplot(maf = kirc.maf, top = 10)
 mafKIRC.titv <- titv(maf = kirc.maf, plot = FALSE, useSyn = TRUE)
 plotTiTv(res = mafKIRC.titv)
 
-# lollipop plot for DNMT3A, which is one of the most frequent mutated gene in LAML
-lollipopPlot(maf = kirc.maf, gene = 'DNMT3A', AACol = 'HGVSp_Short', showMutationRate = TRUE)
-lollipopPlot(maf = kirc.mafclin, gene = 'DNMT3A', AACol = 'HGVSp_Short', showDomainLabel = FALSE)
+# lollipop plot for VHL, which is one of the most frequent mutated gene in LAML
+lollipopPlot(maf = kirc.maf, gene = 'VHL', AACol = 'HGVSp_Short', showMutationRate = TRUE)
+lollipopPlot(maf = kirc.mafclin, gene = 'VHL', AACol = 'HGVSp_Short', showDomainLabel = FALSE)
 
 # rainfall plots highlights hyper-mutated genomic regions
 # Kataegis: genomic segments containing six or more consecutive mutations with an average inter-mutation distance of less than or equal to 1,00 bp
 rainfallPlot(maf = kirc.maf, detectChangePoints = TRUE, pointSize = 0.6)
 
 # mutation load
-laml.mutload <- tcgaCompare(maf = kirc.maf, cohortName = 'Example-KIRC', logscale = TRUE, capture_size = 50)
+kirc.mutload <- tcgaCompare(maf = kirc.maf, cohortName = 'Example-KIRC', logscale = TRUE, capture_size = 50)
 
 # plots Variant Allele Frequencies
 # clonal genes usually have mean allele frequency around ~50% assuming pure sample
 # it looks for column t_vaf containing vaf information, if the field name is different from t_vaf, we can manually specify it using argument vafCol
-# plotVaf(maf = laml.maf, vafCol = 'Variants')
-
-## Comparing two cohorts (MAFs)
-
-# Considering only genes mutated in at-least in 5 samples in one of the cohort to avoid bias
-# lusc.vs.luad <- mafCompare(m1 = lusc.maf, m2 = luad.maf, m1Name = 'Lusc', m2Name = 'Luad', minMut = 5)
-# forestPlot(mafCompareRes = lusc.vs.luad, pVal = 0.1, color = c('royalblue', 'maroon'), geneFontSize = 0.8)
-# genes = c("TTTN", "TP53", "MIC16", "RYR2", "CSMD5")
-# coOncoplot(m1 = lusc.maf, m2 = luad.maf, m1Name = 'Lusc', m2Name = 'Luad', genes = genes, removeNonMutated = TRUE)
-# coBarplot(m1 = lusc.maf, m2 = luad.maf, m1Name = 'Lusc', m2Name = 'Luad')
-# lollipopPlot2(m1 = lusc.maf, m2 = luad.maf, gene = 'TP53', AACol1 = 'AA_MAF', AACol2 = 'AA_MAF', showMutationRate = TRUE)
+plotVaf(maf = kirc.maf, vafCol = 'Variants')
 
 
 ## Analysis -------------------------------------
@@ -169,8 +159,6 @@ gisticOncoPlot(gistic = kirc.gistic, clinicalData = getClinicalData(x = kirc.maf
 
 gisticOncoPlot(gistic = kirc.gistic, top = 10)
 
-##CONTINUAR DAQUI
-
 ## Survival Analysis ------------------------------
 
 # it requires input data with Tumor_Sample_Barcode, binary event (1/0) and time to event.
@@ -198,11 +186,6 @@ OncogenicPathways(maf = kirc.maf)
 
 PlotOncogenicPathways(maf = kirc.maf, pathways = "RTK-RAS")
 # tumor suppressor genes (red) and oncogenes (blue)
-
-
-## Tumor heterogeneity and MATH scores -------------
-# heterogeneity can be inferred by clustering variant allele frequencies
-# < code here >
 
 
 ## Mutational signatures --------------------------
@@ -240,7 +223,7 @@ kirc.mutect.maf <- GDCquery_Maf("KIRC", pipelines = "mutect2")
 # Number of mutations on somaticsniper:  2749
 #dim(laml.somaticsniper.maf)[1]
 # Number of Patients: 143
-length(unique(substr(laml.mutect.maf$Tumor_Sample_Barcode,1,12)))
+length(unique(substr(kirc.mutect.maf$Tumor_Sample_Barcode,1,12)))
 
 #We select the mutect2 pipeline, since it has the larger number of variants.
 
@@ -259,14 +242,14 @@ length(unique(substr(laml.mutect.maf$Tumor_Sample_Barcode,1,12)))
 #Requires BSgenome object
 library(BSgenome.Hsapiens.UCSC.hg38, quietly = TRUE)
 
-laml.mutect.maf_clin <- read.maf(maf = laml.mutect.maf, 
+kirc.mutect.maf_clin <- read.maf(maf = kirc.mutect.maf, 
                                  clinicalData=clinical, 
                                  verbose = T, 
                                  isTCGA = T, 
                                  removeDuplicatedVariants = F)
 
 #Trinucleotide Matrix
-laml.tnm = trinucleotideMatrix(maf = laml.mutect.maf_clin, prefix = '',
+kirc.tnm = trinucleotideMatrix(maf = kirc.mutect.maf_clin, prefix = '',
                                ref_genome = "BSgenome.Hsapiens.UCSC.hg38")
 
 #In humans/mammals the APOBEC help protect from viral infections. The APOBEC
@@ -283,7 +266,7 @@ laml.tnm = trinucleotideMatrix(maf = laml.mutect.maf_clin, prefix = '',
 #sort of analysis and hence below plot is only for demonstration purpose.?[1]
 
 #APOBEC Differentiation by Trinucleotide Matrix
-plotApobecDiff(tnm = laml.tnm, maf = laml.mutect.maf_clin, pVal = 0.2)
+plotApobecDiff(tnm = kirc.tnm, maf = kirc.mutect.maf_clin, pVal = 0.2)
 
 #Signature analysis includes following steps.
 
@@ -334,9 +317,9 @@ text(x = 5, y = 0, labels = "plotSignatures()", font = 3)
 #Run main function with maximum 10 signatures. 
 
 library('NMF')
-laml.sign = estimateSignatures(mat = laml.tnm, nTry = 2, pConstant = 0.1, plotBestFitRes = T, parallel = 2)
+kirc.sign = estimateSignatures(mat = kirc.tnm, nTry = 2, pConstant = 0.1, plotBestFitRes = T, parallel = 2)
 
-plotCophenetic(res = laml.sign)
+plotCophenetic(res = kirc.sign)
 #- Legacy - Mutational Signatures (v2 - March 2015):
 #        https://cancer.sanger.ac.uk/cosmic/signatures_v2.tt
 #https://cancer.sanger.ac.uk/signatures_v2/Signature_patterns.png
@@ -347,13 +330,13 @@ plotCophenetic(res = laml.sign)
 #https://cancer.sanger.ac.uk/cosmic/signatures/SBS/index.tt
 
 # Analysis with 4 gene signatures
-laml.sig = extractSignatures(mat = laml.tnm, n = 4, pConstant = 0.1,  parallel = 2)
+kirc.sig = extractSignatures(mat = kirc.tnm, n = 4, pConstant = 0.1,  parallel = 2)
 
 #Compate against original 30 signatures 
-laml.og30.cosm = compareSignatures(nmfRes = laml.sig, sig_db = "legacy")
+kirc.og30.cosm = compareSignatures(nmfRes = kirc.sig, sig_db = "legacy")
 
 library('pheatmap')
-pheatmap::pheatmap(mat = laml.og30.cosm$cosine_similarities, 
+pheatmap::pheatmap(mat = kirc.og30.cosm$cosine_similarities, 
                    cluster_rows = FALSE, 
                    angle_col = "45",
                    cellwidth = 20, cellheight = 20,
@@ -361,30 +344,30 @@ pheatmap::pheatmap(mat = laml.og30.cosm$cosine_similarities,
                    main = "Cosine similarity against validated signatures - Legacy")
 
 #Compate against updated version3 60 signatures 
-laml.v4.cosm = compareSignatures(nmfRes = laml.sig, sig_db = "SBS")
+kirc.v4.cosm = compareSignatures(nmfRes = kirc.sig, sig_db = "SBS")
 
 #library('pheatmap')
-pheatmap::pheatmap(mat = laml.v4.cosm$cosine_similarities, 
+pheatmap::pheatmap(mat = kirc.v4.cosm$cosine_similarities, 
                    cluster_rows = FALSE, 
                    angle_col = "45",
                    cellwidth = 20, cellheight = 20,
                    width = 7, height=4,                   
                    main = "Cosine similarity against validated signatures - SBS")
 
-maftools::plotSignatures(nmfRes = laml.sig, title_size = 0.9, sig_db = "legacy")
+maftools::plotSignatures(nmfRes = kirc.sig, title_size = 0.9, sig_db = "legacy")
 
-maftools::plotSignatures(nmfRes = laml.sig, title_size = 0.9, sig_db = "SBS")
+maftools::plotSignatures(nmfRes = kirc.sig, title_size = 0.9, sig_db = "SBS")
 
 #Signatures can further be assigned to samples and enrichment analysis can be
 #performd using signatureEnrichment funtion, which identifies mutations enriched
 #in every signature identified.
 
 
-laml.se = signatureEnrichment(maf = laml.mutect.maf_clin, sig_res = laml.sig)
+kirc.se = signatureEnrichment(maf = kirc.mutect.maf_clin, sig_res = kirc.sig)
 
 #Above results can be visualzied similar to clinical enrichments.
 
-plotEnrichmentResults(enrich_res = laml.se, pVal = 0.05)
+plotEnrichmentResults(enrich_res = kirc.se, pVal = 0.05)
 -----------------------------------------
 -----------------------------------------
      
