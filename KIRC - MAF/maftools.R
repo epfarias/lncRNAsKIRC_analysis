@@ -28,13 +28,28 @@ package.check <- lapply(packages_cran, FUN = function(x) {
 
 rm(packages_cran, packages_bioconductor, package.check)
 
-setwd("~/TCC/KIRC/KIRC - MAF")
+setwd("~/lncRNAsKIRC_analysis/KIRC - MAF")
 
 ## Reading KIRC Maf files ---------------------------
 
 # download MAF aligned against hg38
 # it saves data inside a GDCdata and project name directory 
-maf <- GDCquery_Maf("KIRC", pipelines = "muse", directory = "GDCdata")
+query <- GDCquery(
+        project = "TCGA-KIRC", 
+        data.category = "Simple Nucleotide Variation", 
+        access = "open", 
+        legacy = FALSE, 
+        workflow.type = "Aliquot Ensemble Somatic Variant Merging and Masking"
+)
+GDCdownload(query)
+
+#Remover duplicatas dentro do query 
+query_results <- as.data.frame(query[[1]][[1]])
+query_results <- query_results[!duplicated(query_results$cases),]
+query[[1]][[1]] <- query_results
+
+# GDC
+maf <- GDCprepare(query)
 sort(colnames(maf))
 
 # MAF object contains main maf file, summarized data and any associated sample annotations
@@ -76,7 +91,7 @@ oncoplot(maf = kirc.maf, top = 10)
 
 # transition and transversions
 mafKIRC.titv <- titv(maf = kirc.maf, plot = FALSE, useSyn = TRUE)
-plotTiTv(res = mafLaml.titv)
+plotTiTv(res = mafKIRC.titv)
 
 # lollipop plot for DNMT3A, which is one of the most frequent mutated gene in LAML
 lollipopPlot(maf = kirc.maf, gene = 'DNMT3A', AACol = 'HGVSp_Short', showMutationRate = TRUE)
