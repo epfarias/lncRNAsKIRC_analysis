@@ -47,13 +47,6 @@ if (!requireNamespace("BiocManager", quietly=TRUE))
 BiocManager::install("GDCRNATools")
 ```
 
-To install the development version, please update your R and Biocondutor to the latest version and run:
-```{r development version, eval=FALSE, message=FALSE, warning=FALSE}
-if (!requireNamespace("BiocManager", quietly=TRUE))
-    install.packages("BiocManager")
-BiocManager::install("GDCRNATools", version = "devel")
-```
-
 
 ```{r load, eval=TRUE, message=FALSE, warning=FALSE}
 library(GDCRNATools)
@@ -69,9 +62,6 @@ Users can also use their own data that is processed by other tools such as the [
 
 # Case study: TCGA-KIRC {#case}
 In this section, we use the whole datasets of TCGA-KIRC project as an example to illustrate how `GDCRNATools` works in detail.
-
-## Data download
-> Two methods are provided for downloading Gene Expression Quantification (HTSeq-Counts), Isoform Expression Quantification (BCGSC miRNA Profiling), and Clinical (Clinical Supplement) data:
 
 ### Automatic download 
 #### Download RNA and mature miRNA expression data
@@ -163,7 +153,10 @@ metaMatrix.MIR <- gdcFilterSampleType(metaMatrix.MIR)
 
 ```{r merge RNAseq, message=FALSE, warning=FALSE, eval=FALSE}
 ####### Merge RNAseq data #######
-rnaCounts <- gdcRNAMerge(metadata  = metaMatrix.RNA, 
+
+##Rodar a função gdcRNAMerge2 (TA NA PASTA) antes
+
+rnaCounts <- gdcRNAMerge2(metadata  = metaMatrix.RNA, 
                          path      = rnadir, # the folder in which the data stored
                          organized = FALSE, # if the data are in separate folders
                          data.type = 'RNAseq')

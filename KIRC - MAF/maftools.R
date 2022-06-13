@@ -162,7 +162,7 @@ gisticOncoPlot(gistic = kirc.gistic, top = 10)
 ## Survival Analysis ------------------------------
 
 # it requires input data with Tumor_Sample_Barcode, binary event (1/0) and time to event.
-mafSurvival(maf = kirc.mafclin, genes = 'DNMT3A', 
+mafSurvival(maf = kirc.mafclin, genes = 'VHL', 
             time = 'days_to_last_follow_up', Status = 'vital_status', isTCGA = TRUE)
 
 # identify a set of genes (of size 2) to predict poor prognostic groups
