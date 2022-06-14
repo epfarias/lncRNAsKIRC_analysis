@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+8f10bbb5-7069-537c-852f-87289eab1676	21221	case	f6cd140f-e331-41a3-8a6d-b93076458a37	Item is noncanonical	Notification	2014-07-17T00:00:00	Approved	Incomplete distribution. Only Repli-G and proteomics shipped.

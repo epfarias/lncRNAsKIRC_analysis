@@ -1,0 +1,3 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+926d4da1-dce4-5c10-ba5e-e34d50be7742	668	case	d4815225-0ac0-4295-a70d-74162066c0bd	Prior malignancy	Notification	2010-09-02T00:00:00	Approved	[intgen.org]: Prior Malignancy
+4ab41a2f-75f2-5b9d-af29-8ed895886d34	11982	case	d4815225-0ac0-4295-a70d-74162066c0bd	History of acceptable prior treatment related to a prior/other malignancy	Notification	2012-11-10T00:00:00	Approved	Prior malignancy  prostate cancer treated w/hormone therapy

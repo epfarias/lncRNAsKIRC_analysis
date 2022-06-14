@@ -1,0 +1,2 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+4f8aea87-a794-550b-a282-a3e5576ee453	11978	case	9868ae73-3459-4aa6-b71a-39953cdbbe1a	Synchronous malignancy	Notification	2012-11-10T00:00:00	Approved	Pt with synchronous SCC of the neck. No prior malignancy.

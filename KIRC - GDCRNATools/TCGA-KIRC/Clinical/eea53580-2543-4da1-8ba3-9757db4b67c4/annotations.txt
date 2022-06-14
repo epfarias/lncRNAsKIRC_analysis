@@ -1,0 +1,3 @@
+id	submitter_id	entity_type	entity_id	category	classification	created_datetime	status	notes
+65c9ae13-20be-57f1-82e7-eed179ef9b86	11980	case	4ca5ff6a-ace1-4349-b269-b8e3aae16785	Synchronous malignancy	Notification	2012-11-10T00:00:00	Approved	Patient with synchronous non-Hodgkins Lymphoma treated w/ R-CHOP prior to procurement of TCGA tumor
+bf2b505e-8282-51e8-8115-cdf47366263e	11981	case	4ca5ff6a-ace1-4349-b269-b8e3aae16785	History of unacceptable prior treatment related to a prior/other malignancy	Notification	2012-11-10T00:00:00	Approved	Patient with synchronous non-Hodgkins Lymphoma treated w/ R-CHOP prior to procurement of TCGA tumor
