@@ -52,6 +52,7 @@ metaMatrix.RNA <- gdcFilterDuplicate(metaMatrix.RNA)
 ### Filtrar amostras de Tumor não primário e Tecido normal não sólido em metadado de RNAseq 
 metaMatrix.RNA <- gdcFilterSampleType(metaMatrix.RNA)
 
+
 ### Analisar metadado de miRNAs
 metaMatrix.MIR <- gdcParseMetadata(project.id = 'TCGA-KIRC',
                                    data.type  = 'miRNAs', 
@@ -72,6 +73,7 @@ url <- "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-KIRC.htseq_coun
 destfile <- "kirc_counts.tsv.gz"
 download.file(url, destfile)
 
+install.packages("tidyverse")
 library(tidyverse)
 
 ## Extraindo os dados 
@@ -111,55 +113,68 @@ mirExpr <- gdcVoomNormalization(counts = mirCounts, filter = FALSE)
 
 
 ####### Análise de Expressão Diferencial #######
-### Utilizando o limma
-DEGAll_limma <- gdcDEAnalysis(counts     = rnaCounts, 
-                              group      = metaMatrix.RNA$sample_type, 
-                              comparison = 'PrimaryTumor-SolidTissueNormal', 
-                              method     = 'limma')
+
+### Converter para inteiro para rodar o DESeq2
+rnaCounts[,1:ncol(rnaCounts)]=lapply(1:ncol(rnaCounts),function(x) {
+  tryCatch({
+    as.integer(rnaCounts[[x]])
+  },warning = function(w) {
+    rnaCounts[[x]]}
+  )} )
 
 ### Utilizando o DESeq2
-DEGAll_DESeq <- gdcDEAnalysis(counts     = rnaCounts, 
+DEGAll_DESeq2 <- gdcDEAnalysis(counts     = rnaCounts, 
                               group      = metaMatrix.RNA$sample_type, 
                               comparison = 'PrimaryTumor-SolidTissueNormal', 
                               method     = 'DESeq2')
 
-### Carregando os dados de expressão diferencial
-data(DEGAll)
+
+### Utilizando o DESeq2 para os dados de miRNAs
+DEGAll_DESeq2_MIR <- gdcDEAnalysis(counts     = mirCounts, 
+                                   group      = metaMatrix.MIR$sample_type, 
+                                   comparison = 'PrimaryTumor-SolidTissueNormal', 
+                                   method     = 'DESeq2')
+
 
 ### Expressão diferencial de todos os dados
-deALL <- gdcDEReport(deg = DEGAll, gene.type = 'all')
+deALL <- gdcDEReport(deg = DEGAll_DESeq2, gene.type = 'all')
 
-### Expressão diferencial dos long non codign
-deLNC <- gdcDEReport(deg = DEGAll, gene.type = 'long_non_coding')
+### Expressão diferencial dos long non-coding
+deLNC <- gdcDEReport(deg = DEGAll_DESeq2, gene.type = 'long_non_coding')
 
 ### Expressão diferencial dos codificantes de proteínas
-dePC <- gdcDEReport(deg = DEGAll, gene.type = 'protein_coding')
+dePC <- gdcDEReport(deg = DEGAll_DESeq2, gene.type = 'protein_coding')
 
-### Expressão diferencial dos miRNAS
-demiR <- gdcDEReport(deg = DEGAll, gene.type = 'miRNAS')
-
+### Expressão diferencial de todos os miRNAs
+deALL_MIR <- gdcDEReport(deg = DEGAll_DESeq2_MIR, gene.type = 'all')
 
 ### Visualização das Expressões Diferenciais
-## Volcanoplot 
-gdcVolcanoPlot(DEGAll)
+## Volcanoplot para RNAs
+gdcVolcanoPlot(deALL)
+
+## Volcanoplot para miRNAs
+gdcVolcanoPlot(deALL_MIR)
 
 ## Barplot 
-gdcBarPlot(deg = deALL, angle = 45, data.type = 'RNASeq')
+gdcBarPlot(deg = deALL , angle = 45, data.type = 'RNASeq')
 
-## Heatmap
+## Heatmap para RNAS
 degName = rownames(deALL)
 gdcHeatmap(deg.id = degName, metadata = metaMatrix.RNA, rna.expr = rnaExpr)
 
+## Heatmap para miRNAS
+degName_MIR = rownames(deALL_MIR)
+gdcHeatmap(deg.id = degName_MIR, metadata = metaMatrix.MIR, rna.expr = mirExpr)
+
 ####### Análise de Enriquecimento Funcional #######
 ### Acessando e carregando os dados de enriquecimento
-enrichOutput <- gdcEnrichAnalysis(gene = rownames(deALL), simplify = TRUE)
-data(enrichOutput)
+enrichOutput <- gdcEnrichAnalysis(gene = rownames(deLNC), simplify = TRUE)
 
 ### Gráfico de barras
 gdcEnrichPlot(enrichOutput, type = 'bar', category = 'GO', num.terms = 10)
 
 ### Gráfico de bolhas
-gdcEnrichPlot(enrichOutput, type = 'bubble', category = 'GO', num.terms = 10)
+gdcEnrichPlot(enrichOutput, type = 'bubble', category = 'KEGG', num.terms = 10)
 
 
 ### Visualizar mapas de vias em uma pagina online local
