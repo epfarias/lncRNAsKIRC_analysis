@@ -8,7 +8,8 @@
 
 ## Install packages
 pkg.bioconductor <- c("TCGAbiolinks", "TCGAWorkflow")
-pkg.cran <- c("tidyverse", "skimr", "tableone", "survminer", "survival","finalfit", "DT", "data.table")
+pkg.cran <- c("tidyverse", "skimr", "tableone", "survminer", "survival",
+              "finalfit", "DT", "data.table")
 # optional pkgs: "finalfit", "DT", "data.table"
 
 #check if each package is on the local machine
@@ -27,6 +28,8 @@ pkg.check <- lapply(pkg.cran, FUN = function(x) {
 rm(pkg.cran, pkg.bioconductor, pkg.check)
 # devtools::install_github("BioinformaticsFMRP/TCGAWorkflow")
 
+#Defining workspace
+setwd("/storages/caico/home/farias-epitacio/lncRNAsKIRC_analysis/KIRC - CLIN")
 
 ## 1. Data importing and visualizing ---------------------------
 # https://www.bioconductor.org/packages/devel/bioc/vignettes/TCGAbiolinks/inst/doc/clinical.html
