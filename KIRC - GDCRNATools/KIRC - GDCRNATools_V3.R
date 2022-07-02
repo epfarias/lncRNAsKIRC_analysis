@@ -123,7 +123,7 @@ rnaCounts[,1:ncol(rnaCounts)]=lapply(1:ncol(rnaCounts),function(x) {
   )} )
 
 ### Utilizando o DESeq2
-DEGAll <- gdcDEAnalysis(counts     = rnaCounts, 
+DEGAll_RNAs <- gdcDEAnalysis(counts     = rnaCounts, 
                         group      = metaMatrix.RNA$sample_type, 
                         comparison = 'PrimaryTumor-SolidTissueNormal', 
                         method     = 'DESeq2')
@@ -137,29 +137,87 @@ DEGAll_MIR <- gdcDEAnalysis(counts     = mirCounts,
 
 
 ### Expressão diferencial de todos os dados
-deALL <- gdcDEReport(deg = DEGAll, gene.type = 'all')
+deALL <- gdcDEReport(deg = DEGAll_RNAs, gene.type = 'all')
 
 ### Expressão diferencial dos long non-coding
-deLNC <- gdcDEReport(deg = DEGAll, gene.type = 'long_non_coding')
+deLNC <- gdcDEReport(deg = DEGAll_RNAs, gene.type = 'long_non_coding')
 
 ### Expressão diferencial dos codificantes de proteínas
-dePC <- gdcDEReport(deg = DEGAll, gene.type = 'protein_coding')
+dePC <- gdcDEReport(deg = DEGAll_RNAs, gene.type = 'protein_coding')
 
 ### Expressão diferencial de todos os miRNAs
 deALL_MIR <- gdcDEReport(deg = DEGAll_MIR, gene.type = 'all')
 
 ### Visualização das Expressões Diferenciais
-## Volcanoplot para RNAs
-gdcVolcanoPlot(deALL)
+## Volcanoplot para todos os RNAs
+
+# Utilizando todos os RNAs diferencialmente expressos
+cutoff <- sort(DEGAll$PValue)[10]
+shrink.deseq.cut <- DEGAll %>% 
+  mutate(TopGeneLabel=ifelse(PValue<=cutoff, symbol, ""))
+
+# Plotando o volcano plot
+ggplot(shrink.deseq.cut, aes(x = logFC, y= -log10(FDR))) + 
+  geom_point(aes(colour=FDR < 0.01), pch=20, size=2) +
+  labs(x="log Fold Change", y="-log10(FDR)") + 
+  geom_label_repel(aes(label=TopGeneLabel), 
+                   seed = 123,
+                   max.time = 3,
+                   max.iter = Inf,
+                   size = 3,
+                   box.padding = 2, 
+                   max.overlaps = Inf)
+
+## Volcanoplot para lncRNAs
+
+# Utilizando todos os lncRNAs diferencialmente expressos
+cutoff <- sort(df.deseq_lncRNA$PValue)[10]
+shrink.deseq_lncRNA.cut <- df.deseq_lncRNA %>% 
+  mutate(TopGeneLabel=ifelse(PValue<=cutoff, symbol, ""))
+
+# Plotando o volcano plot
+ggplot(shrink.deseq_lncRNA.cut, aes(x = logFC, y= -log10(FDR))) + 
+  geom_point(aes(colour=FDR < 0.01), pch=20, size=2) +
+  labs(x="log Fold Change", y="-log10(FDR)") + 
+  geom_label_repel(aes(label=TopGeneLabel), 
+                   seed = 123,
+                   max.time = 3,
+                   max.iter = Inf,
+                   size = 3,
+                   box.padding = 2, 
+                   max.overlaps = Inf)
 
 ## Volcanoplot para miRNAs
-gdcVolcanoPlot(deALL_MIR)
+
+# Utilizando os miRNAs diferencialmente expressos
+cutoff <- sort(deALL_MIR$PValue)[10]
+shrink.deseq_MIR.cut <- deALL_MIR %>% 
+  mutate(TopGeneLabel=ifelse(PValue<=cutoff, rownames(df.deseq_MIR), ""))
+
+# Plotando o volcano plot
+ggplot(shrink.deseq_MIR.cut, aes(x = logFC, y= -log10(FDR))) + 
+  geom_point(aes(colour=FDR < 0.01), pch=20, size=2) +
+  labs(x="log Fold Change", y="-log10(FDR)") + 
+  geom_label_repel(aes(label=TopGeneLabel), 
+                   seed = 123,
+                   max.time = 3,
+                   max.iter = Inf,
+                   size = 3,
+                   box.padding = 2, 
+                   max.overlaps = Inf)
 
 ## Barplot 
-gdcBarPlot(deALL, angle = 45, data.type = 'miRNAs')
+# RNAs
+gdcBarPlot(deALL, angle = 45, data.type = 'RNAseq')
+
+# lncRNAs
+gdcBarPlot(deLNC, angle = 45, data.type = 'RNAseq')
+
+# RNAs
+gdcBarPlot(deALL, angle = 45, data.type = 'miRNAS')
 
 ## Heatmap para RNAS
-degName = rownames(deALL)
+degName = rownames(deLNC)
 gdcHeatmap(deg.id = degName, metadata = metaMatrix.RNA, rna.expr = rnaExpr)
 
 ## Heatmap para miRNAS
@@ -178,7 +236,11 @@ gostres <- gost(gene_information, organism = "hsapiens",correction_method = "fdr
 gostplot(gostres, capped = TRUE, interactive = TRUE)
 
 #Estático
-gostplot(gostres, capped = TRUE, interactive = FALSE)
+p <- gostplot(gostres, capped = FALSE, interactive = FALSE)
+
+pp <- publish_gostplot(p, highlight_terms = c("MIRNA:hsa-miR-335-5p","WP:WP4018") , 
+                       width = NA, height = NA, filename = NULL )
+pp
 
 ### Visualizar mapas de vias em uma pagina online local
 ## Carregando pacote
@@ -187,7 +249,7 @@ library(pathview)
 ## Carregando informações para o shiny
 deg <- deALL$logFC
 names(deg) <- rownames(deALL)
-enrichOutput <- gdcEnrichAnalysis(gene = rownames(deALL), simplify = TRUE)
+
 pathways <- as.character(enrichOutput$Terms[enrichOutput$Category=='KEGG'])
 pathways
 
@@ -199,22 +261,6 @@ ceOutput <- gdcCEAnalysis(lnc         = rownames(deLNC),
                           pc          = rownames(dePC), 
                           lnc.targets = 'starBase', 
                           pc.targets  = 'starBase', 
-                          rna.expr    = rnaExpr, 
-                          mir.expr    = mirExpr)
-
-
-### Análise das redes de ceRNAs usando base de dados providas pelo usuário
-## carregando interações miRNA-lncRNA
-data(lncTarget)
-
-## carregando interações miRNA-mRNA
-data(pcTarget)
-pcTarget[1:3]
-
-ceOutput <- gdcCEAnalysis(lnc         = rownames(deLNC), 
-                          pc          = rownames(dePC), 
-                          lnc.targets = lncTarget, 
-                          pc.targets  = pcTarget, 
                           rna.expr    = rnaExpr, 
                           mir.expr    = mirExpr)
 
@@ -258,11 +304,12 @@ survOutput <- gdcSurvivalAnalysis(gene     = rownames(deALL),
                                   sep      = 'median')
 
 ## Gráfico Kaplan-Meier
-gdcKMPlot(gene     = 'ENSG00000136193',
+gdcKMPlot(gene     = 'ENSG00000130600',
           rna.expr = rnaExpr,
           metadata = metaMatrix.RNA,
           sep      = 'median')
 
+
 ## Gráfico Kplan-Meier em página local
-shinyKMPlot(gene = rownames(deALL), rna.expr = rnaExpr, 
+shinyKMPlot(gene = rownames(deLNC), rna.expr = rnaExpr, 
             metadata = metaMatrix.RNA)
