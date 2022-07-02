@@ -2,14 +2,17 @@
 #####  Epitácio Farias  #####
 
 
-####### Instalação do Pacote "GDCRNATools" #######
+####### Instalação dos Pacotes #######
 if (!requireNamespace("BiocManager", quietly=TRUE))
   install.packages("BiocManager")
 BiocManager::install("GDCRNATools")
 
+install.packages("gprofiler2")
+install.packages("tidyverse")
 
-####### Carregando o pacote #######
+####### Carregando os pacotes #######
 library(GDCRNATools)
+library(gprofiler2)
 
 
 ####### Baixando os dados clínicos e de expressão (RNA-Seq e miRNA-Seq) do GDC #######
@@ -73,9 +76,6 @@ url <- "https://gdc-hub.s3.us-east-1.amazonaws.com/download/TCGA-KIRC.htseq_coun
 destfile <- "kirc_counts.tsv.gz"
 download.file(url, destfile)
 
-install.packages("tidyverse")
-library(tidyverse)
-
 ## Extraindo os dados 
 rnaCounts <- read_tsv(gzfile("kirc_counts.tsv.gz"))
 
@@ -92,7 +92,7 @@ colnames(rnaCounts) <- substr(colnames(rnaCounts), 1,15)
 
 ## Buscando as colunas em comum entre os dados da metamatriz e dos dados de contagem
 cols <- intersect(metaMatrix.RNA$sample, colnames(rnaCounts))
-rnaCounts <- rnaCounts %>% select(cols)
+rnaCounts <- rnaCounts %>% dplyr::select(cols)
 
 ## Igualando o tamanho da metamatriz com o dado de contagem
 metaMatrix.RNA <- metaMatrix.RNA[metaMatrix.RNA$sample %in% cols, ]
@@ -123,30 +123,30 @@ rnaCounts[,1:ncol(rnaCounts)]=lapply(1:ncol(rnaCounts),function(x) {
   )} )
 
 ### Utilizando o DESeq2
-DEGAll_DESeq2 <- gdcDEAnalysis(counts     = rnaCounts, 
-                              group      = metaMatrix.RNA$sample_type, 
-                              comparison = 'PrimaryTumor-SolidTissueNormal', 
-                              method     = 'DESeq2')
+DEGAll <- gdcDEAnalysis(counts     = rnaCounts, 
+                        group      = metaMatrix.RNA$sample_type, 
+                        comparison = 'PrimaryTumor-SolidTissueNormal', 
+                        method     = 'DESeq2')
 
 
 ### Utilizando o DESeq2 para os dados de miRNAs
-DEGAll_DESeq2_MIR <- gdcDEAnalysis(counts     = mirCounts, 
-                                   group      = metaMatrix.MIR$sample_type, 
-                                   comparison = 'PrimaryTumor-SolidTissueNormal', 
-                                   method     = 'DESeq2')
+DEGAll_MIR <- gdcDEAnalysis(counts     = mirCounts, 
+                            group      = metaMatrix.MIR$sample_type, 
+                            comparison = 'PrimaryTumor-SolidTissueNormal', 
+                            method     = 'DESeq2')
 
 
 ### Expressão diferencial de todos os dados
-deALL <- gdcDEReport(deg = DEGAll_DESeq2, gene.type = 'all')
+deALL <- gdcDEReport(deg = DEGAll, gene.type = 'all')
 
 ### Expressão diferencial dos long non-coding
-deLNC <- gdcDEReport(deg = DEGAll_DESeq2, gene.type = 'long_non_coding')
+deLNC <- gdcDEReport(deg = DEGAll, gene.type = 'long_non_coding')
 
 ### Expressão diferencial dos codificantes de proteínas
-dePC <- gdcDEReport(deg = DEGAll_DESeq2, gene.type = 'protein_coding')
+dePC <- gdcDEReport(deg = DEGAll, gene.type = 'protein_coding')
 
 ### Expressão diferencial de todos os miRNAs
-deALL_MIR <- gdcDEReport(deg = DEGAll_DESeq2_MIR, gene.type = 'all')
+deALL_MIR <- gdcDEReport(deg = DEGAll_MIR, gene.type = 'all')
 
 ### Visualização das Expressões Diferenciais
 ## Volcanoplot para RNAs
@@ -156,7 +156,7 @@ gdcVolcanoPlot(deALL)
 gdcVolcanoPlot(deALL_MIR)
 
 ## Barplot 
-gdcBarPlot(deg = deALL , angle = 45, data.type = 'RNASeq')
+gdcBarPlot(deALL, angle = 45, data.type = 'miRNAs')
 
 ## Heatmap para RNAS
 degName = rownames(deALL)
@@ -167,15 +167,18 @@ degName_MIR = rownames(deALL_MIR)
 gdcHeatmap(deg.id = degName_MIR, metadata = metaMatrix.MIR, rna.expr = mirExpr)
 
 ####### Análise de Enriquecimento Funcional #######
-### Acessando e carregando os dados de enriquecimento
-enrichOutput <- gdcEnrichAnalysis(gene = rownames(deLNC), simplify = TRUE)
+## Acessando os nomes dos genes diferencialmente expressos para o enriquecimento funcional 
+gene_information <- (deALL$symbol)
 
-### Gráfico de barras
-gdcEnrichPlot(enrichOutput, type = 'bar', category = 'GO', num.terms = 10)
+##Análise de enriquecimento funcional, baseada no organismo humano e com uma corredão baseada no FDR
+gostres <- gost(gene_information, organism = "hsapiens",correction_method = "fdr")
 
-### Gráfico de bolhas
-gdcEnrichPlot(enrichOutput, type = 'bubble', category = 'KEGG', num.terms = 10)
+## Plot do Enriquecimento funcional
+#Iterativo
+gostplot(gostres, capped = TRUE, interactive = TRUE)
 
+#Estático
+gostplot(gostres, capped = TRUE, interactive = FALSE)
 
 ### Visualizar mapas de vias em uma pagina online local
 ## Carregando pacote
@@ -184,7 +187,7 @@ library(pathview)
 ## Carregando informações para o shiny
 deg <- deALL$logFC
 names(deg) <- rownames(deALL)
-
+enrichOutput <- gdcEnrichAnalysis(gene = rownames(deALL), simplify = TRUE)
 pathways <- as.character(enrichOutput$Terms[enrichOutput$Category=='KEGG'])
 pathways
 
