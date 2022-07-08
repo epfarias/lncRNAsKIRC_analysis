@@ -13,7 +13,7 @@ install.packages("tidyverse")
 ####### Carregando os pacotes #######
 library(GDCRNATools)
 library(gprofiler2)
-
+library(tidyverse)
 
 ####### Baixando os dados clínicos e de expressão (RNA-Seq e miRNA-Seq) do GDC #######
 project <- 'TCGA-KIRC'
@@ -124,9 +124,9 @@ rnaCounts[,1:ncol(rnaCounts)]=lapply(1:ncol(rnaCounts),function(x) {
 
 ### Utilizando o DESeq2
 DEGAll_RNAs <- gdcDEAnalysis(counts     = rnaCounts, 
-                        group      = metaMatrix.RNA$sample_type, 
-                        comparison = 'PrimaryTumor-SolidTissueNormal', 
-                        method     = 'DESeq2')
+                             group      = metaMatrix.RNA$sample_type, 
+                             comparison = 'PrimaryTumor-SolidTissueNormal', 
+                             method     = 'DESeq2')
 
 
 ### Utilizando o DESeq2 para os dados de miRNAs
@@ -171,8 +171,8 @@ ggplot(shrink.deseq.cut, aes(x = logFC, y= -log10(FDR))) +
 ## Volcanoplot para lncRNAs
 
 # Utilizando todos os lncRNAs diferencialmente expressos
-cutoff <- sort(df.deseq_lncRNA$PValue)[10]
-shrink.deseq_lncRNA.cut <- df.deseq_lncRNA %>% 
+cutoff <- sort(deLNC$PValue)[10]
+shrink.deseq_lncRNA.cut <- deLNC %>% 
   mutate(TopGeneLabel=ifelse(PValue<=cutoff, symbol, ""))
 
 # Plotando o volcano plot
@@ -192,7 +192,7 @@ ggplot(shrink.deseq_lncRNA.cut, aes(x = logFC, y= -log10(FDR))) +
 # Utilizando os miRNAs diferencialmente expressos
 cutoff <- sort(deALL_MIR$PValue)[10]
 shrink.deseq_MIR.cut <- deALL_MIR %>% 
-  mutate(TopGeneLabel=ifelse(PValue<=cutoff, rownames(df.deseq_MIR), ""))
+  mutate(TopGeneLabel=ifelse(PValue<=cutoff, rownames(deALL_MIR), ""))
 
 # Plotando o volcano plot
 ggplot(shrink.deseq_MIR.cut, aes(x = logFC, y= -log10(FDR))) + 
@@ -213,8 +213,8 @@ gdcBarPlot(deALL, angle = 45, data.type = 'RNAseq')
 # lncRNAs
 gdcBarPlot(deLNC, angle = 45, data.type = 'RNAseq')
 
-# RNAs
-gdcBarPlot(deALL, angle = 45, data.type = 'miRNAS')
+# miRNAs
+gdcBarPlot(deALL_MIR, angle = 45, data.type = 'miRNAS')
 
 ## Heatmap para RNAS
 degName = rownames(deLNC)
@@ -259,8 +259,8 @@ shinyPathview(deg, pathways = pathways, directory = 'pathview')
 ## Análise das redes de ceRNAs usando base de dados internas 
 ceOutput <- gdcCEAnalysis(lnc         = rownames(deLNC), 
                           pc          = rownames(dePC), 
-                          lnc.targets = 'starBase', 
-                          pc.targets  = 'starBase', 
+                          lnc.targets = 'spongeScan', 
+                          pc.targets  = 'spongeScan', 
                           rna.expr    = rnaExpr, 
                           mir.expr    = mirExpr)
 
