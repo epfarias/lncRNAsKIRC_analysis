@@ -152,8 +152,8 @@ deALL_MIR <- gdcDEReport(deg = DEGAll_MIR, gene.type = 'all')
 ## Volcanoplot para todos os RNAs
 
 # Utilizando todos os RNAs diferencialmente expressos
-cutoff <- sort(DEGAll$PValue)[10]
-shrink.deseq.cut <- DEGAll %>% 
+cutoff <- sort(DEGAll_RNAs$PValue)[10]
+shrink.deseq.cut <- DEGAll_RNAs %>% 
   mutate(TopGeneLabel=ifelse(PValue<=cutoff, symbol, ""))
 
 # Plotando o volcano plot
@@ -214,7 +214,7 @@ gdcBarPlot(deALL, angle = 45, data.type = 'RNAseq')
 gdcBarPlot(deLNC, angle = 45, data.type = 'RNAseq')
 
 # miRNAs
-gdcBarPlot(deALL_MIR, angle = 45, data.type = 'miRNAS')
+gdcBarPlot2(deALL_MIR, angle = 45, data.type = 'miRNAs')
 
 ## Heatmap para RNAS
 degName = rownames(deLNC)
@@ -233,12 +233,12 @@ gostres <- gost(gene_information, organism = "hsapiens",correction_method = "fdr
 
 ## Plot do Enriquecimento funcional
 #Iterativo
-gostplot(gostres, capped = TRUE, interactive = TRUE)
+gostplot(gostres, capped = TRUE, interactive = FALSE)
 
 #Estático
 p <- gostplot(gostres, capped = FALSE, interactive = FALSE)
 
-pp <- publish_gostplot(p, highlight_terms = c("MIRNA:hsa-miR-335-5p","WP:WP4018") , 
+pp <- publish_gostplot(p, highlight_terms = highlight , 
                        width = NA, height = NA, filename = NULL )
 pp
 
@@ -259,8 +259,8 @@ shinyPathview(deg, pathways = pathways, directory = 'pathview')
 ## Análise das redes de ceRNAs usando base de dados internas 
 ceOutput <- gdcCEAnalysis(lnc         = rownames(deLNC), 
                           pc          = rownames(dePC), 
-                          lnc.targets = 'spongeScan', 
-                          pc.targets  = 'spongeScan', 
+                          lnc.targets = 'starBase', 
+                          pc.targets  = 'starBase', 
                           rna.expr    = rnaExpr, 
                           mir.expr    = mirExpr)
 
@@ -274,6 +274,21 @@ nodes <- gdcExportNetwork(ceNetwork = ceOutput2, net = 'nodes')
 
 write.table(edges, file='edges.txt', sep='\t', quote=F)
 write.table(nodes, file='nodes.txt', sep='\t', quote=F)
+
+### Valores de log2FC, p-valor e FDR para os lncRNAs, mRNAs e miRNAs da rede
+
+## lncRNAs
+lnc_ceRNA <- inner_join(deLNC,nodes)
+write.csv(lnc_ceRNA, file = 'lnc_ceRNA.csv')
+
+## mRNAs
+pcoding_ceRNA <- inner_join(dePC,nodes)
+write.csv(pcoding_ceRNA, file = 'pcoding_ceRNA.csv')
+
+## miRNAs
+mir_ceRNA <- nodes[nodes$type != "pc" &
+                     nodes$type != "lnc",]
+mir_ceRNA
 
 ### Plot de Correlação
 ## Local
@@ -291,17 +306,22 @@ shinyCorPlot(gene1    = rownames(deLNC),
 
 ####### Análises Univariadas #######
 ### Análises dos riscos proporcionais de Cox
-survOutput <- gdcSurvivalAnalysis(gene     = rownames(deALL), 
+survOutput_cox <- gdcSurvivalAnalysis(gene     = rownames(deLNC), 
                                   method   = 'coxph', 
                                   rna.expr = rnaExpr, 
                                   metadata = metaMatrix.RNA)
 
+##Teste
+survOutput_cox_ceRNA <- survOutput_cox[survOutput_cox$symbol %in% lnc_ceRNA$symbol,]
+
 ### Análise Kaplan-Meier
-survOutput <- gdcSurvivalAnalysis(gene     = rownames(deALL), 
+survOutput_km <- gdcSurvivalAnalysis(gene     = rownames(deLNC), 
                                   method   = 'KM', 
                                   rna.expr = rnaExpr, 
                                   metadata = metaMatrix.RNA, 
                                   sep      = 'median')
+## Teste 
+survOutput_km_ceRNA <- survOutput_cox[survOutput_km$symbol %in% lnc_ceRNA$symbol,]
 
 ## Gráfico Kaplan-Meier
 gdcKMPlot(gene     = 'ENSG00000130600',
@@ -311,5 +331,5 @@ gdcKMPlot(gene     = 'ENSG00000130600',
 
 
 ## Gráfico Kplan-Meier em página local
-shinyKMPlot(gene = rownames(deLNC), rna.expr = rnaExpr, 
+shinyKMPlot(gene = lnc_ceRNA$gene, rna.expr = rnaExpr, 
             metadata = metaMatrix.RNA)
