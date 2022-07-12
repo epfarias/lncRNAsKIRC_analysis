@@ -1,5 +1,5 @@
 ### TCGA Clinical Data Analysis ####
-# Epitácio Farias - 06/2022
+# Epitácio Farias - 04/2022
 
 # Project: TCGA-KIRC (Kidney Renal Clear Cell Carcinoma)
 # Disease Type: Adenomas and Adenocarcinomas
@@ -8,8 +8,7 @@
 
 ## Install packages
 pkg.bioconductor <- c("TCGAbiolinks", "TCGAWorkflow")
-pkg.cran <- c("tidyverse", "skimr", "tableone", "survminer", "survival",
-              "finalfit", "DT", "data.table")
+pkg.cran <- c("tidyverse", "skimr", "tableone", "survminer", "survival","finalfit", "DT", "data.table","rio")
 # optional pkgs: "finalfit", "DT", "data.table"
 
 #check if each package is on the local machine
@@ -28,8 +27,6 @@ pkg.check <- lapply(pkg.cran, FUN = function(x) {
 rm(pkg.cran, pkg.bioconductor, pkg.check)
 # devtools::install_github("BioinformaticsFMRP/TCGAWorkflow")
 
-#Defining workspace
-setwd("/storages/caico/home/farias-epitacio/lncRNAsKIRC_analysis/KIRC - CLIN")
 
 ## 1. Data importing and visualizing ---------------------------
 # https://www.bioconductor.org/packages/devel/bioc/vignettes/TCGAbiolinks/inst/doc/clinical.html
@@ -37,7 +34,28 @@ setwd("/storages/caico/home/farias-epitacio/lncRNAsKIRC_analysis/KIRC - CLIN")
 # indexed clinical data (XML subset) includes diagnoses, treatments, demographic and exposures information
 # biospecimen data (get sample types code for normal tissue)
 
+# uvm.biosp <- GDCquery_clinic(project = "TCGA-UVM", type = "Biospecimen", save.csv = FALSE)
+# Fetch clinical data directly from the clinical XML files, using clinical.info parameter
+# uvm.clinic <- GDCquery(
+#   project = "TCGA-UVM",
+#   file.type = "xml",
+#   data.category = "Clinical",
+# ) 
+# GDCdownload(uvm.clinic)
+
 kirc.clinic <- GDCquery_clinic(project = "TCGA-KIRC", type = "Clinical", save.csv = FALSE)
+
+# uvm.patient <- GDCprepare_clinic(uvm.clinic, clinical.info = "patient")
+# datatable(clinic.patient, options = list(scrollX = TRUE, keys = TRUE), rownames = FALSE)
+
+# uvm.drug <- GDCprepare_clinic(uvm.clinic, clinical.info = "drug")
+# datatable(clinic.drug, options = list(scrollX = TRUE, keys = TRUE), rownames = FALSE)
+
+# uvm.radiation <- GDCprepare_clinic(uvm.clinic, clinical.info = "radiation")
+# datatable(clinic.radiation, options = list(scrollX = TRUE,  keys = TRUE), rownames = FALSE)
+
+# uvm.admin <- GDCprepare_clinic(uvm.clinic, clinical.info = "admin")
+# datatable(clinic.admin, options = list(scrollX = TRUE, keys = TRUE), rownames = FALSE)
 
 glimpse(kirc.clinic)
 view(kirc.clinic)
@@ -45,11 +63,14 @@ view(kirc.clinic)
 
 ## 2. Cleaning data ---------------------------
 
+# Cleaning names 
+# uvm.clinic<- janitor::clean_names(uvm.clinic)
 names(kirc.clinic)
 
 kirc.names <- names(kirc.clinic) %>%
   str_remove("treatments_")
-
+# str_replace_all("_", ".")
+# rm_accent()
 names(kirc.clinic) <- kirc.names
 
 
@@ -61,6 +82,17 @@ logical.vars <- names(kirc.clinic %>% select_if(is.logical))
 kirc.clinic <- kirc.clinic %>% 
   select(-all_of(logical.vars))
 
+# Select variables based on NA count (> 50% complete is a good choice!).
+# 
+# NA_fifty <- dim(uvm.clinic)[1]/2
+# NA_sum <- colSums(is.na(uvm.clinic))
+# NA_sum <- as.data.frame(NA_sum)
+# NA_sum <- tibble::rownames_to_column(NA_sum, "variables")
+# NA_sum <- NA_sum %>%
+#   filter(NA_sum < NA_fifty)
+# 
+# uvm_clinic <- uvm.clinic %>%
+#   select(one_of(NA_sum$variables))
 
 ## Remove duplicate observations (patient_id or other id variable)
 kirc.clinic <- kirc.clinic %>%
@@ -73,21 +105,20 @@ kirc.clinic %>%
   skim()
 
 kirc.clinic <- kirc.clinic  %>%
-  select(!c('days_to_diagnosis', 'days_to_birth', 'days_to_death', 'year_of_death',
-            'cigarettes_per_day','years_smoked','pack_years_smoked','days_to_death',
-            'year_of_death'))
+  select(!c('days_to_diagnosis', 'days_to_birth', 'days_to_death', 'year_of_death'))
 
 ## Remove character variables with unique observations 
+# unique(uvm.clinic$variable.name)
 kirc.clinic %>%
   select_if(is.character) %>%
   skim()
 
 kirc.clinic <- kirc.clinic  %>%
-  select(!c('last_known_disease_status', 'state', 
+  select(!c('last_known_disease_status', 'prior_treatment', 'state', 
             'ajcc_staging_system_edition', 
             'classification_of_tumor', 'tumor_grade', 
             'progression_or_recurrence', 'alcohol_history', 
-            'pharmaceutical_treatment_type', 'radiation_treatment_type', 'disease'))
+            'pharmaceutical_treatment_type', 'radiation_treatment_type'))
 
 ## Remove variables with similar information - check each one!
 kirc.clinic$submitter_id == kirc.clinic$bcr_patient_barcode
@@ -107,6 +138,11 @@ kirc.clinic <- kirc.clinic %>%
 
 
 ## 3. Changing variables names ---------------------------
+# Use a significative name, with snake_style or other. 
+# names.clean <- names(uvm.clinic) %>% 
+#    str_remove(".of") %>% 
+#    str_remove(".or.therapy")
+# names(uvm.clinic) <- names.clean
 
 kirc.clinic <- kirc.clinic %>%
   rename(patient_id = 'submitter_id', age= "age_at_index")
@@ -137,6 +173,9 @@ kirc.clinic %>%
   select_if(is.numeric) %>%
   summary()
 
+# uvm.clinic.num <- uvm.clinic %>% 
+#    select_if(is.numeric)
+
 # Histograms or density plots
 ggplot(kirc.clinic, aes(age)) +
   geom_histogram(bins = 20, alpha = 0.5, color = "red")
@@ -150,6 +189,15 @@ ggplot(kirc.clinic, aes(year_of_diagnosis)) +
 ggplot(kirc.clinic, aes(days_to_last_follow_up)) +
   geom_density( alpha = 0.5, color = "purple")
 
+# hist <- lapply(names(uvm.clinic.num), function(i) {hist(uvm.clinic.num[,i],100,
+#                                                         col="light blue",
+#                                                         main=paste0("Histogran of ",i),
+#                                                         xlab=i)})
+
+# Boxplots 
+# Inter quartil range (IQR) = Q3 — Q1
+# Outliers = Q1 − 1.5 ∗ IQR < valor < Q3 + 1.5 ∗ IQR
+
 ggplot(kirc.clinic, aes(x ='', y=age)) +
   geom_boxplot(width = .5) +
   geom_jitter(width = 0.05, alpha = 0.2, color = "orange")
@@ -159,6 +207,11 @@ ggplot(kirc.clinic, aes(x ='', y=days_to_last_follow_up)) +
   geom_boxplot(width = .5) +
   geom_jitter(width = 0.05, alpha = 0.2, color = "orange")
 boxplot.stats(kirc.clinic$days_to_last_follow_up)
+
+# boxplot <- lapply(names(uvm.clinic.num), function(i) {boxplot(uvm.clinic.num[,i],
+#                                                               main=paste0("Boxplot of ",i),
+#                                                               xlab=i)})
+
 
 ## 7. Checking categorical variables --------------------------
 # Check frequency, lables and levels 
@@ -170,8 +223,22 @@ kirc.clinic %>%
 # agregating levels
 
 kirc.clinic <- kirc.clinic %>%
-  mutate(ajcc_pathologic_t = fct_collapse(ajcc_pathologic_t, T1=c('T1', 'T1a', 'T1b'), T2=c('T2a', 'T2b'), 
-                                          T3=c('T3a', 'T3b','T3c'), ))
+  mutate(ajcc_pathologic_t = fct_collapse(ajcc_pathologic_t, T1=c('T1', 'T1a', 'T1b'), T3=c('T3a', 'T3b')))
+
+
+# recode levels
+# uvm.clinic <- uvm.clinic %>%
+#    mutate(ajcc.clinical.t = fct_recode(ajcc.clinical.t, T2 = T2a))
+
+# drop levels
+#kirc.clinic <- kirc.clinic %>%
+  #mutate(primary_diagnosis = fct_recode(primary_diagnosis, NULL="Malignant melanoma, NOS"))
+
+# uvm.clinic <- uvm.clinic %>%
+#      mutate(gender = if_else(gender %in% c('male', 'female'), 1, 0))
+
+kirc.clinic <- kirc.clinic  %>%
+  select(!c(morphology, icd_10_code))
 
 ## Graphics
 
@@ -180,6 +247,12 @@ kirc.clinic %>%
   count(ajcc_pathologic_stage) %>% 
   knitr::kable()
 
+kirc.clinic %>% 
+  ggplot(aes(x = tissue_or_organ_of_origin, fill = tissue_or_organ_of_origin)) + 
+  geom_bar() +
+  theme_bw(15) +
+  labs(title = 'Age frequency by Tissue Site', x = "tissue site", y = "age") + 
+  theme(plot.title = element_text(hjust = 0.5), legend.position = 'none')
 
 kirc.clinic %>% 
   ggplot(aes(x = tissue_or_organ_of_origin, y = age, fill = tissue_or_organ_of_origin)) + 
@@ -214,9 +287,11 @@ biomarkers <- c("days_to_last_follow_up", "year_of_diagnosis", "year_of_birth")
 kirc_tab <- CreateTableOne(vars=myVars, data=kirc.clinic2, factorVars=catVars)
 print(kirc_tab, nonnormal=biomarkers, showAllLevels=TRUE, formatOptions=list(big.mark = ","))
 
-
 ## 10. Survival analysis ------------------------------------
 kirc.clinic3 <- kirc.clinic
+
+# TCGABiolinks pkg (do not run)
+# TCGAanalyze_survival(uvm.clinic, "gender")
 
 # Survival pkg
 # Dichotomize and change data labels
@@ -229,7 +304,7 @@ head(kirc.clinic3$vital_status)
 surv_object <- Surv(time = as.numeric(kirc.clinic3$days_to_last_follow_up), event = kirc.clinic3$vital_status)
 surv_object 
 
-fit <- survfit(surv_object ~ race, data = kirc.clinic3)
+fit <- survfit(surv_object ~ ajcc_pathologic_stage, data = kirc.clinic3)
 fit
 summary(fit)
 # summary(fit1, times = c(1,30,60,90*(1:10)))
@@ -246,10 +321,10 @@ ggsurvplot(fit, data = kirc.clinic3,
            palette = c("#E7B800", "#2E9FDF"),
            legend = "bottom",
            legend.title = "Race",
-           legend.labs = c("Not Reported", "White","Asian","Black of African American"))
+           legend.labs = c("Not Reported", "White","Asian","Black oR African American"))
 
 # Fit a Cox proportional hazards model # ERROR
-fit.coxph <- coxph(surv_object ~ gender + prior_malignancy, data = kirc.clinic3)
+fit.coxph <- coxph(surv_object ~ ajcc_pathologic_stage + prior_malignancy, data = kirc.clinic3)
 ggforest(fit.coxph, data = kirc.clinic3)
 
 
