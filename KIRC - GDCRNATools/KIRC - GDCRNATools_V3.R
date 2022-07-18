@@ -164,7 +164,7 @@ ggplot(shrink.deseq.cut, aes(x = logFC, y= -log10(FDR))) +
                    seed = 123,
                    max.time = 3,
                    max.iter = Inf,
-                   size = 3,
+                   size = 5,
                    box.padding = 2, 
                    max.overlaps = Inf)
 
@@ -183,7 +183,7 @@ ggplot(shrink.deseq_lncRNA.cut, aes(x = logFC, y= -log10(FDR))) +
                    seed = 123,
                    max.time = 3,
                    max.iter = Inf,
-                   size = 3,
+                   size = 5,
                    box.padding = 2, 
                    max.overlaps = Inf)
 
@@ -202,16 +202,19 @@ ggplot(shrink.deseq_MIR.cut, aes(x = logFC, y= -log10(FDR))) +
                    seed = 123,
                    max.time = 3,
                    max.iter = Inf,
-                   size = 3,
+                   size = 5,
                    box.padding = 2, 
                    max.overlaps = Inf)
 
 ## Barplot 
 # RNAs
-gdcBarPlot(deALL, angle = 45, data.type = 'RNAseq')
+gdcBarPlot2(deALL, angle = 45, data.type = 'RNAseq')
+
+# mRNAs
+gdcBarPlot2(dePC, angle = 45, data.type = 'RNAseq')
 
 # lncRNAs
-gdcBarPlot(deLNC, angle = 45, data.type = 'RNAseq')
+gdcBarPlot2(deLNC, angle = 45, data.type = 'RNAseq')
 
 # miRNAs
 gdcBarPlot2(deALL_MIR, angle = 45, data.type = 'miRNAs')
@@ -238,10 +241,16 @@ gostplot(gostres, capped = TRUE, interactive = FALSE)
 #Estático
 p <- gostplot(gostres, capped = FALSE, interactive = FALSE)
 
+highlight = c("HP:0012126", "KEGG:05200", "KEGG:05230", "WP:WP4585", "WP:WP4018", "hsa-miR-335-5p")
+
 pp <- publish_gostplot(p, highlight_terms = highlight , 
                        width = NA, height = NA, filename = NULL )
 pp
 
+publish_gosttable(gostres, highlight_terms = highlight,
+                  use_colors = TRUE, 
+                  show_columns = c("source", "term_name", "term_size", "intersection_size"),
+                  filename = NULL)
 ### Visualizar mapas de vias em uma pagina online local
 ## Carregando pacote
 library(pathview)
@@ -288,7 +297,10 @@ write.csv(pcoding_ceRNA, file = 'pcoding_ceRNA.csv')
 ## miRNAs
 mir_ceRNA <- nodes[nodes$type != "pc" &
                      nodes$type != "lnc",]
-mir_ceRNA
+
+deALL_MIR2 <- rownames_to_column(deALL_MIR, "symbol")
+mir_ceRNA <- inner_join(deALL_MIR2,nodes, by = "symbol")
+write.csv(mir_ceRNA, file = 'mir_ceRNA.csv')
 
 ### Plot de Correlação
 ## Local
